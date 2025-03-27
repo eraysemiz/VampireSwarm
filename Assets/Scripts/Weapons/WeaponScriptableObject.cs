@@ -5,17 +5,17 @@ public class WeaponScriptableObject : ScriptableObject
 {
     [SerializeField] // ??
     GameObject weapon;
-    public GameObject Weapon { get => weapon;  set => weapon = value; }
+    public GameObject Weapon { get => weapon; private set => weapon = value; }
 
     [SerializeField]
     float damage;
-    public float Damage { get => damage;  set => damage = value; }
+    public float Damage { get => damage; private set => damage = value; }
     [SerializeField]
     float speed;
-    public float Speed { get => speed;  set => speed = value; }
+    public float Speed { get => speed; private set => speed = value; }
     [SerializeField]
     float cooldownDuration;
-    public float CooldownDuration { get => cooldownDuration; set => cooldownDuration = value; }
+    public float CooldownDuration { get => cooldownDuration; private set => cooldownDuration = value; }
     [SerializeField]
     int durability;
     public int Durability { get => durability; private set => durability = value; }
@@ -27,6 +27,14 @@ public class WeaponScriptableObject : ScriptableObject
     [SerializeField]
     GameObject nextLevelPrefab;
     public GameObject NextLevelPrefab { get => nextLevelPrefab; private set => nextLevelPrefab = value; }
+
+    [SerializeField]
+    new string name;
+    public string Name { get => name; private set => name = value; }
+
+    [SerializeField]
+    string description; // bu silahýn açýklamasý, bu bir silah yükseltmesi ise yükseltmenin açýklamasýný ekle
+    public string Description { get => description; private set => description = value; }
 
     [SerializeField]
     Sprite icon;

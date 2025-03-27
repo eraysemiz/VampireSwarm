@@ -17,16 +17,114 @@ public class PlayerStats : MonoBehaviour
     public int weaponIndex;
     public int passiveItemIndex;
 
-    public GameObject firstPassiveItemTest;
+    //public GameObject firstPassiveItemTest;
 
     // Þuanki statlar
-    [HideInInspector] public float currentHealth;
-    [HideInInspector] public float currentRecovery;
-    [HideInInspector] public float currentMoveSpeed;
-    [HideInInspector] public float currentMight;
-    [HideInInspector] public float currentProjectileSpeed;
-    [HideInInspector] public float currentMagnet;
+    float currentHealth;
+    float currentRecovery;
+    float currentMoveSpeed;
+    float currentMight;
+    float currentProjectileSpeed;
+    float currentMagnet;
+
+    #region Current Stats
+    public float CurrentHealth
+    {
+        get { return currentHealth; }
+        set
+        {
+            // currentHealth deðiþkeni her deðiþtirildiðinde set bloðu çalýþýr ve eðer atanmaya çalýþýlan "value", mevcut deðerden farklý ise atama iþlemi yapýlýr
+            if (currentHealth != value)
+            {
+                currentHealth = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentHealthDisplay.text = "Health: " + currentHealth;
+                }
+            }
+        }
+    }
     
+    public float CurrentRecovery
+    {
+        get { return currentRecovery; }
+        set
+        {
+            if (currentRecovery != value)
+            {
+                currentRecovery = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + currentRecovery;
+                }
+            }
+        }
+    }
+
+    public float CurrentMoveSpeed
+    {
+        get { return currentMoveSpeed; }
+        set
+        {
+            if (currentMoveSpeed != value)
+            {
+                currentMoveSpeed = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMoveSpeedDisplay.text = "MoveSpeed: " + currentMoveSpeed;
+                }
+            }
+        }
+    }
+
+    public float CurrentMight
+    {
+        get { return currentMight; }
+        set
+        {
+            if (currentMight != value)
+            {
+                currentMight = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
+                }
+            }
+        }
+    }
+
+    public float CurrentProjectileSpeed
+    {
+        get { return currentProjectileSpeed; }
+        set
+        {
+            if (currentProjectileSpeed != value)
+            {
+                currentProjectileSpeed = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentProjectileSpeedDisplay.text = "ProjectileSpeed: " + currentProjectileSpeed;
+                }
+            }
+        }
+    }
+
+    public float CurrentMagnet
+    {
+        get { return currentMagnet; }
+        set
+        {
+            if (currentMagnet != value)
+            {
+                currentMagnet = value;
+                if (GameManager.instance != null)
+                {
+                    GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
+                }
+            }
+        }
+    }
+    #endregion
 
     public float MaxHealth;
     public float MaxMoveSpeed;
@@ -53,8 +151,12 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector] public int playerScore;
     [HideInInspector] public string playerName;
 
-    [HideInInspector] public Image healthBar;
-    [HideInInspector] public TMP_Text levelText;
+    [Header("UI")]
+    public Image healthBar;
+    public Image expBar;
+    public TextMeshProUGUI levelText;
+
+
     [HideInInspector] public ParticleSystem damageEffect;
 
 
@@ -65,13 +167,15 @@ public class PlayerStats : MonoBehaviour
 
         inventory = GetComponent<InventoryManager>();
 
-        MaxHealth = characterData.MaxHealth;
-        MaxMoveSpeed = characterData.MoveSpeed;
-        currentHealth = characterData.MaxHealth;
-        currentRecovery = characterData.Recovery;
-        currentMoveSpeed = characterData.MoveSpeed;
-        currentMagnet = characterData.Magnet;
-        currentMight = characterData.Might;
+        MaxHealth = characterData.MaxHealth;        // ??
+        MaxMoveSpeed = characterData.MoveSpeed;     // ??
+
+        CurrentHealth = characterData.MaxHealth;
+        CurrentRecovery = characterData.Recovery;
+        CurrentMoveSpeed = characterData.MoveSpeed;
+        CurrentProjectileSpeed = characterData.ProjectileSpeed;
+        CurrentMagnet = characterData.Magnet;
+        CurrentMight = characterData.Might;
 
         knifeData = UnityEngine.Object.FindAnyObjectByType<ProjectileWeaponBehaviour>();
 
@@ -79,12 +183,23 @@ public class PlayerStats : MonoBehaviour
 
 
         SpawnWeapon(characterData.StartingWeapon);
-        SpawnPassiveItem(firstPassiveItemTest);
+        //SpawnPassiveItem(firstPassiveItemTest);
     }
 
     void Start()
     {
         UpdateHealthBar();
+        UpdateExpBar();
+        UpdateLevelText();
+
+        GameManager.instance.currentHealthDisplay.text = "Health: " + currentHealth;
+        GameManager.instance.currentRecoveryDisplay.text = "Recovery: " + currentRecovery;
+        GameManager.instance.currentMoveSpeedDisplay.text = "Move Speed: " + currentMoveSpeed;
+        GameManager.instance.currentMightDisplay.text = "Might: " + currentMight;
+        GameManager.instance.currentProjectileSpeedDisplay.text = "Projectile Speed: " + currentProjectileSpeed;
+        GameManager.instance.currentMagnetDisplay.text = "Magnet: " + currentMagnet;
+
+        GameManager.instance.AssingChosenCharacterUI(characterData);
     }
 
     void Update()
@@ -106,7 +221,7 @@ public class PlayerStats : MonoBehaviour
             }
             else
             {
-                currentMoveSpeed = characterData.MoveSpeed;
+                CurrentMoveSpeed = characterData.MoveSpeed;
                 isBoosted = false;
             }
         }
@@ -119,6 +234,7 @@ public class PlayerStats : MonoBehaviour
         experience += amount;
 
         LevelUpChecker();   
+        UpdateExpBar();
     }
 
     void LevelUpChecker()
@@ -128,21 +244,33 @@ public class PlayerStats : MonoBehaviour
             level++;
             experience -= experienceCap;
             experienceCap += experienceCapIncrease;
+
             UpdateLevelText();
+            GameManager.instance.StartLevelUp();
         }
+    }
+
+    void UpdateExpBar()
+    {
+        expBar.fillAmount = (float) experience / experienceCap;
+    }
+
+    void UpdateLevelText()
+    {
+        levelText.text = "LV " + level.ToString();
     }
 
     public void TakeDamage(float damage)
     {
         if (!isInvincible)
         {
-            currentHealth -= damage;
+            CurrentHealth -= damage;
             if (damageEffect) Instantiate(damageEffect, transform.position, Quaternion.identity);
 
             invincibilityTimer = invincibilityDuration;
             isInvincible = true;
 
-            if (currentHealth <= 0)
+            if (CurrentHealth <= 0)
             {
                 Kill();
             }
@@ -152,29 +280,32 @@ public class PlayerStats : MonoBehaviour
 
     void Kill()
     {
-        ScoreCalculator();
-        SceneManager.LoadScene("EndMenu");
-        Time.timeScale = 0;
+        
+        if (!GameManager.instance.isGameOver)
+        {
+            ScoreCalculator(); // ??
+            GameManager.instance.AssignLevelReachedUI(level);
+            GameManager.instance.AssingChosenWeaponAndPassiveItemsUI(inventory.weaponUISlots, inventory.passiveItemUISlots);
+            GameManager.instance.GameOver();
+                
+        }
+
     }
 
     public void RestoreHealth(float amount)
     {
-        if (currentHealth + amount < characterData.MaxHealth)
-            currentHealth += amount;
+        if (CurrentHealth + amount < characterData.MaxHealth)
+            CurrentHealth += amount;
         else
-            currentHealth = characterData.MaxHealth;
+            CurrentHealth = characterData.MaxHealth;
     }
 
     public void UpdateHealthBar()
     {
-        healthBar.fillAmount = currentHealth / characterData.MaxHealth;
+        healthBar.fillAmount = CurrentHealth / characterData.MaxHealth;
 
     }
 
-    public void UpdateLevelText()
-    {
-        levelText.text = "Level: " + level.ToString();
-    }
     public void SpeedBoost(float amount)
     {
         if (!isBoosted)
@@ -197,12 +328,12 @@ public class PlayerStats : MonoBehaviour
 
     void Recover()
     {
-        if (currentHealth < characterData.MaxHealth)
+        if (CurrentHealth < characterData.MaxHealth)
         {
-            currentHealth += currentRecovery * Time.deltaTime;
+            CurrentHealth += currentRecovery * Time.deltaTime;
 
-            if (currentHealth > characterData.MaxHealth)
-                currentHealth = characterData.MaxHealth;
+            if (CurrentHealth > characterData.MaxHealth)
+                CurrentHealth = characterData.MaxHealth;
         }
     }
 
@@ -233,7 +364,6 @@ public class PlayerStats : MonoBehaviour
         passiveItemIndex++;
 
     }
-
 
     public static class PlayerData
     {

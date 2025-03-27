@@ -80,8 +80,6 @@ public class EnemyStats : MonoBehaviour
             EnemySpawner.finalBossKillCount++;
             DatabaseManager db = gameObject.GetComponent<DatabaseManager>();
             db.SavePlayerScore();
-            PauseMenu menu = Object.FindAnyObjectByType<PauseMenu>();
-            menu.EndGame();
             Time.timeScale = 0;
         }
         StartCoroutine(KillFade());

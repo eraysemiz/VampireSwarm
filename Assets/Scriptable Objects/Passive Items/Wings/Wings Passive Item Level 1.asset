@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 50
   level: 1
   nextLevelPrefab: {fileID: 7531959217994338057, guid: 3a0c172f706b7d144b606022c4a92351, type: 3}
+  name: Wings Level 1
+  description: "Hareket h\u0131z\u0131n\u0131 artt\u0131r\u0131r"
   icon: {fileID: 1213264957794674762, guid: f6c0e948b00c5dd43af092f00c53a3c1, type: 3}

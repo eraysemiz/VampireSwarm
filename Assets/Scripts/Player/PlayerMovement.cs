@@ -12,7 +12,8 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector]
     public Vector2 lastMovedVector;
 
-    Rigidbody2D rigidbody;
+
+    private Rigidbody2D rigidbody;  
     public CharacterScriptableObjects characterData;
     public PlayerStats playerData;
 
@@ -36,6 +37,12 @@ public class PlayerMovement : MonoBehaviour
     }
     void InputManagement()
     {
+
+        if (GameManager.instance.isGameOver)
+        {
+            return;
+        }
+
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
@@ -59,7 +66,12 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void Move()
-    {
-        rigidbody.linearVelocity = new Vector2(moveDir.x * playerData.currentMoveSpeed, moveDir.y * playerData.currentMoveSpeed);
+    { 
+        if (GameManager.instance.isGameOver)
+        {
+            return;
+        }
+
+        rigidbody.linearVelocity = new Vector2(moveDir.x * playerData.CurrentMoveSpeed, moveDir.y * playerData.CurrentMoveSpeed);
     }
 }

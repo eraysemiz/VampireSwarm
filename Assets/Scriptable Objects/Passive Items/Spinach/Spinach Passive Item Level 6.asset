@@ -15,4 +15,6 @@ MonoBehaviour:
   multiplier: 100
   level: 6
   nextLevelPrefab: {fileID: 0}
+  name: Spinach Level 6
+  description: "Temel hasar\u0131 artt\u0131r\u0131r"
   icon: {fileID: 5241472154375911458, guid: 6ee7ca505ce768545bf3fdd6572bd400, type: 3}

@@ -9,20 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 9927772a720751c4eaccdf3a7c4ef9aa
   - enabled: 1
-    path: Assets/Scenes/StartMenu.unity
-    guid: 9575dfd6740e46e48bcd18d558817815
-  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/UpgradeScene.unity
-    guid: 72ec4b61d1359794e9d3290e1f8b3329
-  - enabled: 1
-    path: Assets/Scenes/PauseMenu.unity
-    guid: d589db46474334d44961b12c61038e00
-  - enabled: 1
-    path: Assets/Scenes/EndMenu.unity
-    guid: b1ae3091e16744d46b62f1ab36597d18
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

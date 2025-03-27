@@ -19,3 +19,6 @@ MonoBehaviour:
   durability: 2
   level: 5
   nextLevelPrefab: {fileID: 9202468688992845944, guid: 2b340c3418adbbd40a210cd74cb7cd67, type: 3}
+  name: Knife Level 5
+  description: "Hasar\u0131 10 artt\u0131r"
+  icon: {fileID: 21300000, guid: 81ae8c4e1412cd54383efc257aea704b, type: 3}
