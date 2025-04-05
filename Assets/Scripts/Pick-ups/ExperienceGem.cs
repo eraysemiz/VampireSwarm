@@ -1,14 +1,19 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ExperienceGem : MonoBehaviour
 {
     public int experienceAmount;
+    public bool hasBeenCollected = false;
 
     public void Collect()
     {
         PlayerStats player = Object.FindAnyObjectByType<PlayerStats>();
-        player.IncreaseExperience(experienceAmount);
-        //Destroy(gameObject);
+        if (!hasBeenCollected)
+        {
+            player.IncreaseExperience(experienceAmount);
+            hasBeenCollected = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col)

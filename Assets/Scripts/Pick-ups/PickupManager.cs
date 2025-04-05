@@ -5,9 +5,9 @@ public class PickupManager : MonoBehaviour
     PlayerStats player;
     CircleCollider2D playerCollector;
     public float pullSpeed;
+    [HideInInspector] public ExperienceGem gem;
+    [HideInInspector] public Potion potion;
 
-    float healAmount;
-    float boostMultiplier = 2;
 
     void Start()
     {
@@ -15,8 +15,6 @@ public class PickupManager : MonoBehaviour
         playerCollector = GetComponent<CircleCollider2D>();
         if (playerCollector == null)
             Debug.LogWarning("Circle Collider Bulunamadý");
-        healAmount = (player.level * 20) + 400;
-        boostMultiplier = 2 + (player.level / 20);
     }
 
     void Update()
@@ -26,13 +24,12 @@ public class PickupManager : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        // Mýknatýs animasyonu
         if (col.CompareTag("ExpGems"))
         {
             Rigidbody2D rb = col.GetComponent<Rigidbody2D>();
             MagnetEffect(col, rb);
 
-            ExperienceGem gem = col.GetComponent<ExperienceGem>();
+            gem = col.GetComponent<ExperienceGem>();
             gem.Collect();
         }
         else if (col.CompareTag("HealthPotion"))
@@ -40,19 +37,16 @@ public class PickupManager : MonoBehaviour
             Rigidbody2D rb = col.GetComponent<Rigidbody2D>();
             MagnetEffect(col, rb);
 
-            PlayerStats player = Object.FindAnyObjectByType<PlayerStats>();
-            player.RestoreHealth(healAmount);
-            player.UpdateHealthBar();
-            Destroy(col.gameObject);
+            potion = col.GetComponent<Potion>();
+            potion.healthPotion();
         }
         else if (col.CompareTag("SpeedPotion"))
         {
             Rigidbody2D rb = col.GetComponent<Rigidbody2D>();
             MagnetEffect(col, rb);
 
-            PlayerStats player = Object.FindAnyObjectByType<PlayerStats>();
-            player.SpeedBoost(boostMultiplier);
-            Destroy(col.gameObject);
+            potion = col.GetComponent<Potion>();
+            potion.speedPotion();
         }
     }
 

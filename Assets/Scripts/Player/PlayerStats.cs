@@ -126,8 +126,7 @@ public class PlayerStats : MonoBehaviour
     }
     #endregion
 
-    public float MaxHealth;
-    public float MaxMoveSpeed;
+    float baseMoveSpeed;
 
     // Oyuncunun seviyesi ve deneyim puaný
     public int experience = 0;
@@ -142,9 +141,11 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector] bool isInvincible = false;
 
     // Potion timerlarý
-    [HideInInspector] public float speedBoostDuration;
-    [HideInInspector] float speedBoostTimer;
-    [HideInInspector] bool isBoosted = false;
+    [HideInInspector] public float oldMoveSpeed;
+    [HideInInspector] public bool isSpeedBoosted = false;
+    public float moveSpeedMultiplier = 1f;
+    float speedBoostTimer;
+    float speedBoostAmount = 0f;
 
 
     // Database
@@ -167,12 +168,10 @@ public class PlayerStats : MonoBehaviour
 
         inventory = GetComponent<InventoryManager>();
 
-        MaxHealth = characterData.MaxHealth;        // ??
-        MaxMoveSpeed = characterData.MoveSpeed;     // ??
-
+        baseMoveSpeed = characterData.MoveSpeed;
         CurrentHealth = characterData.MaxHealth;
         CurrentRecovery = characterData.Recovery;
-        CurrentMoveSpeed = characterData.MoveSpeed;
+        CurrentMoveSpeed = baseMoveSpeed;
         CurrentProjectileSpeed = characterData.ProjectileSpeed;
         CurrentMagnet = characterData.Magnet;
         CurrentMight = characterData.Might;
@@ -213,7 +212,7 @@ public class PlayerStats : MonoBehaviour
             isInvincible = false;
         }
 
-        if (isBoosted)
+        if (isSpeedBoosted)
         {
             if (speedBoostTimer > 0)
             {
@@ -221,8 +220,9 @@ public class PlayerStats : MonoBehaviour
             }
             else
             {
-                CurrentMoveSpeed = characterData.MoveSpeed;
-                isBoosted = false;
+                speedBoostAmount = 0;
+                isSpeedBoosted = false;
+                UpdateMoveSpeed();
             }
         }
         Recover();
@@ -306,13 +306,19 @@ public class PlayerStats : MonoBehaviour
 
     }
 
-    public void SpeedBoost(float amount)
+    public void UpdateMoveSpeed()
     {
-        if (!isBoosted)
+        CurrentMoveSpeed = baseMoveSpeed * moveSpeedMultiplier + speedBoostAmount;
+    }
+
+    public void BoostSpeed(float boostAmount, float boostDuration)
+    {
+        if (!isSpeedBoosted)
         {
-            currentMoveSpeed *= amount;
-            isBoosted = true;
-            speedBoostTimer = speedBoostDuration;
+            speedBoostAmount = boostAmount;
+            isSpeedBoosted = true;
+            speedBoostTimer = boostDuration;
+            UpdateMoveSpeed();
         }
     }
 

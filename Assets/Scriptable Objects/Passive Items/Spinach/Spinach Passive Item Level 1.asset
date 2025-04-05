@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3192dccab8fa924fb88371fe8b2c32c, type: 3}
   m_Name: Spinach Passive Item Level 1
   m_EditorClassIdentifier: 
-  multiplier: 100
+  multiplier: 10
   level: 1
   nextLevelPrefab: {fileID: 546304495829863441, guid: 203da1be4ccb11d46b4e41624002af82, type: 3}
   name: Spinach Level 1

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3192dccab8fa924fb88371fe8b2c32c, type: 3}
   m_Name: Wings Passive Item Level 4
   m_EditorClassIdentifier: 
-  multiplier: 50
+  multiplier: 10
   level: 4
   nextLevelPrefab: {fileID: 7531959217994338057, guid: d374be47a58c9b04cb536f34b131bd76, type: 3}
   name: Wings Level 4

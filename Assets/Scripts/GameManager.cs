@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    // Oyun durumlarýný tanýmla
+    // Oyun durumlarï¿½nï¿½ tanï¿½mla
     public enum GameState 
     {
         Gameplay,
@@ -25,32 +25,32 @@ public class GameManager : MonoBehaviour
     public GameObject levelUpScreen;
 
     [Header("Current Stat Displays")]
-    public Text currentHealthDisplay;
-    public Text currentRecoveryDisplay;
-    public Text currentMoveSpeedDisplay;
-    public Text currentMightDisplay;
-    public Text currentProjectileSpeedDisplay;
-    public Text currentMagnetDisplay;
+    public TMP_Text currentHealthDisplay;
+    public TMP_Text currentRecoveryDisplay;
+    public TMP_Text currentMoveSpeedDisplay;
+    public TMP_Text currentMightDisplay;
+    public TMP_Text currentProjectileSpeedDisplay;
+    public TMP_Text currentMagnetDisplay;
 
     [Header("Result Screen Displays")]
     public Image chosenCharacterImage;
-    public TextMeshProUGUI chosenCharacterName;
-    public TextMeshProUGUI levelReachedDisplay;
-    public TextMeshProUGUI timeSurvivedDisplay;
+    public TMP_Text chosenCharacterName;
+    public TMP_Text levelReachedDisplay;
+    public TMP_Text timeSurvivedDisplay;
     public List<Image> chosenWeaponsUI = new List<Image>(3);
     public List<Image> chosenPassiveItemsUI = new List<Image>(3);
 
     [Header("StopWatch")]
     public float timeLimit; // Zaman limiti
-    float stopwatchTime;    // Oyunda geçen süre
+    float stopwatchTime;    // Oyunda geï¿½en sï¿½re
     public TextMeshProUGUI stopwatchDisplay;
 
 
     // Flags
     public bool isGameOver = false; // oyun bitti mi kontrol flag
-    public bool choosingUpgrade = false;    // oyuncu seviye atlama ekranýnda mý kontrol
+    public bool choosingUpgrade = false;    // oyuncu seviye atlama ekranï¿½nda mï¿½ kontrol
 
-    public GameObject playerObject;     // Oyuncunun gameObjectine referans, sendMessage için kullanýlacak
+    public GameObject playerObject;     // Oyuncunun gameObjectine referans, sendMessage iï¿½in kullanï¿½lacak
 
     void Awake()
     {
@@ -123,8 +123,8 @@ public class GameManager : MonoBehaviour
     {
         if (currentState == GameState.Paused)
         {
-            /* oyuna devam ederken direkt oyun durumuna deðilde bir önceki duruma geçmemizin sebebi, eðer oyuncu oyun harici bir durumda oyunu durduysa
-               o duruma dönmesini saðlamak için (level atlama durumunda dondurulan oyunun devam ettirildiðinde level atlama ekranýna dönmesi gibi) */
+            /* oyuna devam ederken direkt oyun durumuna deï¿½ilde bir ï¿½nceki duruma geï¿½memizin sebebi, eï¿½er oyuncu oyun harici bir durumda oyunu durduysa
+               o duruma dï¿½nmesini saï¿½lamak iï¿½in (level atlama durumunda dondurulan oyunun devam ettirildiï¿½inde level atlama ekranï¿½na dï¿½nmesi gibi) */
             ChangeState(previousState);
             Time.timeScale = 1;
             pauseScreen.SetActive(false);
@@ -180,35 +180,35 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // Seçilmiþ silahlarýn ve pasif eþyalarýn verisini sonuç ekranýna ata
+        // Seï¿½ilmiï¿½ silahlarï¿½n ve pasif eï¿½yalarï¿½n verisini sonuï¿½ ekranï¿½na ata
         for (int i = 0; i < chosenWeaponsUI.Count; i++)
         {
-            // Seçilmiþ silahýn sprite ý var mý kontrol
+            // Seï¿½ilmiï¿½ silahï¿½n sprite ï¿½ var mï¿½ kontrol
             if (chosenWeaponsData[i].sprite)
             {
-                // Seçilen silahýn UI daki karþýlýk gelen yerini aktif hale getir ve UI daki image ý silahýn iconu yap
+                // Seï¿½ilen silahï¿½n UI daki karï¿½ï¿½lï¿½k gelen yerini aktif hale getir ve UI daki image ï¿½ silahï¿½n iconu yap
                 chosenWeaponsUI[i].enabled = true;
                 chosenWeaponsUI[i].sprite = chosenWeaponsData[i].sprite;
             }
             else
             {
-                // Eðer sprite yoksa UI daki karþýlýk gelen yeri devre dýþý býrak
+                // Eï¿½er sprite yoksa UI daki karï¿½ï¿½lï¿½k gelen yeri devre dï¿½ï¿½ï¿½ bï¿½rak
                 chosenWeaponsUI[i].enabled = false;
             }
         }
 
         for (int i = 0; i < chosenPassiveItemsUI.Count; i++)
         {
-            // Seçilmiþ eþyanýn sprite ý var mý kontrol
+            // Seï¿½ilmiï¿½ eï¿½yanï¿½n sprite ï¿½ var mï¿½ kontrol
             if (chosenPassiveItemsData[i].sprite)
             {
-                // Seçilen eþyanýn UI daki karþýlýk gelen yerini aktif hale getir ve UI daki image ý eþyanýn iconu yap
+                // Seï¿½ilen eï¿½yanï¿½n UI daki karï¿½ï¿½lï¿½k gelen yerini aktif hale getir ve UI daki image ï¿½ eï¿½yanï¿½n iconu yap
                 chosenPassiveItemsUI[i].enabled = true;
                 chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].sprite;
             }
             else
             {
-                // Eðer sprite yoksa UI daki karþýlýk gelen yeri devre dýþý býrak
+                // Eï¿½er sprite yoksa UI daki karï¿½ï¿½lï¿½k gelen yeri devre dï¿½ï¿½ï¿½ bï¿½rak
                 chosenPassiveItemsUI[i].enabled = false;
             }
         }
@@ -222,7 +222,7 @@ public class GameManager : MonoBehaviour
 
         if (stopwatchTime > timeLimit)
         {
-            GameOver();
+            playerObject.SendMessage("Kill");   
         }
     }
 
