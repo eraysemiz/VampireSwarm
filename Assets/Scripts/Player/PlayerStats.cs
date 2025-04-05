@@ -14,8 +14,8 @@ public class PlayerStats : MonoBehaviour
     public static ProjectileWeaponBehaviour knifeData;
     public static MeleeWeaponBehaviour garlicData;
     InventoryManager inventory;
-    public int weaponIndex;
-    public int passiveItemIndex;
+    [HideInInspector] public int weaponIndex;
+    [HideInInspector] public int passiveItemIndex;
 
     //public GameObject firstPassiveItemTest;
 
@@ -129,11 +129,10 @@ public class PlayerStats : MonoBehaviour
     float baseMoveSpeed;
 
     // Oyuncunun seviyesi ve deneyim puaný
-    public int experience = 0;
-    public int level = 1;
-    public int maxLevel;
-    public int experienceCap = 100;
-    public int experienceCapIncrease;
+    [HideInInspector] public int experience = 0;
+    [HideInInspector] public int level = 1;
+    [HideInInspector] public int experienceCap = 100;
+    [HideInInspector] public int experienceCapIncrease;
 
     // Oyuncu hasar alma kýsýtlamalarý
     [HideInInspector] public float invincibilityDuration;
@@ -158,7 +157,7 @@ public class PlayerStats : MonoBehaviour
     public TextMeshProUGUI levelText;
 
 
-    [HideInInspector] public ParticleSystem damageEffect;
+    public ParticleSystem damageEffect;
 
 
     void Awake()
@@ -239,7 +238,7 @@ public class PlayerStats : MonoBehaviour
 
     void LevelUpChecker()
     {
-        if (experience > experienceCap && level <= maxLevel)
+        if (experience > experienceCap)
         {
             level++;
             experience -= experienceCap;

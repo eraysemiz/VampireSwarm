@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class EnemyStats : MonoBehaviour
 {
     public EnemyScriptableObjects enemyData;
@@ -49,8 +50,13 @@ public class EnemyStats : MonoBehaviour
         currentHealth -= damage;
         StartCoroutine(DamageFlash());
 
-        if (knockbackForce > 0)
+        if (damage > 0)
         {
+            GameManager.GenerateFloatingText(Mathf.FloorToInt(damage).ToString(), transform);
+        }
+
+        if (knockbackForce > 0)
+        { 
             Vector2 dir = (Vector2)transform.position - srcPosition;
             movement.Knockback(dir.normalized * knockbackForce, knockbackDuration);
         }

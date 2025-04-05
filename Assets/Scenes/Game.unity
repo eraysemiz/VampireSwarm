@@ -5875,6 +5875,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   previousState: 0
+  damageTextCanvas: {fileID: 2105271326}
+  textFontSize: 40
+  textFont: {fileID: 11400000, guid: b74e062bd9bb77641aedd38ca50e2a40, type: 2}
+  referenceCamera: {fileID: 0}
   pauseScreen: {fileID: 858852127}
   resultsScreen: {fileID: 1778461144}
   levelUpScreen: {fileID: 163940163}
@@ -8434,7 +8438,6 @@ MonoBehaviour:
   passiveItemIndex: 0
   experience: 0
   level: 1
-  maxLevel: 11
   experienceCap: 100
   experienceCapIncrease: 100
   invincibilityDuration: 0.5

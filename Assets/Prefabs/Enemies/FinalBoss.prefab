@@ -128,7 +128,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2129401799
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5748876309150177465, guid: 01d0dce6f41b8ca4ca6a5e63b9f6723a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -179,7 +179,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbfdfa3a53b5dd48acc88aff4b80322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: 2a9c183847f2f2943a9a000c3be73a6b, type: 2}
 --- !u!114 &4799936890518749725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,6 +192,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyData: {fileID: 11400000, guid: 2a9c183847f2f2943a9a000c3be73a6b, type: 2}
+  currentMoveSpeed: 0
+  currentHealth: 0
+  currentDamage: 0
+  despawnDistance: 20
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
@@ -332,6 +335,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61c44ecdd85c17d4c843c1d2985673f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  usernameText: {fileID: 0}
+  scoreText: {fileID: 0}
+  scoreboardText: {fileID: 0}
 --- !u!1 &9081304849798414608
 GameObject:
   m_ObjectHideFlags: 0
