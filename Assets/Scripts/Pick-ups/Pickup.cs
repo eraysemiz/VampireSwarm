@@ -71,6 +71,6 @@ public class Pickup : MonoBehaviour
         if (!target) return;
         if (experience != 0) target.IncreaseExperience(experience);
         if (health != 0) target.RestoreHealth(health);
-        if (moveSpeed != 0) target.ApplySpeedBoost(moveSpeed, moveSpeedDuration);
+        //if (moveSpeed != 0) target.ApplySpeedBoost(moveSpeed, moveSpeedDuration);
     }
 }

@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class WhipWeapon : ProjectileWeapon
@@ -12,7 +14,8 @@ public class WhipWeapon : ProjectileWeapon
         if (!currentStats.projectilePrefab)
         {
             Debug.LogWarning(string.Format("Projectile prefab has not been set for {0}", name));
-            currentCooldown = currentStats.cooldown;
+
+            ActivateCooldown(true);
             return false;
         }
 
@@ -36,12 +39,6 @@ public class WhipWeapon : ProjectileWeapon
             currentSpawnYOffset
         );
 
-        // If there is a proc effect, play it on the player.
-        if (currentStats.procEffect)
-        {
-            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
-        }
-
         // And spawn a copy of the projectile.
         Projectile prefab = Instantiate(
             currentStats.projectilePrefab,
@@ -58,11 +55,14 @@ public class WhipWeapon : ProjectileWeapon
                 prefab.transform.localScale.y,
                 prefab.transform.localScale.z
             );
+            Debug.Log(spawnDir + " | " + prefab.transform.localScale);
         }
+
 
         // Assign the stats.
         prefab.weapon = this;
-        currentCooldown += currentStats.cooldown;
+
+        ActivateCooldown(true);
         attackCount--;
 
         // Determine where the next projectile should spawn.
@@ -74,7 +74,7 @@ public class WhipWeapon : ProjectileWeapon
         if (attackCount > 0)
         {
             currentAttackCount = attackCount;
-            currentAttackInterval = currentStats.projectileInterval;
+            currentAttackInterval = data.baseStats.projectileInterval;
         }
 
         return true;

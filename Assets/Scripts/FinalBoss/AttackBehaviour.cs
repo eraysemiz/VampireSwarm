@@ -1,5 +1,6 @@
 using UnityEngine;
 
+/*
 public class AttackBehaviour : MonoBehaviour
 {
     public WeaponScriptableObject weaponData;
@@ -99,3 +100,4 @@ public class AttackBehaviour : MonoBehaviour
         }
     }
 }
+*/

@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    
+    public const float DEFAULT_MOVESPEED = 5f;
+
     [HideInInspector]
     public float lastHorizontalVector;
     [HideInInspector]
@@ -13,14 +14,14 @@ public class PlayerMovement : MonoBehaviour
     public Vector2 lastMovedVector;
 
 
-    private Rigidbody2D rigidbody;  
-    public PlayerStats playerData;
+    private Rigidbody2D rb;  
+    public PlayerStats player;
 
     void Start()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
-        playerData = GetComponent<PlayerStats>();
-        lastMovedVector = new Vector2 (1, 0f); // bu olmazsa oyun baþladýðýnda eðer oyuncu hareket etmezse býçak hareketsiz kalýr
+        rb = GetComponent<Rigidbody2D>();
+        player = GetComponent<PlayerStats>();
+        lastMovedVector = new Vector2 (1, 0f); // bu olmazsa oyun baï¿½ladï¿½ï¿½ï¿½nda eï¿½er oyuncu hareket etmezse bï¿½ï¿½ak hareketsiz kalï¿½r
     }
 
     // Update is called once per frame
@@ -70,6 +71,6 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        rigidbody.linearVelocity = new Vector2(moveDir.x * playerData.CurrentMoveSpeed, moveDir.y * playerData.CurrentMoveSpeed);
+        rb.linearVelocity = moveDir * DEFAULT_MOVESPEED * player.Stats.moveSpeed;
     }
 }

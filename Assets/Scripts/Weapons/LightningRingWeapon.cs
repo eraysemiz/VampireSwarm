@@ -13,7 +13,7 @@ public class LightningRingWeapon : ProjectileWeapon
         if (!currentStats.hitEffect)
         {
             Debug.LogWarning(string.Format("Hit effect prefab has not been set for {0}", name));
-            currentCooldown = currentStats.cooldown;
+            ActivateCooldown(true);
             return false;
         }
 
@@ -24,8 +24,8 @@ public class LightningRingWeapon : ProjectileWeapon
         // Refresh the array of selected enemies.
         if (currentCooldown <= 0)
         {
-            allSelectedEnemies = new List<EnemyStats>(Object.FindObjectsByType<EnemyStats>(FindObjectsSortMode.None));
-            currentCooldown += currentStats.cooldown;
+            allSelectedEnemies = new List<EnemyStats>(FindObjectsOfType<EnemyStats>());
+            ActivateCooldown();
             currentAttackCount = attackCount;
         }
 
@@ -33,15 +33,9 @@ public class LightningRingWeapon : ProjectileWeapon
         EnemyStats target = PickEnemy();
         if (target)
         {
-            DamageArea(target.transform.position, currentStats.area, GetDamage());
+            DamageArea(target.transform.position, GetArea(), GetDamage());
 
             Instantiate(currentStats.hitEffect, target.transform.position, Quaternion.identity);
-        }
-
-        // If there is a proc effect, play it on the player.
-        if (currentStats.procEffect)
-        {
-            Destroy(Instantiate(currentStats.procEffect, owner.transform), 5f);
         }
 
         // If we have more than 1 attack count.

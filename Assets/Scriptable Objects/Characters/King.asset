@@ -12,14 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e343caec12273604586bc54b92762ba4, type: 3}
   m_Name: King
   m_EditorClassIdentifier: 
-  icon: {fileID: 4723107735738678597, guid: 065d68c386083144588b12ec316f01b5, type: 3}
   animationController: {fileID: 22100000, guid: 5cfc00b501b761f43a8c88407ca3bc42, type: 2}
+  icon: {fileID: 4723107735738678597, guid: 065d68c386083144588b12ec316f01b5, type: 3}
   name: King
   startingWeapon: {fileID: 11400000, guid: 426a14a28fed1f04ea3ac9e8af04f587, type: 2}
   stats:
-    maxHealth: 1000
+    maxHealth: 100
     recovery: 1
-    moveSpeed: 5
+    moveSpeed: 1
     might: 1
+    area: 1
     speed: 1
+    duration: 1
+    amount: 0
+    cooldown: 1
     magnet: 1.8
+    revival: 0

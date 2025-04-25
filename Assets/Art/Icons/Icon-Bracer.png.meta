@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e478a087bd91b2347b5349b882d95f9b
+guid: 42a3b9999160e2e488d9173ee7bdf35f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6018565275063457929
-    second: Icon-Thunder_Loop_0
+      213: 898289723114777392
+    second: Icon-Bracer_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon-Thunder_Loop_0
+      name: Icon-Bracer_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 777675225c2c97ca0800000000000000
-      internalID: -6018565275063457929
+      spriteID: 03be3ab6ebd577c00800000000000000
+      internalID: 898289723114777392
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Icon-Thunder_Loop_0: -6018565275063457929
+      Icon-Bracer_0: 898289723114777392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5670df00ade21499cafb7ca32fa317, type: 3}
+  m_Name: Duplicator
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 9e5bffb511be40743951f23a36d42445, type: 3}
+  maxLevel: 2
+  evolutionData: []
+  baseStats:
+    name: "\xC7o\u011Falt\u0131c\u0131"
+    description: "F\u0131rtat\u0131lan silah say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 0
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 1
+      cooldown: 0
+      magnet: 0
+      revival: 0
+  growth:
+  - name: Level 2
+    description: "F\u0131rtat\u0131lan silah say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 0
+      moveSpeed: 0
+      might: 0
+      area: 0
+      speed: 0
+      duration: 0
+      amount: 1
+      cooldown: 0
+      magnet: 0
+      revival: 0

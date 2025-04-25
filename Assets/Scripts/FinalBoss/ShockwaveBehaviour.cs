@@ -1,5 +1,5 @@
 using UnityEngine;
-
+/*
 public class ShockwaveBehaviour : AttackBehaviour
 {
     protected override void Start()
@@ -12,3 +12,4 @@ public class ShockwaveBehaviour : AttackBehaviour
         transform.position += direction * currentSpeed * Time.deltaTime;
     }
 }
+*/

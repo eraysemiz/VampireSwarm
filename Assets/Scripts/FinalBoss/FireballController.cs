@@ -1,5 +1,5 @@
 using UnityEngine;
-
+/*
 public class FireballController : AttackController
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,3 +19,4 @@ public class FireballController : AttackController
         spawnFireball.GetComponent<FireballBehaviour>().DirectionChecker(playerDirection);
     }
 }
+*/

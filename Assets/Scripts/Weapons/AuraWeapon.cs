@@ -17,27 +17,21 @@ public class AuraWeapon : Weapon
             currentAura = Instantiate(currentStats.auraPrefab, transform);
             currentAura.weapon = this;
             currentAura.owner = owner;
+
+
+            float area = GetArea();
+            currentAura.transform.localScale = new Vector3(area, area, area);
         }
     }
 
     public override void OnUnequip()
     {
-        if (currentStats.auraPrefab)
-        {
-            if (currentAura) Destroy(currentAura.gameObject);
-            currentAura = Instantiate(currentStats.auraPrefab, transform);
-            currentAura.weapon = this;
-            currentAura.owner = owner;
-            currentAura.transform.localScale = new Vector3(currentStats.area, currentStats.area, currentStats.area);
-        }
+        if (currentAura) Destroy(currentAura);
     }
 
     public override bool DoLevelUp()
     {
         if (!base.DoLevelUp()) return false;
-
-        // Ensure that the aura is refreshed if a different aura is assigned for a higher level.
-        OnEquip();
 
         // If there is an aura attached to this weapon, we update the aura.
         if (currentAura)

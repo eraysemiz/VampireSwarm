@@ -1,5 +1,5 @@
 using UnityEngine;
-
+/*
 public class AttackController : MonoBehaviour
 {
     public WeaponScriptableObject weaponData;
@@ -26,3 +26,4 @@ public class AttackController : MonoBehaviour
         currentCooldown = weaponData.CooldownDuration;
     }
 }
+*/

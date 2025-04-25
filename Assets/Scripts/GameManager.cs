@@ -31,14 +31,6 @@ public class GameManager : MonoBehaviour
     public GameObject resultsScreen;
     public GameObject levelUpScreen;
 
-    [Header("Current Stat Displays")]
-    public TMP_Text currentHealthDisplay;
-    public TMP_Text currentRecoveryDisplay;
-    public TMP_Text currentMoveSpeedDisplay;
-    public TMP_Text currentMightDisplay;
-    public TMP_Text currentProjectileSpeedDisplay;
-    public TMP_Text currentMagnetDisplay;
-
     [Header("Result Screen Displays")]
     public Image chosenCharacterImage;
     public TMP_Text chosenCharacterName;

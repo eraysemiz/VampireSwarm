@@ -49,8 +49,13 @@ public class MapController : MonoBehaviour
     {
         foreach (GameObject location in chunkLocations)
         {
-            int rand = Random.Range(0, terrainChunks.Count); // Choose a random chunk prefab
             Vector3 position = location.transform.position; // Get the position of the location
+
+            // Skip center location if a chunk is already placed there
+            if (Vector3.Distance(position, Vector3.zero) < 0.1f)
+                continue;
+
+            int rand = Random.Range(0, terrainChunks.Count); // Choose a random chunk prefab
             GameObject chunk = Instantiate(terrainChunks[rand], position, Quaternion.identity); // Instantiate the chunk
             chunk.name = location.name; // Name the chunk the same as the location
         }

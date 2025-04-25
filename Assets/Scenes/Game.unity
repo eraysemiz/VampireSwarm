@@ -815,7 +815,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &163940164
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1334,9 +1334,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 315056710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -15}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &277319043
@@ -1529,7 +1529,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &315056710
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1717,17 +1717,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '100
+  m_text: '0
 
-    5
+    0
 
-    1
+    0
 
-    1
+    0
 
-    1.8
+    -100%
 
-    1'
+    -100%
+
+    -100%
+
+    -100%
+
+    -100%
+
+    0
+
+    -100%
+
+    0
+
+    0
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1754,7 +1770,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.75
+  m_fontSize: 17.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1917,9 +1933,9 @@ RectTransform:
   - {fileID: 1394734933}
   m_Father: {fileID: 25585935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 162.5, y: -135.375}
   m_SizeDelta: {x: 300, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &404768287
@@ -1996,9 +2012,9 @@ RectTransform:
   - {fileID: 1876423378}
   m_Father: {fileID: 25585935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 162.5, y: -214.625}
   m_SizeDelta: {x: 300, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &412366115
@@ -3025,9 +3041,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 315056710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -140}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &648263889
@@ -3755,7 +3771,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &858852128
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3985,9 +4001,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 315056710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -56.666668}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &893375888
@@ -4614,9 +4630,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 315056710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -98.333336}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1008821944
@@ -5959,9 +5975,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 315056710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -181.66667}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1261712924
@@ -6177,12 +6193,6 @@ MonoBehaviour:
   pauseScreen: {fileID: 858852127}
   resultsScreen: {fileID: 1778461144}
   levelUpScreen: {fileID: 163940163}
-  currentHealthDisplay: {fileID: 277319044}
-  currentRecoveryDisplay: {fileID: 893375889}
-  currentMoveSpeedDisplay: {fileID: 1008821945}
-  currentMightDisplay: {fileID: 648263890}
-  currentProjectileSpeedDisplay: {fileID: 1261712925}
-  currentMagnetDisplay: {fileID: 1405832083}
   chosenCharacterImage: {fileID: 841400712}
   chosenCharacterName: {fileID: 2137917693}
   levelReachedDisplay: {fileID: 1336024184}
@@ -6515,9 +6525,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 315056710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -223.33334}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1405832082
@@ -6957,9 +6967,9 @@ RectTransform:
   - {fileID: 493349784}
   m_Father: {fileID: 25585935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 162.5, y: -293.875}
   m_SizeDelta: {x: 300, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1606713145
@@ -7093,7 +7103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1651228849
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7110,11 +7120,11 @@ RectTransform:
   - {fileID: 346845351}
   m_Father: {fileID: 858852130}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 550, y: 300}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.30200002, y: 0.23380171}
+  m_AnchorMax: {x: 0.694, y: 0.8322302}
+  m_AnchoredPosition: {x: 2.2574465, y: -0.68429565}
+  m_SizeDelta: {x: 3.4852, y: 2.4018002}
+  m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1651228850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7166,6 +7176,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 2017727497}
+  displayCurrentHealth: 1
+  updateInEditor: 1
 --- !u!1 &1674210603
 GameObject:
   m_ObjectHideFlags: 0
@@ -7655,9 +7667,9 @@ RectTransform:
   - {fileID: 1720195911}
   m_Father: {fileID: 25585935}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 162.5, y: -56.125}
   m_SizeDelta: {x: 300, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1772236098
@@ -8822,7 +8834,7 @@ MonoBehaviour:
   lastVerticalVector: 0
   moveDir: {x: 0, y: 0}
   lastMovedVector: {x: 0, y: 0}
-  playerData: {fileID: 0}
+  player: {fileID: 0}
 --- !u!95 &2017727495
 Animator:
   serializedVersion: 7
@@ -8872,19 +8884,31 @@ MonoBehaviour:
   baseStats:
     maxHealth: 0
     recovery: 0
+    armor: 0
     moveSpeed: 0
     might: 0
+    area: 0
     speed: 0
+    duration: 0
+    amount: 0
+    cooldown: 0
     magnet: 0
+    revival: 0
   weaponIndex: 0
   passiveItemIndex: 0
   actualStats:
     maxHealth: 0
     recovery: 0
+    armor: 0
     moveSpeed: 0
     might: 0
+    area: 0
     speed: 0
+    duration: 0
+    amount: 0
+    cooldown: 0
     magnet: 0
+    revival: 0
   experience: 0
   level: 1
   experienceCap: 100
@@ -8898,6 +8922,7 @@ MonoBehaviour:
   expBar: {fileID: 1093829121}
   levelText: {fileID: 1199845154}
   damageEffect: {fileID: 1613615290100473288, guid: 728df30ef2409f047ab8914a6d0e9c63, type: 3}
+  blockedEffect: {fileID: 4309931336279779392, guid: 6f4b77cbbcd32334984432955c3c07ef, type: 3}
 --- !u!114 &2017727499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8934,6 +8959,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6d097315cd582c5498314273bad295d4, type: 2}
   - {fileID: 11400000, guid: e97e23b73fde9194bb0587b585075898, type: 2}
   - {fileID: 11400000, guid: 894ab12a01c215747a58d674f161d98b, type: 2}
+  - {fileID: 11400000, guid: 47f7772449d192944b83bf07f81037bf, type: 2}
   upgradeUIOptions:
   - upgradeNameDisplay: {fileID: 2007231985}
     upgradeDescriptionDisplay: {fileID: 219737403}
@@ -9181,7 +9207,33 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Health\nMovespeed\nRecovery\nMight\nMagnet\nProj. Speed \n"
+  m_text: 'Current Health
+
+    Max Health
+
+    Recovery
+
+    Armor
+
+    Move Speed
+
+    Might
+
+    Area
+
+    Speed
+
+    Duration
+
+    Amount
+
+    Cooldown
+
+    Magnet
+
+    Revival
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9208,7 +9260,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.75
+  m_fontSize: 17.65
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
