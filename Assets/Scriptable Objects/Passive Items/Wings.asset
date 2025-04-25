@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5670df00ade21499cafb7ca32fa317, type: 3}
+  m_Name: Wings
+  m_EditorClassIdentifier: 
+  icon: {fileID: -945511617190439946, guid: f6c0e948b00c5dd43af092f00c53a3c1, type: 3}
+  maxLevel: 5
+  baseStats:
+    name: Wings
+    description: "Hareket h\u0131z\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0.1
+      might: 0
+      speed: 0
+      magnet: 0
+  growth:
+  - name: Level 2
+    description: "Hareket h\u0131z\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0.1
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Level 3
+    description: "Hareket h\u0131z\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0.1
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Level 4
+    description: "Hareket h\u0131z\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0.1
+      might: 0
+      speed: 0
+      magnet: 0
+  - name: Level 5
+    description: "Hareket h\u0131z\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      moveSpeed: 0.1
+      might: 0
+      speed: 0
+      magnet: 0

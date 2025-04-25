@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
+  m_Name: Knife Weapon
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 81ae8c4e1412cd54383efc257aea704b, type: 3}
+  maxLevel: 8
+  evolutionData:
+  - name: Behemoth
+    condition: 1
+    consumes: 2
+    evolutionLevel: 8
+    catalysts:
+    - itemType: {fileID: 11400000, guid: e97e23b73fde9194bb0587b585075898, type: 2}
+      level: 1
+    outcome:
+      itemType: {fileID: 0}
+      level: 1
+  behaviour: ProjectileWeapon
+  baseStats:
+    name: Knife
+    description: "Hareket edilen y\xF6ne b\u0131\xE7ak f\u0131rlat\u0131r."
+    projectilePrefab: {fileID: -8843651826359149271, guid: d0aa6a9c6f37dd349b802b0e1b731b72, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 3
+    damage: 6.5
+    damageVariance: 2
+    area: 1
+    speed: 10
+    cooldown: 1
+    projectileInterval: 0.1
+    knockback: 0.5
+    number: 1
+    piercing: 1
+    maxInstances: 70
+  linearGrowth:
+  - name: Level 2
+    description: "F\u0131rlat\u0131lan b\u0131\xE7ak say\u0131s\u0131 1 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0.4
+    lifespan: 0
+    damage: 0
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 3
+    description: "F\u0131rlat\u0131lan b\u0131\xE7ak say\u0131s\u0131 1 artar, hasar
+      5 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0.4
+    lifespan: 0
+    damage: 5
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 4
+    description: "F\u0131rlat\u0131lan b\u0131\xE7ak say\u0131s\u0131 1 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 5
+    description: "B\u0131\xE7aklar\u0131n dayan\u0131kl\u0131l\u0131\u011F\u0131
+      1 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0.4
+    lifespan: 0
+    damage: 0
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 1
+    maxInstances: 0
+  - name: Level 6
+    description: "F\u0131rlat\u0131lan b\u0131\xE7ak say\u0131s\u0131 1 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0.4
+    lifespan: 0
+    damage: 0
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 7
+    description: "F\u0131rlat\u0131lan b\u0131\xE7ak say\u0131s\u0131 1 artar, hasar
+      5 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0.4
+    lifespan: 0
+    damage: 5
+    damageVariance: 1
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 8
+    description: "B\u0131\xE7aklar\u0131n dayan\u0131kl\u0131l\u0131\u011F\u0131
+      1 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: -0.2
+      width: 0
+      height: 0.4
+    lifespan: 0
+    damage: 1
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 1
+    maxInstances: 0
+  randomGrowth: []

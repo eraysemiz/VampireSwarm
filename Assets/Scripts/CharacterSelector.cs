@@ -1,10 +1,12 @@
+using System.Collections.Generic;
 using Unity.Collections;
+using UnityEditor;
 using UnityEngine;
 
 public class CharacterSelector : MonoBehaviour
 {
     public static CharacterSelector instance;
-    public CharacterScriptableObjects characterData;
+    public CharacterData characterData;
 
     void Awake()
     {
@@ -20,27 +22,41 @@ public class CharacterSelector : MonoBehaviour
         }
     }
 
-    void Start()
+    public static CharacterData GetData()
     {
-        
+        if (instance && instance.characterData)
+            return instance.characterData;
+        else
+        {
+            // Randomly pick a character if we are playing from the Editor.
+            #if UNITY_EDITOR    // bu if bloðu kodun sadece unity editor de çalýþmasýný saðlar buildde çalýþmaz
+            string[] allAssetPaths = AssetDatabase.GetAllAssetPaths();
+            List<CharacterData> characters = new List<CharacterData>();
+            foreach (string assetPath in allAssetPaths)
+            {
+                if (assetPath.EndsWith(".asset"))
+                {
+                    CharacterData characterData = AssetDatabase.LoadAssetAtPath<CharacterData>(assetPath);
+                    if (characterData != null)
+                    {
+                        characters.Add(characterData);
+                    }
+                }
+            }
+
+            // Pick a random character if we have found any characters.
+            if (characters.Count > 0) return characters[Random.Range(0, characters.Count)];
+            #endif
+        }
+        return null;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    
-    public static CharacterScriptableObjects GetData()
-    {
-        return instance.characterData;
-    }
-
-    public void SelectCharacter(CharacterScriptableObjects character)
+    public void SelectCharacter(CharacterData character)
     {
         characterData = character;
     }
 
+    // Destroys the character selector.
     public void DestroySingleton()
     {
         instance = null;

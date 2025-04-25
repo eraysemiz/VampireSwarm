@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 4949201611054298597}
   - component: {fileID: 2420142757607425766}
   - component: {fileID: -1963069411940116468}
-  - component: {fileID: -5128257656178975885}
-  - component: {fileID: -5560041357458746186}
+  - component: {fileID: 5817191169932740227}
   m_Layer: 0
   m_Name: Speed Potion
   m_TagString: SpeedPotion
@@ -152,7 +151,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -164,7 +163,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-5128257656178975885
+--- !u!114 &5817191169932740227
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,22 +172,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 9041324099276475544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e6169c98dd4e84489fe0bb6c0f55a99, type: 3}
+  m_Script: {fileID: 11500000, guid: 75c7b59e7ba859346983609d76fdd14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 3
-  magnitude: 0.1
-  direction: {x: 0, y: 1, z: 0}
---- !u!114 &-5560041357458746186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9041324099276475544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3712450765f626c49b7c4d5f0492f952, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hasBeenCollected: 0
+  lifespan: 0.5
+  bobbingAnimation:
+    frequency: 2
+    direction: {x: 0, y: 0.3}
+  experience: 0
+  health: 0
+  moveSpeed: 1.5
+  moveSpeedDuration: 5

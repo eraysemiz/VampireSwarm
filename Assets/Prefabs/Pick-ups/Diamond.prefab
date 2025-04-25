@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 2141928451778600010}
   - component: {fileID: 4554876055657974155}
   - component: {fileID: 2107937215012280532}
-  - component: {fileID: 236247599492047170}
   - component: {fileID: -3342032079156130768}
-  - component: {fileID: -7113436537740897869}
+  - component: {fileID: -911683861888498247}
   m_Layer: 0
   m_Name: Diamond
   m_TagString: ExpGems
@@ -127,19 +126,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.6
---- !u!114 &236247599492047170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4764089607250484290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a809512207281a4e9a85fe414269e58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  experienceAmount: 100
 --- !u!50 &-3342032079156130768
 Rigidbody2D:
   serializedVersion: 5
@@ -155,7 +141,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -167,7 +153,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-7113436537740897869
+--- !u!114 &-911683861888498247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,9 +162,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4764089607250484290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e6169c98dd4e84489fe0bb6c0f55a99, type: 3}
+  m_Script: {fileID: 11500000, guid: 75c7b59e7ba859346983609d76fdd14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 3
-  magnitude: 0.1
-  direction: {x: 0, y: 1, z: 0}
+  lifespan: 0.5
+  bobbingAnimation:
+    frequency: 3
+    direction: {x: 0, y: 0.3}
+  experience: 120
+  health: 0

@@ -2,29 +2,38 @@ using UnityEngine;
 
 public class TreasureChest : MonoBehaviour
 {
-    InventoryManager inventory;
-    void Start()
-    {
-        inventory = Object.FindAnyObjectByType<InventoryManager>();        
-    }
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.CompareTag("Player"))
+        PlayerInventory p = col.GetComponent<PlayerInventory>();
+        if (p)
         {
-            OpenTreasureChest();
-            Destroy(gameObject);
+            bool randomBool = Random.Range(0, 2) == 0;
+
+            OpenTreasureChest(p, randomBool);
         }
     }
 
-    public void OpenTreasureChest()
+    public void OpenTreasureChest(PlayerInventory inventory, bool isHigherTier)
     {
-        if (inventory.GetPossibleEvolutions().Count <= 0)
+        // Loop through every weapon to check whether it can evolve.
+        foreach (PlayerInventory.Slot s in inventory.weaponSlots)
         {
-            Debug.Log("No possible evolutions");
-            return;
+
+            Weapon w = s.item as Weapon;
+            if (w.data.evolutionData == null) continue; // Ignore weapon if it cannot evolve.
+
+            // Loop through every possible evolution of the weapon.
+            foreach (ItemData.Evolution e in w.data.evolutionData)
+            {
+                // Only attempt to evolve weapons via treasure chest evolution.
+                if (e.condition == ItemData.Evolution.Condition.treasureChest)
+                {
+                    bool attempt = w.AttemptEvolution(e, 0);
+                    if (attempt) return; // If evolution suceeds, stop.
+                }
+
+            }
         }
-        WeaponEvolutionBlueprint toEvolve = inventory.GetPossibleEvolutions()[Random.Range(0, inventory.GetPossibleEvolutions().Count)];
-        inventory.EvolveWeapon(toEvolve);
     }
 }

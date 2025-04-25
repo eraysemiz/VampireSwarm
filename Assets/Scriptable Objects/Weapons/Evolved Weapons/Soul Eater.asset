@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
+  m_Name: Soul Eater
+  m_EditorClassIdentifier: 
+  icon: {fileID: -975732921841048486, guid: 7e6e926c6a05f6b4aa285d652eeda4c2, type: 3}
+  maxLevel: 1
+  evolutionData: []
+  behaviour: AuraWeapon
+  baseStats:
+    name: Soul Eater
+    description: Evolved garlic.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 1918026942232528484, guid: 0f1d2dfa91d4a5b46ac05db3fdb986dc, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 20
+    damageVariance: 30
+    area: 1
+    speed: 0
+    cooldown: 1
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  linearGrowth:
+  - name: 
+    description: 
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  randomGrowth: []

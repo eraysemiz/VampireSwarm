@@ -14,13 +14,11 @@ public class PlayerMovement : MonoBehaviour
 
 
     private Rigidbody2D rigidbody;  
-    public CharacterScriptableObjects characterData;
     public PlayerStats playerData;
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
-        //playerData = Object.FindAnyObjectByType<PlayerStats>();
         playerData = GetComponent<PlayerStats>();
         lastMovedVector = new Vector2 (1, 0f); // bu olmazsa oyun baþladýðýnda eðer oyuncu hareket etmezse býçak hareketsiz kalýr
     }

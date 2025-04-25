@@ -123,29 +123,29 @@ public class GameManager : MonoBehaviour
 
         Destroy(textObj, duration);
 
+        // Oluşturulan text objesini canvasın childı yap
         textObj.transform.SetParent(instance.damageTextCanvas.transform);
+        textObj.transform.SetSiblingIndex(0);   // text objesini canvasın childları arasında en üste getir. bu "level atlama ekranında text gözükme sorununu çözer
 
         WaitForEndOfFrame w = new WaitForEndOfFrame();
         float t = 0;    // coroutine sayacı
         float yOffset = 0; // hasar text inin konumu
+        Vector3 lastKnownPosition = target.position;
         while (t < duration)
         {
-            yield return w;
+            // If the RectTransform is missing for whatever reason, end this loop.
+            if (!rect) break;
 
             tmPro.color = new Color(tmPro.color.r, tmPro.color.g, tmPro.color.b, 1 - t / duration);
 
-            // Pan the text upwards.
-            if (target)
-            {
-                yOffset += speed * Time.deltaTime;
-                rect.position = referenceCamera.WorldToScreenPoint(target.position + new Vector3(0, yOffset));
-            }
-            else
-            {
-                // If target is dead, just pan up where the text is at.
-                rect.position += new Vector3(0, speed * Time.deltaTime, 0);
-            }
+            // Update the enemy's position if it is still around.
+            if (target) lastKnownPosition = target.position;
 
+            // Pan the text upwards.
+            yOffset += speed * Time.deltaTime;
+            rect.position = referenceCamera.WorldToScreenPoint(lastKnownPosition + new Vector3(0, yOffset));
+
+            yield return w;
             t += Time.deltaTime;
         }
 
@@ -221,7 +221,7 @@ public class GameManager : MonoBehaviour
         resultsScreen.SetActive(true);
     }
 
-    public void AssingChosenCharacterUI(CharacterScriptableObjects chosenCharacterData)
+    public void AssingChosenCharacterUI(CharacterData chosenCharacterData)
     {
         chosenCharacterImage.sprite = chosenCharacterData.Icon;
         chosenCharacterName.text = chosenCharacterData.Name;
@@ -232,7 +232,7 @@ public class GameManager : MonoBehaviour
         levelReachedDisplay.text = levelReachedData.ToString();
     }
 
-    public void AssingChosenWeaponAndPassiveItemsUI(List<Image> chosenWeaponsData, List<Image> chosenPassiveItemsData)
+    public void AssingChosenWeaponAndPassiveItemsUI(List<PlayerInventory.Slot> chosenWeaponsData, List<PlayerInventory.Slot> chosenPassiveItemsData)
     {
         if (chosenWeaponsData.Count != chosenPassiveItemsUI.Count || chosenPassiveItemsData.Count != chosenPassiveItemsUI.Count)
         {
@@ -244,11 +244,11 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < chosenWeaponsUI.Count; i++)
         {
             // Se�ilmi� silah�n sprite � var m� kontrol
-            if (chosenWeaponsData[i].sprite)
+            if (chosenWeaponsData[i].image.sprite)
             {
                 // Se�ilen silah�n UI daki kar��l�k gelen yerini aktif hale getir ve UI daki image � silah�n iconu yap
                 chosenWeaponsUI[i].enabled = true;
-                chosenWeaponsUI[i].sprite = chosenWeaponsData[i].sprite;
+                chosenWeaponsUI[i].sprite = chosenWeaponsData[i].image.sprite;
             }
             else
             {
@@ -260,11 +260,11 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < chosenPassiveItemsUI.Count; i++)
         {
             // Se�ilmi� e�yan�n sprite � var m� kontrol
-            if (chosenPassiveItemsData[i].sprite)
+            if (chosenPassiveItemsData[i].image.sprite)
             {
                 // Se�ilen e�yan�n UI daki kar��l�k gelen yerini aktif hale getir ve UI daki image � e�yan�n iconu yap
                 chosenPassiveItemsUI[i].enabled = true;
-                chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].sprite;
+                chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].image.sprite;
             }
             else
             {

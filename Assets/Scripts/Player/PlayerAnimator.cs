@@ -31,4 +31,15 @@ public class PlayerAnimator : MonoBehaviour
         else
             srender.flipX = false;
     }
+
+    public void SetAnimatorController(RuntimeAnimatorController controller)
+    {
+        if (!animator) animator = GetComponent<Animator>();
+        animator.runtimeAnimatorController = controller;
+    }
+
+    public void ControlLoop()
+    {
+
+    }
 }
