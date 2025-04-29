@@ -13,6 +13,13 @@ public abstract class Item : MonoBehaviour
     protected PlayerStats owner;
 
     public PlayerStats Owner { get { return owner; } }
+
+    [System.Serializable]
+    public class LevelData
+    {
+        public string name, description;
+    }
+
     public virtual void Initialise(ItemData data)
     {
         maxLevel = data.maxLevel;

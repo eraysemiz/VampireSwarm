@@ -47,15 +47,26 @@ public class PlayerStats : MonoBehaviour
 
 
     // Oyuncunun seviyesi ve deneyim puaný
-    [HideInInspector] public int experience = 0;
-    [HideInInspector] public int level = 1;
-    [HideInInspector] public int experienceCap = 100;
-    [HideInInspector] public int experienceCapIncrease;
+    public int experience = 0;
+    public int level = 1;
+    public int experienceCap = 0;
+
+    //Class for defining a level range and the corresponding experience cap increase for that range
+    [System.Serializable]
+    public class LevelRange
+    {
+        public int startLevel;
+        public int endLevel;
+        public int experienceCapIncrease;
+    }
+
 
     // Oyuncu hasar alma kýsýtlamalarý
-    [HideInInspector] public float invincibilityDuration;
-    [HideInInspector] float invincibilityTimer;
-    [HideInInspector] bool isInvincible = false;
+    public float invincibilityDuration;
+    float invincibilityTimer;
+    bool isInvincible = false;
+
+    public List<LevelRange> levelRanges;
 
     // Potion timerlarý
     [HideInInspector] public float oldMoveSpeed;
@@ -98,6 +109,9 @@ public class PlayerStats : MonoBehaviour
     {
         inventory.Add(characterData.StartingWeapon);
 
+        //Initialize the experience cap as the first experience cap increase
+        experienceCap = levelRanges[0].experienceCapIncrease;
+        
         GameManager.instance.AssingChosenCharacterUI(characterData);
 
         UpdateHealthBar();
@@ -117,7 +131,6 @@ public class PlayerStats : MonoBehaviour
         }
 
         Recover();
-        ScoreCalculator();
     }
 
     public void RecalculateStats()
@@ -138,26 +151,43 @@ public class PlayerStats : MonoBehaviour
     {
         experience += amount;
 
-        LevelUpChecker();   
+        LevelUpChecker();
         UpdateExpBar();
     }
 
     void LevelUpChecker()
     {
-        if (experience > experienceCap)
+        if (experience >= experienceCap)
         {
+            //Level up the player and reduce their experience by the experience cap
             level++;
             experience -= experienceCap;
+
+            //Find the experience cap increase for the current level range
+            int experienceCapIncrease = 0;
+            foreach (LevelRange range in levelRanges)
+            {
+                if (level >= range.startLevel && level <= range.endLevel)
+                {
+                    experienceCapIncrease = range.experienceCapIncrease;
+                    break;
+                }
+            }
             experienceCap += experienceCapIncrease;
 
             UpdateLevelText();
+
             GameManager.instance.StartLevelUp();
+
+            // If the experience still exceeds the experience cap, level up again.
+            if (experience >= experienceCap) LevelUpChecker();
         }
     }
 
     void UpdateExpBar()
     {
-        expBar.fillAmount = (float) experience / experienceCap;
+        Debug.Log("EXP BAR UPDATE");
+        expBar.fillAmount = (float)experience / experienceCap;
     }
 
     void UpdateLevelText()
@@ -228,6 +258,7 @@ public class PlayerStats : MonoBehaviour
 
     public void UpdateHealthBar()
     {
+        Debug.Log("HP BAR UPDATE");
         healthBar.fillAmount = CurrentHealth / actualStats.maxHealth;
     }
 

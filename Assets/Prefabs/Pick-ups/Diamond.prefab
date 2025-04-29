@@ -169,5 +169,7 @@ MonoBehaviour:
   bobbingAnimation:
     frequency: 3
     direction: {x: 0, y: 0.3}
-  experience: 120
+  experience: 15
   health: 0
+  moveSpeed: 0
+  moveSpeedDuration: 0

@@ -28,13 +28,14 @@ public class CharacterData : ScriptableObject
         [Range(-1, 10)] public int amount;
         [Range(-1, 1)] public float cooldown;
         public float magnet;
-        public int revival;
+        public int revival, luck;
 
 
 
         public static Stats operator +(Stats s1, Stats s2)
         {
-            s1.maxHealth *= s2.maxHealth;
+            if (s2.maxHealth >= 1)
+                s1.maxHealth *= s2.maxHealth;
             s1.recovery += s2.recovery;
             s1.armor += s2.armor;
             s1.moveSpeed += s2.moveSpeed;
@@ -62,5 +63,6 @@ public class CharacterData : ScriptableObject
         cooldown = 1,
         magnet = 1.8f,
         revival = 0,
+        luck = 100
     };
 }
