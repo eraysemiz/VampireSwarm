@@ -17,8 +17,9 @@ MonoBehaviour:
   name: Giorno
   startingWeapon: {fileID: 11400000, guid: 3d520e0bf6c7cea47b56745bd5a29c60, type: 2}
   stats:
-    maxHealth: 100
+    maxHealth: 5
     recovery: 1
+    armor: 0
     moveSpeed: 1
     might: 1
     area: 1
@@ -28,3 +29,4 @@ MonoBehaviour:
     cooldown: 1
     magnet: 1.8
     revival: 0
+    luck: 100

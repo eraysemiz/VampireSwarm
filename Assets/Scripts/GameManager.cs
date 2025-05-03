@@ -189,6 +189,11 @@ public class GameManager : MonoBehaviour
     {
         timeSurvivedDisplay.text = stopwatchDisplay.text;
         ChangeState(GameState.GameOver);
+
+        DisplayResults();
+
+        // optionally pause the whole game
+        Time.timeScale = 0f;
     }
 
     void DisplayResults()
