@@ -9,6 +9,7 @@ public abstract class Item : MonoBehaviour
 {
     public int currentLevel = 1, maxLevel = 1;
     protected ItemData.Evolution[] evolutionData;
+    [HideInInspector] public ItemData data;
     protected PlayerInventory inventory;
     protected PlayerStats owner;
 

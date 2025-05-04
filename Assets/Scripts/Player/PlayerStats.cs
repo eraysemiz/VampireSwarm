@@ -234,7 +234,6 @@ public class PlayerStats : MonoBehaviour
         {
             ScoreCalculator(); // ??
             GameManager.instance.AssignLevelReachedUI(level);
-            GameManager.instance.AssingChosenWeaponAndPassiveItemsUI(inventory.weaponSlots, inventory.passiveSlots);
             GameManager.instance.GameOver();
                 
         }

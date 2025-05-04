@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5670df00ade21499cafb7ca32fa317, type: 3}
   m_Name: Spinach
   m_EditorClassIdentifier: 
-  icon: {fileID: -5235626579636041202, guid: 3a4aa8b9f2740004f8971716f616b50b, type: 3}
+  icon: {fileID: 21300000, guid: 9acb79bb2beac514b84e27a88845971f, type: 3}
   maxLevel: 5
   evolutionData:
   - name: "Binbir B\u0131\xE7ak"
@@ -31,44 +31,79 @@ MonoBehaviour:
     boosts:
       maxHealth: 0
       recovery: 0
+      armor: 0
       moveSpeed: 0
       might: 0.1
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   growth:
   - name: Level 2
     description: "Temel hasar\u0131 %10 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0
+      armor: 0
       moveSpeed: 0
       might: 0.1
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   - name: Level 3
     description: "Temel hasar\u0131 %10 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0
+      armor: 0
       moveSpeed: 0
       might: 0.1
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   - name: Level 4
     description: "Temel hasar\u0131 %10 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0
+      armor: 0
       moveSpeed: 0
       might: 0.1
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   - name: Level 5
     description: "Temel hasar\u0131 %10 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0
+      armor: 0
       moveSpeed: 0
       might: 0.1
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0

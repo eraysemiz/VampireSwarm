@@ -57,8 +57,6 @@ public abstract class Weapon : Item
 
     protected Stats currentStats;
 
-    public WeaponData data;
-
     protected float currentCooldown;
 
     protected PlayerMovement movement; // Reference to the player's movement.

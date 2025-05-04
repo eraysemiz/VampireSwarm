@@ -24,7 +24,7 @@ public class LightningRingWeapon : ProjectileWeapon
         // Refresh the array of selected enemies.
         if (currentCooldown <= 0)
         {
-            allSelectedEnemies = new List<EnemyStats>(FindObjectsOfType<EnemyStats>());
+            allSelectedEnemies = new List<EnemyStats>(FindObjectsByType<EnemyStats>(FindObjectsSortMode.None));
             ActivateCooldown();
             currentAttackCount = attackCount;
         }

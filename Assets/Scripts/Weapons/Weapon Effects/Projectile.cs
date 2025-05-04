@@ -53,7 +53,7 @@ public class Projectile : WeaponEffect
         float aimAngle; // We need to determine where to aim.
 
         // Find all enemies on the screen.
-        EnemyStats[] targets = FindObjectsOfType<EnemyStats>();
+        EnemyStats[] targets = FindObjectsByType<EnemyStats>(FindObjectsSortMode.None);
 
         // Select a random enemy (if there is at least 1).
         // Otherwise, pick a random angle.

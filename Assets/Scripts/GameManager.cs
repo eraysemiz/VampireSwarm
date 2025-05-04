@@ -37,8 +37,6 @@ public class GameManager : MonoBehaviour
     public TMP_Text chosenCharacterName;
     public TMP_Text levelReachedDisplay;
     public TMP_Text timeSurvivedDisplay;
-    public List<Image> chosenWeaponsUI = new List<Image>(3);
-    public List<Image> chosenPassiveItemsUI = new List<Image>(3);
 
     [Header("StopWatch")]
     public float timeLimit; // Zaman limiti
@@ -210,48 +208,6 @@ public class GameManager : MonoBehaviour
     public void AssignLevelReachedUI(int levelReachedData)
     {
         levelReachedDisplay.text = levelReachedData.ToString();
-    }
-
-    public void AssingChosenWeaponAndPassiveItemsUI(List<PlayerInventory.Slot> chosenWeaponsData, List<PlayerInventory.Slot> chosenPassiveItemsData)
-    {
-        if (chosenWeaponsData.Count != chosenPassiveItemsUI.Count || chosenPassiveItemsData.Count != chosenPassiveItemsUI.Count)
-        {
-            Debug.Log("Chosen weapon and passive items data lists have different lengths");
-            return;
-        }
-
-        // Se�ilmi� silahlar�n ve pasif e�yalar�n verisini sonu� ekran�na ata
-        for (int i = 0; i < chosenWeaponsUI.Count; i++)
-        {
-            // Se�ilmi� silah�n sprite � var m� kontrol
-            if (chosenWeaponsData[i].image.sprite)
-            {
-                // Se�ilen silah�n UI daki kar��l�k gelen yerini aktif hale getir ve UI daki image � silah�n iconu yap
-                chosenWeaponsUI[i].enabled = true;
-                chosenWeaponsUI[i].sprite = chosenWeaponsData[i].image.sprite;
-            }
-            else
-            {
-                // E�er sprite yoksa UI daki kar��l�k gelen yeri devre d��� b�rak
-                chosenWeaponsUI[i].enabled = false;
-            }
-        }
-
-        for (int i = 0; i < chosenPassiveItemsUI.Count; i++)
-        {
-            // Se�ilmi� e�yan�n sprite � var m� kontrol
-            if (chosenPassiveItemsData[i].image.sprite)
-            {
-                // Se�ilen e�yan�n UI daki kar��l�k gelen yerini aktif hale getir ve UI daki image � e�yan�n iconu yap
-                chosenPassiveItemsUI[i].enabled = true;
-                chosenPassiveItemsUI[i].sprite = chosenPassiveItemsData[i].image.sprite;
-            }
-            else
-            {
-                // E�er sprite yoksa UI daki kar��l�k gelen yeri devre d��� b�rak
-                chosenPassiveItemsUI[i].enabled = false;
-            }
-        }
     }
 
     void UpdateStopWatch()
