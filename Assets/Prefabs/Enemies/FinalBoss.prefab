@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6814985661437295452}
-  - component: {fileID: 5385626379945556008}
   m_Layer: 0
   m_Name: Shockwave Controller
   m_TagString: Untagged
@@ -32,19 +31,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5629755609860504013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5385626379945556008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2913047300915586338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adc9878177a6f9e47a9ec86f4d039d44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 422c5cbaa68a11742911cd64b6dc6714, type: 2}
 --- !u!1 &6889576982525076667
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,7 +46,6 @@ GameObject:
   - component: {fileID: 4799936890518749725}
   - component: {fileID: 3988083184596776997}
   - component: {fileID: 8378949890080280374}
-  - component: {fileID: 5589934212526774440}
   m_Layer: 0
   m_Name: FinalBoss
   m_TagString: FinalBoss
@@ -148,7 +133,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6889576982525076667}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -179,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbfdfa3a53b5dd48acc88aff4b80322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outOfFrameAction: 1
 --- !u!114 &4799936890518749725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,11 +177,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c857ce8c029d1445ab60c3b7f6c6258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: 2a9c183847f2f2943a9a000c3be73a6b, type: 2}
-  currentMoveSpeed: 0
-  currentHealth: 0
-  currentDamage: 0
-  despawnDistance: 20
+  currentMoveSpeed: 3
+  currentHealth: 2000
+  currentDamage: 200
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
@@ -323,21 +307,6 @@ PolygonCollider2D:
       - {x: 0.12, y: 0.42}
       - {x: 0.099999994, y: 0.42999998}
   m_UseDelaunayMesh: 0
---- !u!114 &5589934212526774440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6889576982525076667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61c44ecdd85c17d4c843c1d2985673f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usernameText: {fileID: 0}
-  scoreText: {fileID: 0}
-  scoreboardText: {fileID: 0}
 --- !u!1 &9081304849798414608
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +316,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5885170564717610830}
-  - component: {fileID: 6692991812219035354}
   m_Layer: 0
   m_Name: Fireball Controller
   m_TagString: Untagged
@@ -370,16 +338,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5629755609860504013}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6692991812219035354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9081304849798414608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a2835b9aa2e62a48ac0843ec65349f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 390f50796b25bb5479f4570e8479eeed, type: 2}

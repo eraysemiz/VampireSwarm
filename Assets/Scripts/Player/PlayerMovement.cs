@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : Sortable
 {
     public const float DEFAULT_MOVESPEED = 5f;
 
@@ -17,11 +17,12 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;  
     public PlayerStats player;
 
-    void Start()
+    protected override void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        base.Start();
         player = GetComponent<PlayerStats>();
-        lastMovedVector = new Vector2 (1, 0f); // bu olmazsa oyun ba�lad���nda e�er oyuncu hareket etmezse b��ak hareketsiz kal�r
+        rb = GetComponent<Rigidbody2D>();
+        lastMovedVector = new Vector2(1, 0f); //If we don't do this and game starts up and don't move, the projectile weapon will have no momentum
     }
 
     // Update is called once per frame

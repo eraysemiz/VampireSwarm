@@ -232,7 +232,6 @@ public class PlayerStats : MonoBehaviour
         
         if (!GameManager.instance.isGameOver)
         {
-            ScoreCalculator(); // ??
             GameManager.instance.AssignLevelReachedUI(level);
             GameManager.instance.GameOver();
                 
@@ -294,16 +293,6 @@ public class PlayerStats : MonoBehaviour
         activeSpeedBoostCoroutine = null;
     }*/
 
-
-    public void ScoreCalculator()
-    {
-        int minionScore = EnemySpawner.minionKillCount * 10;
-        int miniBossScore = EnemySpawner.miniBossKillCount * 50;
-        int finalBossScore = EnemySpawner.finalBossKillCount * 1000;
-
-        playerScore = minionScore + miniBossScore + finalBossScore;
-        PlayerStats.PlayerData.score = playerScore;
-    }
 
     void Recover()
     {

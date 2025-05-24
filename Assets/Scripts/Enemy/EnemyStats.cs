@@ -1,72 +1,72 @@
-using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class EnemyStats : MonoBehaviour
 {
-    public EnemyScriptableObjects enemyData;
 
-     public float currentMoveSpeed;
-    [HideInInspector] public float currentHealth;
-    [HideInInspector] public float currentDamage;
 
-    public float despawnDistance = 20f;
+    //Current stats
+    public float currentMoveSpeed;
+    public float currentHealth;
+    public float currentDamage;
+
     Transform player;
 
-    // Damage and Death effect
-    public Color damageColor = new Color(1, 0, 0, 1);
-    public float damageFlashDuration = 0.2f;
-    public float deathFadeTime = 0.6f;
+    [Header("Damage Feedback")]
+    public Color damageColor = new Color(1, 0, 0, 1); // What the color of the damage flash should be.
+    public float damageFlashDuration = 0.2f; // How long the flash should last.
+    public float deathFadeTime = 0.6f; // How much time it takes for the enemy to fade.
     Color originalColor;
     SpriteRenderer sr;
     EnemyMovement movement;
 
+    public static int count; // Track the number of enemies on the screen.
 
-    void Awake() // awake start fonksiyonundan önce çalýþýr
+    void Awake()
     {
-        currentMoveSpeed = enemyData.MoveSpeed;
-        currentHealth = enemyData.MaxHealth;
-        currentDamage = enemyData.Damage;
+
+        count++;
+
     }
 
-    private void Start()
+    void Start()
     {
+        player = FindObjectOfType<PlayerStats>().transform;
         sr = GetComponent<SpriteRenderer>();
         originalColor = sr.color;
+
         movement = GetComponent<EnemyMovement>();
-        player = Object.FindAnyObjectByType<PlayerStats>().transform;
     }
 
-    void Update()
+    // This function always needs at least 2 values, the amount of damage dealt <dmg>, as well as where the damage is
+    // coming from, which is passed as <sourcePosition>. The <sourcePosition> is necessary because it is used to calculate
+    // the direction of the knockback.
+    public void TakeDamage(float dmg, Vector2 sourcePosition, float knockbackForce = 5f, float knockbackDuration = 0.2f)
     {
-        if (Vector2.Distance(transform.position, player.position) >= despawnDistance)
-        {
-            RelocateEnemy();
-        }
-    }
-    public void TakeDamage(float damage, Vector2 srcPosition, float knockbackForce = 5f, float knockbackDuration = 0.2f)
-    {
-        currentHealth -= damage;
+        currentHealth -= dmg;
         StartCoroutine(DamageFlash());
 
-        if (damage > 0)
-        {
-            GameManager.GenerateFloatingText(Mathf.FloorToInt(damage).ToString(), transform);
-        }
+        // Create the text popup when enemy takes damage.
+        if (dmg > 0)
+            GameManager.GenerateFloatingText(Mathf.FloorToInt(dmg).ToString(), transform);
 
+        // Apply knockback if it is not zero.
         if (knockbackForce > 0)
-        { 
-            Vector2 dir = (Vector2)transform.position - srcPosition;
+        {
+            // Gets the direction of knockback.
+            Vector2 dir = (Vector2)transform.position - sourcePosition;
             movement.Knockback(dir.normalized * knockbackForce, knockbackDuration);
         }
 
+        // Kills the enemy if the health drops below zero.
         if (currentHealth <= 0)
         {
             Kill();
         }
     }
 
+    // This is a Coroutine function that makes the enemy flash when taking damage.
     IEnumerator DamageFlash()
     {
         sr.color = damageColor;
@@ -76,63 +76,47 @@ public class EnemyStats : MonoBehaviour
 
     public void Kill()
     {
-        //Destroy(gameObject);
-        if (gameObject.CompareTag("Enemy"))
-            EnemySpawner.minionKillCount++;
-        else if (gameObject.CompareTag("MiniBoss"))
-            EnemySpawner.miniBossKillCount++;
-        else if (gameObject.CompareTag("FinalBoss"))
-        {
-            EnemySpawner.finalBossKillCount++;
-            DatabaseManager db = gameObject.GetComponent<DatabaseManager>();
-            db.SavePlayerScore();
-            Time.timeScale = 0;
-        }
+        // Enable drops if the enemy is killed,
+        // since drops are disabled by default.
+        DropManager drops = GetComponent<DropManager>();
+        if (drops) drops.active = true;
+
         StartCoroutine(KillFade());
     }
 
+    // This is a Coroutine function that fades the enemy away slowly.
     IEnumerator KillFade()
     {
+        // Waits for a single frame.
         WaitForEndOfFrame w = new WaitForEndOfFrame();
-        float t = 0;
-        float originalAlpha = sr.color.a;
+        float t = 0, origAlpha = sr.color.a;
 
+        // This is a loop that fires every frame.
         while (t < deathFadeTime)
         {
             yield return w;
             t += Time.deltaTime;
 
-            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, (1 - t / deathFadeTime) * originalAlpha);
+            // Set the colour for this frame.
+            sr.color = new Color(sr.color.r, sr.color.g, sr.color.b, (1 - t / deathFadeTime) * origAlpha);
         }
+
         Destroy(gameObject);
     }
 
+
     void OnCollisionStay2D(Collision2D col)
     {
+        //Reference the script from the collided collider and deal damage using TakeDamage()
         if (col.gameObject.CompareTag("Player"))
         {
             PlayerStats player = col.gameObject.GetComponent<PlayerStats>();
-            player.TakeDamage(currentDamage);
+            player.TakeDamage(currentDamage); // Make sure to use currentDamage instead of weaponData.Damage in case any damage multipliers in the future
         }
     }
 
-    void RelocateEnemy()
+    private void OnDestroy()
     {
-        EnemySpawner es = FindAnyObjectByType<EnemySpawner>();
-
-        float minDistance = 15f; // Minimum distance from the player
-        float maxDistance = 20f; // Maximum distance from the player
-
-        // Generate a random angle
-        float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
-
-        // Generate a random distance within the min-max range
-        float randomDistance = Random.Range(minDistance, maxDistance);
-
-        // Calculate new position
-        Vector2 newPosition = (Vector2)player.position + new Vector2(Mathf.Cos(angle), Mathf.Sin(angle)) * randomDistance;
-
-        // Set the enemy's position to the newly calculated position
-        transform.position = newPosition;
+        count--;
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5670df00ade21499cafb7ca32fa317, type: 3}
   m_Name: Candelabrador
   m_EditorClassIdentifier: 
-  icon: {fileID: -945511617190439946, guid: f6c0e948b00c5dd43af092f00c53a3c1, type: 3}
+  icon: {fileID: 21300000, guid: ac5451617fff10940a3f5173130bc765, type: 3}
   maxLevel: 5
   evolutionData: []
   baseStats:
@@ -31,6 +31,7 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
   growth:
   - name: Level 2
     description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r"
@@ -47,3 +48,52 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
+  - name: Level 3
+    description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 0
+      moveSpeed: 0
+      might: 0
+      area: 0.1
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      magnet: 0
+      revival: 0
+      luck: 0
+  - name: Level 4
+    description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 0
+      moveSpeed: 0
+      might: 0
+      area: 0.1
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      magnet: 0
+      revival: 0
+      luck: 0
+  - name: Level 5
+    description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r"
+    boosts:
+      maxHealth: 0
+      recovery: 0
+      armor: 0
+      moveSpeed: 0
+      might: 0
+      area: 0.1
+      speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
+      magnet: 0
+      revival: 0
+      luck: 0

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Obsolete("Spawn sistemi güncellendi")]
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField]

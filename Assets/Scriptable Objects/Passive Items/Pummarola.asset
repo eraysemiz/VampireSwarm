@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5670df00ade21499cafb7ca32fa317, type: 3}
   m_Name: Pummarola
   m_EditorClassIdentifier: 
-  icon: {fileID: 5843937330171621779, guid: 3a4aa8b9f2740004f8971716f616b50b, type: 3}
+  icon: {fileID: 21300000, guid: cbe75ab8dec1f694bb0ed14a3319c643, type: 3}
   maxLevel: 5
   evolutionData:
   - name: Soul Eater
@@ -31,44 +31,79 @@ MonoBehaviour:
     boosts:
       maxHealth: 0
       recovery: 0.2
+      armor: 0
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   growth:
   - name: Level 2
     description: "Can yenilenmesini %20 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0.2
+      armor: 0
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   - name: Level 3
     description: "Can yenilenmesini %20 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0.2
+      armor: 0
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   - name: Level 4
     description: "Can yenilenmesini %20 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0.2
+      armor: 0
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0
   - name: Level 5
     description: "Can yenilenmesini %20 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0
       recovery: 0.2
+      armor: 0
       moveSpeed: 0
       might: 0
+      area: 0
       speed: 0
+      duration: 0
+      amount: 0
+      cooldown: 0
       magnet: 0
+      revival: 0
+      luck: 0

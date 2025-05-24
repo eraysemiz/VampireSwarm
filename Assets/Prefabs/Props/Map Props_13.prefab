@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4598125751546865519}
   - component: {fileID: 1599824417931397769}
-  - component: {fileID: -8357365786626080506}
   - component: {fileID: 4629444371659595090}
   - component: {fileID: 8857725990024417523}
+  - component: {fileID: 506696975393051908}
   m_Layer: 0
   m_Name: Map Props_13
   m_TagString: Prop
@@ -90,8 +90,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-8357365786626080506
-BoxCollider2D:
+--- !u!114 &4629444371659595090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8923623346139132840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 161565ca62adb2f4b802a1c98c2a82b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+--- !u!114 &8857725990024417523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8923623346139132840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2baebaa494b5014db5e0f4e50fe8263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 0
+  drops:
+  - name: HealthPotion
+    item: {fileID: 5899539805644698991, guid: d29aeb630b348a94589e9c036f609326, type: 3}
+    dropRate: 50
+  - name: SpeedPotion
+    item: {fileID: 9041324099276475544, guid: 1a9b048eae9125c4ea2c72285c2a2e0e, type: 3}
+    dropRate: 100
+  spawnedDrops: []
+--- !u!60 &506696975393051908
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,38 +168,23 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.0625, y: 0.96875}
-  m_EdgeRadius: 0
---- !u!114 &4629444371659595090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8923623346139132840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 161565ca62adb2f4b802a1c98c2a82b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 10
---- !u!114 &8857725990024417523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8923623346139132840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2baebaa494b5014db5e0f4e50fe8263, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  drops:
-  - name: HealthPotion
-    item: {fileID: 5899539805644698991, guid: d29aeb630b348a94589e9c036f609326, type: 3}
-    dropRate: 50
-  - name: SpeedPotion
-    item: {fileID: 9041324099276475544, guid: 1a9b048eae9125c4ea2c72285c2a2e0e, type: 3}
-    dropRate: 100
-  spawnedDrops: []
+  m_Points:
+    m_Paths:
+    - - {x: 0.061209917, y: 0.3162171}
+      - {x: -0.0008722618, y: 0.27909327}
+      - {x: -0.18756017, y: 0.24639419}
+      - {x: -0.25936002, y: 0.24720557}
+      - {x: -0.3616887, y: 0.21652645}
+      - {x: -0.47431222, y: 0.15270044}
+      - {x: -0.49257818, y: 0.0059494227}
+      - {x: -0.4985276, y: -0.08109967}
+      - {x: -0.3784245, y: -0.10904713}
+      - {x: -0.35011837, y: -0.22248004}
+      - {x: -0.35715136, y: -0.34005404}
+      - {x: 0.3229569, y: -0.34005427}
+      - {x: 0.442575, y: -0.17683108}
+      - {x: 0.5401741, y: 0.018509716}
+      - {x: 0.5163759, y: 0.13028845}
+      - {x: 0.42373157, y: 0.26479617}
+      - {x: 0.29465145, y: 0.40703124}
+  m_UseDelaunayMesh: 0

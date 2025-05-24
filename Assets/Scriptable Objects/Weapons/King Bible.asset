@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
-  m_Name: Lightning
+  m_Name: King Bible
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: f859b2e3f7386f0468b76dfab9a24857, type: 3}
+  icon: {fileID: 21300000, guid: 014b6726ea178924bac17d007852ab28, type: 3}
   maxLevel: 8
   evolutionData: []
-  behaviour: LightningRingWeapon
+  behaviour: KingBibleWeapon
   baseStats:
-    name: Lightning Ring
-    description: "Yak\u0131n\u0131ndaki d\xFC\u015Fmanlara y\u0131ld\u0131r\u0131m
-      \xE7arpar."
-    projectilePrefab: {fileID: 0}
+    name: Kutsal Kitap
+    description: "Oyuncunun \xE7evresinde halka halinde d\xFC\u015Fmana zarar veren
+      kutsal kitaplar yarat\u0131r."
+    projectilePrefab: {fileID: 7571929012909253252, guid: ea169ee4fc16bd94bb7c63a02e131553, type: 3}
     auraPrefab: {fileID: 0}
-    hitEffect: {fileID: 8472887251694539076, guid: 88dae5dbd3261e24b945f6b17276bf6e, type: 3}
+    hitEffect: {fileID: 0}
     procEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -30,20 +30,20 @@ MonoBehaviour:
       y: 0
       width: 0
       height: 0
-    lifespan: 0
-    damage: 15
-    damageVariance: 5
+    lifespan: 3
+    damage: 10
+    damageVariance: 0
     area: 1
-    speed: 0
-    cooldown: 4.5
-    projectileInterval: 0.05
+    speed: 1
+    cooldown: 3
+    projectileInterval: 0
     knockback: 1
-    number: 2
-    piercing: 0
+    number: 1
+    piercing: 9999
     maxInstances: 50
   linearGrowth:
   - name: Level 2
-    description: "Y\u0131ld\u0131r\u0131m say\u0131s\u0131 1 artar"
+    description: "Kitap say\u0131s\u0131 1 artar"
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
       height: 0
     lifespan: 0
     damage: 0
-    damageVariance: 5
+    damageVariance: 0
     area: 0
     speed: 0
     cooldown: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 3
-    description: "Hasar alan\u0131 %100 geni\u015Fler. Verdi\u011Fi hasar 10 artar."
+    description: "Hasar alan\u0131 %25, H\u0131z %30 artar"
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -78,10 +78,10 @@ MonoBehaviour:
       width: 0
       height: 0
     lifespan: 0
-    damage: 10
-    damageVariance: 5
-    area: 1
-    speed: 0
+    damage: 0
+    damageVariance: 0
+    area: 0.25
+    speed: 0.1
     cooldown: 0
     projectileInterval: 0
     knockback: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 4
-    description: "Y\u0131ld\u0131r\u0131m say\u0131s\u0131 1 artar."
+    description: Hasar 10 artar, silah efekti 0.5 saniye uzar.
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -100,33 +100,10 @@ MonoBehaviour:
       y: 0
       width: 0
       height: 0
-    lifespan: 0
-    damage: 0
-    damageVariance: 5
+    lifespan: 0.5
+    damage: 10
+    damageVariance: 0
     area: 0
-    speed: 0
-    cooldown: 0
-    projectileInterval: 0
-    knockback: 0
-    number: 1
-    piercing: 0
-    maxInstances: 0
-  - name: Level 5
-    description: "Hasar alan\u0131 %100 geni\u015Fler. Verdi\u011Fi hasar 20 artar."
-    projectilePrefab: {fileID: 0}
-    auraPrefab: {fileID: 0}
-    hitEffect: {fileID: 0}
-    procEffect: {fileID: 0}
-    spawnVariance:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    lifespan: 0
-    damage: 20
-    damageVariance: 5
-    area: 1
     speed: 0
     cooldown: 0
     projectileInterval: 0
@@ -134,8 +111,8 @@ MonoBehaviour:
     number: 0
     piercing: 0
     maxInstances: 0
-  - name: Level 6
-    description: "Y\u0131ld\u0131r\u0131m say\u0131s\u0131 1 artar."
+  - name: Level 5
+    description: "Kitap say\u0131s\u0131 1 artar"
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -148,7 +125,7 @@ MonoBehaviour:
       height: 0
     lifespan: 0
     damage: 0
-    damageVariance: 5
+    damageVariance: 0
     area: 0
     speed: 0
     cooldown: 0
@@ -157,8 +134,8 @@ MonoBehaviour:
     number: 1
     piercing: 0
     maxInstances: 0
-  - name: Level 7
-    description: "Hasar alan\u0131 %100 geni\u015Fler. Verdi\u011Fi hasar 20 artar."
+  - name: Level 6
+    description: "Hasar alan\u0131 %25, H\u0131z %30 artar"
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -170,9 +147,32 @@ MonoBehaviour:
       width: 0
       height: 0
     lifespan: 0
-    damage: 20
-    damageVariance: 10
-    area: 1
+    damage: 0
+    damageVariance: 0
+    area: 0.25
+    speed: 0.1
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 7
+    description: Hasar 10 artar, silah efekti 0.5 saniye uzar.
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0.5
+    damage: 10
+    damageVariance: 0
+    area: 0
     speed: 0
     cooldown: 0
     projectileInterval: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 8
-    description: "Y\u0131ld\u0131r\u0131m say\u0131s\u0131 1 artar."
+    description: "Kitap say\u0131s\u0131 1 artar"
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -194,7 +194,7 @@ MonoBehaviour:
       height: 0
     lifespan: 0
     damage: 0
-    damageVariance: 10
+    damageVariance: 0
     area: 0
     speed: 0
     cooldown: 0

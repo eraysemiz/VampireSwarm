@@ -15,13 +15,14 @@ public class DropManager : MonoBehaviour
         public GameObject item;
         public float dropRate;
     }
-
+    public bool active = false;
     public List<Drops> drops;
     public List<GameObject> spawnedDrops;
 
 
     void OnDestroy()
     {
+        if (!active) return;
         if (!gameObject.scene.isLoaded)
             return ;
 
