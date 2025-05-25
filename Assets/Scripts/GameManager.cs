@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
         Gameplay,
         Paused,
         GameOver,
-        LevelUp
+        LevelUp,
+        TreasureChest
     }
 
     public GameState currentState;
@@ -30,6 +31,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseScreen;
     public GameObject resultsScreen;
     public GameObject levelUpScreen;
+    public GameObject treasureChestScreen;
     int stackedLevelUps = 0; // If we try to StartLevelUp() multiple times.
 
     [Header("Result Screen Displays")]
@@ -77,6 +79,8 @@ public class GameManager : MonoBehaviour
                 break;
             case GameState.GameOver:
             case GameState.LevelUp:
+                break;
+            case GameState.TreasureChest:
                 break;
             default:
                 Debug.LogWarning("STATE DOES NOT EXIST");
@@ -181,6 +185,7 @@ public class GameManager : MonoBehaviour
         pauseScreen.SetActive(false);
         resultsScreen.SetActive(false);
         levelUpScreen.SetActive(false);
+        treasureChestScreen.SetActive(false);
     }
 
     public void GameOver()
@@ -255,5 +260,10 @@ public class GameManager : MonoBehaviour
             stackedLevelUps--;
             StartLevelUp();
         }
+    }
+
+    public void StartTreasureChestScreen()
+    {
+
     }
 }

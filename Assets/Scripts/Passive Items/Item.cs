@@ -11,7 +11,7 @@ public abstract class Item : MonoBehaviour
     protected ItemData.Evolution[] evolutionData;
     [HideInInspector] public ItemData data;
     protected PlayerInventory inventory;
-    protected PlayerStats owner;
+    [HideInInspector] public PlayerStats owner;
 
     public PlayerStats Owner { get { return owner; } }
 

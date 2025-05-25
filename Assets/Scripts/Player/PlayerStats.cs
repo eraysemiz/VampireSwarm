@@ -186,7 +186,6 @@ public class PlayerStats : MonoBehaviour
 
     void UpdateExpBar()
     {
-        Debug.Log("EXP BAR UPDATE");
         expBar.fillAmount = (float)experience / experienceCap;
     }
 

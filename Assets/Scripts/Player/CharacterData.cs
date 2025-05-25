@@ -46,6 +46,7 @@ public class CharacterData : ScriptableObject
             s1.amount += s2.amount;
             s1.cooldown += s2.cooldown;
             s1.magnet += s2.magnet;
+
             return s1;
         }
     }

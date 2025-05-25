@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 4f8582b02e153e54aa1d8072305a3d39, type: 3}
   maxLevel: 8
-  evolutionData: []
+  evolutionData:
+  - name: Bloody Tear
+    condition: 1
+    consumes: 2
+    evolutionLevel: 8
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 47f7772449d192944b83bf07f81037bf, type: 2}
+      level: 5
+    outcome:
+      itemType: {fileID: 11400000, guid: 7fe0eae54c47a2c4cb2f932019faaf80, type: 2}
+      level: 1
   behaviour: WhipWeapon
   baseStats:
     name: Whip
@@ -38,6 +48,7 @@ MonoBehaviour:
     cooldown: 1.35
     projectileInterval: 0.1
     knockback: 1
+    critChance: 0
     number: 1
     piercing: 99
     maxInstances: 99
@@ -62,6 +73,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -85,6 +97,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -108,6 +121,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -131,6 +145,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -154,6 +169,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -177,6 +193,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -200,6 +217,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0

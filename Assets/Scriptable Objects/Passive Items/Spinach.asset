@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 9acb79bb2beac514b84e27a88845971f, type: 3}
   maxLevel: 5
   evolutionData:
-  - name: "Binbir B\u0131\xE7ak"
+  - name: Binbir Kesik
     condition: 1
     consumes: 2
     evolutionLevel: 1
@@ -23,8 +23,8 @@ MonoBehaviour:
     - itemType: {fileID: 11400000, guid: 8ea84df9d07d2ca4ba4800879566e48c, type: 2}
       level: 8
     outcome:
-      itemType: {fileID: 0}
-      level: 0
+      itemType: {fileID: 11400000, guid: 4f59bd448e524f14c87228749cd03099, type: 2}
+      level: 1
   baseStats:
     name: Spinach
     description: "Temel hasar\u0131 %10 artt\u0131r\u0131r"

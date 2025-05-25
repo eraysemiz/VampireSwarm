@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 82b6513622eb8284884c67aeb74cb4dd, type: 3}
   maxLevel: 5
-  evolutionData: []
+  evolutionData:
+  - name: Bloody Tear
+    condition: 1
+    consumes: 2
+    evolutionLevel: 5
+    catalysts:
+    - itemType: {fileID: 11400000, guid: c31b9848271885648b08c00b61604e7f, type: 2}
+      level: 8
+    outcome:
+      itemType: {fileID: 11400000, guid: 7fe0eae54c47a2c4cb2f932019faaf80, type: 2}
+      level: 1
   baseStats:
     name: Ekstra Kalp
     description: Maksimum can %20 artar.
@@ -31,6 +41,7 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
   growth:
   - name: Level 2
     description: Maksimum can %20 artar.
@@ -47,6 +58,7 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
   - name: Level 3
     description: Maksimum can %20 artar.
     boosts:
@@ -62,6 +74,7 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
   - name: Level 4
     description: Maksimum can %20 artar.
     boosts:
@@ -77,6 +90,7 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
   - name: Level 5
     description: Maksimum can %20 artar.
     boosts:
@@ -92,3 +106,4 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0

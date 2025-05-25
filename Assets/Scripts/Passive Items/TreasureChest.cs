@@ -35,5 +35,12 @@ public class TreasureChest : MonoBehaviour
 
             }
         }
+
+        // if no evolution available
+    }
+
+    public void OpenTreasureScreen()
+    {
+
     }
 }

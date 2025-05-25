@@ -15,7 +15,7 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 81ae8c4e1412cd54383efc257aea704b, type: 3}
   maxLevel: 8
   evolutionData:
-  - name: Behemoth
+  - name: Binbir Kesik
     condition: 1
     consumes: 2
     evolutionLevel: 8
@@ -23,7 +23,7 @@ MonoBehaviour:
     - itemType: {fileID: 11400000, guid: e97e23b73fde9194bb0587b585075898, type: 2}
       level: 1
     outcome:
-      itemType: {fileID: 0}
+      itemType: {fileID: 11400000, guid: 4f59bd448e524f14c87228749cd03099, type: 2}
       level: 1
   behaviour: ProjectileWeapon
   baseStats:
@@ -47,6 +47,7 @@ MonoBehaviour:
     cooldown: 1
     projectileInterval: 0.1
     knockback: 0.5
+    critChance: 0
     number: 1
     piercing: 1
     maxInstances: 70
@@ -71,6 +72,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -95,6 +97,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -118,6 +121,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -142,6 +146,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 1
     maxInstances: 0
@@ -165,6 +170,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -189,6 +195,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -213,6 +220,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 1
     maxInstances: 0

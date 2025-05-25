@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: ac5451617fff10940a3f5173130bc765, type: 3}
   maxLevel: 5
-  evolutionData: []
+  evolutionData:
+  - name: "Hay\u0131rs\u0131z Dualar"
+    condition: 1
+    consumes: 2
+    evolutionLevel: 1
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 809cf3efdd26e054b9d5321c56000202, type: 2}
+      level: 4
+    outcome:
+      itemType: {fileID: 11400000, guid: 5f492299d2dc5574a9fb72b0e7b09477, type: 2}
+      level: 1
   baseStats:
     name: "\u015Eamdanl\u0131k"
     description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r"

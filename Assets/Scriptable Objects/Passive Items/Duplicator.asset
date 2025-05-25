@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 9e5bffb511be40743951f23a36d42445, type: 3}
   maxLevel: 2
-  evolutionData: []
+  evolutionData:
+  - name: "Y\u0131ld\u0131r\u0131m Zinciri"
+    condition: 1
+    consumes: 2
+    evolutionLevel: 1
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 298cbdb05ded19245b203e971de285eb, type: 2}
+      level: 8
+    outcome:
+      itemType: {fileID: 11400000, guid: 14f3ec577bd8c074ba258a4ec34fe165, type: 2}
+      level: 1
   baseStats:
     name: "\xC7o\u011Falt\u0131c\u0131"
     description: "F\u0131rtat\u0131lan silah say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r"
@@ -31,6 +41,7 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0
   growth:
   - name: Level 2
     description: "F\u0131rtat\u0131lan silah say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r"
@@ -47,3 +58,4 @@ MonoBehaviour:
       cooldown: 0
       magnet: 0
       revival: 0
+      luck: 0

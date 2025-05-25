@@ -20,7 +20,7 @@ public abstract class Weapon : Item
 
         [Header("Values")]
         public float lifespan; // If 0, it will last forever.
-        public float damage, damageVariance, area, speed, cooldown, projectileInterval, knockback;
+        public float damage, damageVariance, area, speed, cooldown, projectileInterval, knockback, critChance;
         public int number, piercing, maxInstances;
 
         // Allows us to use the + operator to add 2 Stats together.
@@ -45,6 +45,7 @@ public abstract class Weapon : Item
             result.piercing = s1.piercing + s2.piercing;
             result.projectileInterval = s1.projectileInterval + s2.projectileInterval;
             result.knockback = s1.knockback + s2.knockback;
+            result.critChance = s1.critChance + s2.critChance;
             return result;
         }
 
@@ -57,7 +58,8 @@ public abstract class Weapon : Item
 
     protected Stats currentStats;
 
-    protected float currentCooldown;
+    protected float currentCooldown, currentCritChance;
+    public bool criticalHit;    // Checks if the damage done is a critical hit.
 
     protected PlayerMovement movement; // Reference to the player's movement.
 
@@ -119,9 +121,30 @@ public abstract class Weapon : Item
     // Gets the amount of damage that the weapon is supposed to deal.
     // Factoring in the weapon's stats (including damage variance),
     // as well as the character's Might stat.
+    // If the weapon has any "critChance", the critical chance will be multiplied by the players luck stat.
+    // if the critical chance is more than or equal to a randomly generated number, the damage done is doubled.
     public virtual float GetDamage()
     {
-        return currentStats.GetDamage() * owner.Stats.might;
+        if (currentStats.critChance > 0)
+        {
+            currentCritChance = currentStats.critChance * owner.Stats.luck;
+
+            if (currentCritChance >= Random.Range(1f, 100f))
+            {
+                criticalHit = true;
+                return currentStats.GetDamage() * owner.Stats.might * 2;
+            }
+            else
+            {
+                criticalHit = false;
+                return currentStats.GetDamage() * owner.Stats.might;
+            }
+        }
+        else
+        {
+            criticalHit = false;
+            return currentStats.GetDamage() * owner.Stats.might;
+        }
     }
 
     // Get the area, including modifications from the player's stats.

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
-  m_Name: Soul Eater
+  m_Name: Thunder Loop
   m_EditorClassIdentifier: 
-  icon: {fileID: -975732921841048486, guid: 7e6e926c6a05f6b4aa285d652eeda4c2, type: 3}
+  icon: {fileID: 21300000, guid: e478a087bd91b2347b5349b882d95f9b, type: 3}
   maxLevel: 1
   evolutionData: []
-  behaviour: AuraWeapon
+  behaviour: ThunderLoopWeapon
   baseStats:
-    name: Soul Eater
-    description: Evolved garlic.
+    name: "Y\u0131ld\u0131r\u0131m D\xF6ng\xFCs\xFC"
+    description: "Y\u0131ld\u0131r\u0131mlar iki defa iner."
     projectilePrefab: {fileID: 0}
-    auraPrefab: {fileID: 1918026942232528484, guid: 0f1d2dfa91d4a5b46ac05db3fdb986dc, type: 3}
-    hitEffect: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 8472887251694539076, guid: 139c5541705a3f14a9f8edfc1d8c1685, type: 3}
     procEffect: {fileID: 0}
     spawnVariance:
       serializedVersion: 2
@@ -30,16 +30,16 @@ MonoBehaviour:
       width: 0
       height: 0
     lifespan: 0
-    damage: 20
-    damageVariance: 30
-    area: 1
+    damage: 65
+    damageVariance: 0
+    area: 4
     speed: 0
-    cooldown: 1
-    projectileInterval: 0
-    knockback: 0
+    cooldown: 4.5
+    projectileInterval: 0.02
+    knockback: 1
     critChance: 0
-    number: 0
-    piercing: 0
-    maxInstances: 0
+    number: 6
+    piercing: 100
+    maxInstances: 70
   linearGrowth: []
   randomGrowth: []

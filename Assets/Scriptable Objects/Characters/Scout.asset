@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e343caec12273604586bc54b92762ba4, type: 3}
-  m_Name: Knife Character
+  m_Name: Scout
   m_EditorClassIdentifier: 
   animationController: {fileID: 9100000, guid: d197596296dac4145a58f5cf111e09e4, type: 2}
   icon: {fileID: -274324416452903874, guid: f68aef538201c5f40bebe722975bfaab, type: 3}
