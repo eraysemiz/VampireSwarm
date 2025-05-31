@@ -17,7 +17,7 @@ MonoBehaviour:
   name: "G\xF6zc\xFC"
   startingWeapon: {fileID: 11400000, guid: 8ea84df9d07d2ca4ba4800879566e48c, type: 2}
   stats:
-    maxHealth: 100
+    maxHealth: 1000
     recovery: 1
     armor: 0
     moveSpeed: 1

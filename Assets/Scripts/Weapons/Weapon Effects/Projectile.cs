@@ -90,6 +90,7 @@ public class Projectile : WeaponEffect
     {
         EnemyStats es = other.GetComponent<EnemyStats>();
         BreakableProps p = other.GetComponent<BreakableProps>();
+        Barrier b = other.GetComponent<Barrier>();
 
         // Only collide with enemies or breakable stuff.
         if (es)
@@ -115,6 +116,17 @@ public class Projectile : WeaponEffect
         {
             p.TakeDamage(GetDamage());
             piercing--;
+
+            Weapon.Stats stats = weapon.GetStats();
+            if (stats.hitEffect)
+            {
+                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
+            }
+        }
+        else if (b)
+        {
+            b.TakeDamage(GetDamage());
+            piercing = 0;
 
             Weapon.Stats stats = weapon.GetStats();
             if (stats.hitEffect)

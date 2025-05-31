@@ -24,7 +24,7 @@ public class EnemyMovement : Sortable
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Picks a random player on the screen, instead of always picking the 1st player.
-        PlayerMovement[] allPlayers = FindObjectsOfType<PlayerMovement>();
+        PlayerMovement[] allPlayers = Object.FindObjectsByType<PlayerMovement>(FindObjectsSortMode.None);
         player = allPlayers[Random.Range(0, allPlayers.Length)].transform;
     }
 

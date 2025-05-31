@@ -9,11 +9,10 @@ TagManager:
   - Prop
   - HealthPotion
   - SpeedPotion
-  - GarlicWeapon
-  - KnifeWeapon
   - MiniBoss
   - FinalBoss
   - BossWeapon
+  - PlayerWeapon
   layers:
   - Default
   - TransparentFX

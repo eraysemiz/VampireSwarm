@@ -11,6 +11,7 @@ public class EnemyStats : MonoBehaviour
     public float currentHealth;
     public float currentDamage;
 
+    public float MaxHealth;
     Transform player;
 
     [Header("Damage Feedback")]
@@ -32,7 +33,8 @@ public class EnemyStats : MonoBehaviour
 
     void Start()
     {
-        player = FindObjectOfType<PlayerStats>().transform;
+        MaxHealth = currentHealth;
+        player = Object.FindFirstObjectByType<PlayerStats>().transform;
         sr = GetComponent<SpriteRenderer>();
         originalColor = sr.color;
 

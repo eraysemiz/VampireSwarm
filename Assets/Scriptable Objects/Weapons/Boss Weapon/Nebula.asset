@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda73aed76f928040a6d15bc364bdb32, type: 3}
   m_Name: Nebula
   m_EditorClassIdentifier: 
-  weaponType: 0
+  weaponType: 3
   damage: 80
   health: 20
-  speed: 2
-  cooldown: 10
+  speed: 4
+  cooldown: 15
   lifespan: 10
   knockback: 1
   weaponPrefab: {fileID: 7777934510525912850, guid: 7026b0a1ce97e13458933422137d0944, type: 3}

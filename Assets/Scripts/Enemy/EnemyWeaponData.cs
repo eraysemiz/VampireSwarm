@@ -9,10 +9,8 @@ public class EnemyWeaponData : ScriptableObject
 
 
     [Header("Stats")]
-
-
     [HideIf("IsBarrier")] public float damage = 10f;
-    [ShowIf("IsBarrier")] public float health = 20f;
+    [ShowIf("IsBarrier")] public float health = 100f;
     [HideIf("IsBarrier")] public float speed = 5f;
     public float cooldown = 2f;
     public float lifespan = 5f;
@@ -21,13 +19,14 @@ public class EnemyWeaponData : ScriptableObject
     [Header("Weapon")]
     public GameObject weaponPrefab;
     public GameObject impactEffect;
-
     [HideInInspector] public bool IsBarrier => weaponType == WeaponType.Barrier;
+    [HideInInspector] public bool IsStar => weaponType == WeaponType.Star;
 }
 
 public enum WeaponType
 {
     Classic,
     Ray,
-    Barrier
+    Barrier,
+    Star
 }

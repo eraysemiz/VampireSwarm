@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponType: 2
   damage: 50
-  health: 300
+  health: 100
   speed: 5
   cooldown: 30
-  lifespan: 20
+  lifespan: 10
   knockback: 1
   weaponPrefab: {fileID: 5626986019522072514, guid: 2535e88bf1a2a1c448fc5eb3dc08aa49, type: 3}
   impactEffect: {fileID: 2765511676486276728, guid: 11884f495bbe94e4a9a6e48e27ccb8b0, type: 3}

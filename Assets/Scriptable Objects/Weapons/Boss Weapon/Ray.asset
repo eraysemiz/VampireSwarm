@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda73aed76f928040a6d15bc364bdb32, type: 3}
   m_Name: Ray
   m_EditorClassIdentifier: 
+  weaponType: 1
   damage: 30
+  health: 20
   speed: 5
   cooldown: 2
-  lifespan: 5
+  lifespan: 0.5
   knockback: 1
-  weaponType: 1
   weaponPrefab: {fileID: 3935629819942681178, guid: d7ce5811cef31c349a146be0cf43ba83, type: 3}
   impactEffect: {fileID: 0}

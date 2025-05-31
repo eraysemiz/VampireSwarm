@@ -21,3 +21,27 @@ MonoBehaviour:
   knockback: 1
   weaponPrefab: {fileID: 8508302926186402669, guid: 3d34fdaf2c0671a4a858288c4634be03, type: 3}
   impactEffect: {fileID: 4693187999679924962, guid: 16656b9423bdfbe4c9e4146de27e2dee, type: 3}
+  growthCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.2
+      inSlope: 0
+      outSlope: 1.8
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 2
+      inSlope: 1.8
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
