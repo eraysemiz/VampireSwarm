@@ -45,6 +45,9 @@ public class GameManager : MonoBehaviour
     float stopwatchTime;    // Oyunda ge�en s�re
     public TextMeshProUGUI stopwatchDisplay;
 
+    [Header("TreasureChest")]
+    private UIChestRewardDisplay chestDisplay;
+
 
     public bool isGameOver { get { return currentState == GameState.GameOver; } }
     public bool choosingUpgrade { get { return currentState == GameState.LevelUp; } }
@@ -262,8 +265,24 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void StartTreasureChestScreen()
-    {
+    public void StartTreasureChestScreen(List<RewardInfo> rewards)
+    { 
+        treasureChestScreen.SetActive(true);
+        chestDisplay = treasureChestScreen.GetComponent<UIChestRewardDisplay>();
+        if (chestDisplay == null)
+        {
+            Debug.LogError("[GM] UIChestRewardDisplay component’i bulunamadı!");
+            return;
+        }
+        chestDisplay.ShowRewards(rewards);
+        ChangeState(GameState.TreasureChest);
+        Time.timeScale = 0f;
+    }
 
+    public void EndTreasureChestScreen()
+    {
+        treasureChestScreen.SetActive(false);
+        ChangeState(GameState.Gameplay);
+        Time.timeScale = 1f;
     }
 }

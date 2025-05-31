@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda73aed76f928040a6d15bc364bdb32, type: 3}
+  m_Name: Barrier
+  m_EditorClassIdentifier: 
+  weaponType: 2
+  damage: 50
+  health: 300
+  speed: 5
+  cooldown: 30
+  lifespan: 20
+  knockback: 1
+  weaponPrefab: {fileID: 5626986019522072514, guid: 2535e88bf1a2a1c448fc5eb3dc08aa49, type: 3}
+  impactEffect: {fileID: 2765511676486276728, guid: 11884f495bbe94e4a9a6e48e27ccb8b0, type: 3}

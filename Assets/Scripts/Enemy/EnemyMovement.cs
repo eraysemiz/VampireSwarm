@@ -6,6 +6,7 @@ public class EnemyMovement : Sortable
 {
     protected EnemyStats enemy;
     protected Transform player;
+    protected SpriteRenderer spriteRenderer;
 
     protected Vector2 knockbackVelocity;
     protected float knockbackDuration;
@@ -20,7 +21,7 @@ public class EnemyMovement : Sortable
         base.Start();
         spawnedOutOfFrame = !SpawnManager.IsWithinBoundaries(transform);
         enemy = GetComponent<EnemyStats>();
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         // Picks a random player on the screen, instead of always picking the 1st player.
         PlayerMovement[] allPlayers = FindObjectsOfType<PlayerMovement>();
@@ -85,5 +86,12 @@ public class EnemyMovement : Sortable
     {
         // Constantly move the enemy towards the player
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, enemy.currentMoveSpeed * Time.deltaTime);
+        Vector3 direction = player.position - transform.position;
+
+        // Flip sprite based on direction
+        if (direction.x > 0)
+            spriteRenderer.flipX = false;  // Sað tarafa bak
+        else if (direction.x < 0)
+            spriteRenderer.flipX = true;   // Sol tarafa bak
     }
 }

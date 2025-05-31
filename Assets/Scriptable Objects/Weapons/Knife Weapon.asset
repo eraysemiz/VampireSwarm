@@ -27,7 +27,7 @@ MonoBehaviour:
       level: 1
   behaviour: ProjectileWeapon
   baseStats:
-    name: Knife
+    name: "B\u0131\xE7ak"
     description: "Hareket edilen y\xF6ne b\u0131\xE7ak f\u0131rlat\u0131r."
     projectilePrefab: {fileID: -8843651826359149271, guid: d0aa6a9c6f37dd349b802b0e1b731b72, type: 3}
     auraPrefab: {fileID: 0}
@@ -112,7 +112,7 @@ MonoBehaviour:
       x: 0
       y: -0.2
       width: 0
-      height: 0
+      height: 0.4
     lifespan: 0
     damage: 0
     damageVariance: 1

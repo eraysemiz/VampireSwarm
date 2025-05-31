@@ -164,6 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbfdfa3a53b5dd48acc88aff4b80322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sortingActive: 1
   outOfFrameAction: 1
 --- !u!114 &4799936890518749725
 MonoBehaviour:
@@ -178,7 +179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMoveSpeed: 3
-  currentHealth: 2000
+  currentHealth: 10000
   currentDamage: 200
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2

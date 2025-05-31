@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
   m_Name: Soul Eater
   m_EditorClassIdentifier: 
-  icon: {fileID: -975732921841048486, guid: 7e6e926c6a05f6b4aa285d652eeda4c2, type: 3}
+  icon: {fileID: 21300000, guid: 4369b20e352ec5c41baae3cd1cc2ac41, type: 3}
   maxLevel: 1
   evolutionData: []
   behaviour: AuraWeapon
   baseStats:
-    name: Soul Eater
-    description: Evolved garlic.
+    name: Ruh Emici
+    description: "Sar\u0131msak Evrimi"
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 1918026942232528484, guid: 0f1d2dfa91d4a5b46ac05db3fdb986dc, type: 3}
     hitEffect: {fileID: 0}
@@ -32,7 +32,7 @@ MonoBehaviour:
     lifespan: 0
     damage: 20
     damageVariance: 30
-    area: 1
+    area: 8
     speed: 0
     cooldown: 1
     projectileInterval: 0

@@ -86,7 +86,8 @@ public class PlayerStats : MonoBehaviour
     [Header("Visuals")]
     public ParticleSystem damageEffect;
     public ParticleSystem blockedEffect;
-
+    public GameObject healEffect;
+    public GameObject damageAnimation;
 
     void Awake()
     {
@@ -208,7 +209,7 @@ public class PlayerStats : MonoBehaviour
                 CurrentHealth -= damage;
 
                 // If there is a damage effect assigned, play it.
-                if (damageEffect) Destroy(Instantiate(damageEffect, transform.position, Quaternion.identity), 5f);
+                if (damageAnimation) Destroy(Instantiate(damageAnimation, transform.position, Quaternion.identity), 1f);
 
                 if (CurrentHealth <= 0)
                 {
@@ -242,6 +243,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (CurrentHealth < actualStats.maxHealth)
         {
+            Debug.Log("Restoring Health");
             CurrentHealth += amount;
 
             // Make sure the player's health doesn't exceed their maximum health
@@ -249,6 +251,7 @@ public class PlayerStats : MonoBehaviour
             {
                 CurrentHealth = actualStats.maxHealth;
             }
+            if (healEffect) Destroy(Instantiate(healEffect, transform.position, Quaternion.identity), 1.5f);
         }
 
     }
@@ -302,7 +305,6 @@ public class PlayerStats : MonoBehaviour
             if (CurrentHealth > actualStats.maxHealth)
                 CurrentHealth = actualStats.maxHealth;
         }
-
         UpdateHealthBar();
     }
 

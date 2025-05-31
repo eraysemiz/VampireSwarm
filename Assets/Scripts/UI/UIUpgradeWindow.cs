@@ -84,7 +84,14 @@ public class UIUpgradeWindow : MonoBehaviour
                 TextMeshProUGUI name = r.Find(namePath).GetComponent<TextMeshProUGUI>();
                 if (name)
                 {
-                    name.text = selected.name;
+                    if (item)
+                    {
+                        name.text = selected.GetLevelData(item.currentLevel + 1).name;
+                    }
+                    else
+                    {
+                        name.text = selected.GetLevelData(1).name;
+                    }
                 }
 
                 // Insert the current level of the item, or a "New!" text if it is a new weapon.

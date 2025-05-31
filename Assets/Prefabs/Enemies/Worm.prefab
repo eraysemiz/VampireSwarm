@@ -173,6 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bbfdfa3a53b5dd48acc88aff4b80322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sortingActive: 1
   outOfFrameAction: 1
 --- !u!114 &4726032885580932741
 MonoBehaviour:
@@ -187,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMoveSpeed: 2
-  currentHealth: 80
+  currentHealth: 160
   currentDamage: 2
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
@@ -212,10 +213,13 @@ MonoBehaviour:
   - name: Red Gem
     item: {fileID: 4037843937551974042, guid: d616876a0eefe154da8b873aaad72765, type: 3}
     dropRate: 20
-  - name: Blue Gem
+  - name: Diamond
     item: {fileID: 4764089607250484290, guid: 22d09687937cb0448ae3e70d2d80fb22, type: 3}
     dropRate: 5
   spawnedDrops: []
+  dropTreasureChests: 1
+  chestDropRate: 2
+  chestPrefab: {fileID: 7165942340045840176, guid: 9ba8a760e68abf242b7dd3a39649d085, type: 3}
 --- !u!50 &6737621659391893876
 Rigidbody2D:
   serializedVersion: 5

@@ -26,7 +26,7 @@ MonoBehaviour:
       itemType: {fileID: 11400000, guid: ef8d30dd1b5754b48ab7b63d54583547, type: 2}
       level: 1
   baseStats:
-    name: Pummarola
+    name: "Vi\u015Fne Suyu"
     description: "Can yenilenmesini %20 artt\u0131r\u0131r"
     boosts:
       maxHealth: 0

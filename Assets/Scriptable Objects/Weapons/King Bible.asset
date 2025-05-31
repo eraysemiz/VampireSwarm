@@ -18,7 +18,7 @@ MonoBehaviour:
   - name: "Hay\u0131rs\u0131z Dualar"
     condition: 1
     consumes: 2
-    evolutionLevel: 4
+    evolutionLevel: 8
     catalysts:
     - itemType: {fileID: 11400000, guid: effb07e792d773c4096f211bb29bd696, type: 2}
       level: 1

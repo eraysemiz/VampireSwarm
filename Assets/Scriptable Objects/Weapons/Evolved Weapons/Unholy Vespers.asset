@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
   m_Name: Unholy Vespers
   m_EditorClassIdentifier: 
-  icon: {fileID: -2108055075359774045, guid: 7e6e926c6a05f6b4aa285d652eeda4c2, type: 3}
+  icon: {fileID: 21300000, guid: 3e3aed9ab40956b4a8aabedc15625f4a, type: 3}
   maxLevel: 1
   evolutionData: []
   behaviour: UnholyVespersWeapon
   baseStats:
     name: "Hay\u0131rs\u0131z Dualar"
-    description: Kitaplar sonsuza kadar varolur.
+    description: Kutsal Kitap Evrimi, Kitaplar sonsuza kadar varolur.
     projectilePrefab: {fileID: 7571929012909253252, guid: 54826b4fe0a95f444800f2349a67e301, type: 3}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}

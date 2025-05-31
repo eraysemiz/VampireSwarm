@@ -17,8 +17,9 @@ MonoBehaviour:
   evolutionData: []
   behaviour: AxeWeapon
   baseStats:
-    name: Axe
-    description: 
+    name: Balta
+    description: "Yukar\u0131ya do\u011Fru balta f\u0131rlat\u0131r. F\u0131rlat\u0131lan
+      balta a\u015Fa\u011F\u0131ya do\u011Fru d\xFC\u015Fer."
     projectilePrefab: {fileID: 4592746863212121744, guid: 665001e74f57d9e40af5ada157c38ce8, type: 3}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -37,6 +38,7 @@ MonoBehaviour:
     cooldown: 4
     projectileInterval: 0.2
     knockback: 1
+    critChance: 0
     number: 1
     piercing: 3
     maxInstances: 99
@@ -61,6 +63,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -84,6 +87,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -107,6 +111,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 2
     maxInstances: 0
@@ -130,6 +135,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 1
     piercing: 0
     maxInstances: 0
@@ -153,6 +159,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0
@@ -176,6 +183,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 2
     maxInstances: 0
@@ -199,6 +207,7 @@ MonoBehaviour:
     cooldown: 0
     projectileInterval: 0
     knockback: 0
+    critChance: 0
     number: 0
     piercing: 0
     maxInstances: 0

@@ -498,7 +498,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Simyac\u0131"
+  m_text: "Avc\u0131"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1416,7 +1416,7 @@ MonoBehaviour:
         m_MethodName: SelectCharacter
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 8f4ae35075966e0419d0e1f85589101c, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: 38e2f3cfe99324d4b9e4c281827481e2, type: 2}
           m_ObjectArgumentAssemblyTypeName: CharacterData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: asd
+  m_text: "Ufakl\u0131k"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

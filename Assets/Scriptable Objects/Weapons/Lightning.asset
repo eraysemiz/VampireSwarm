@@ -27,7 +27,7 @@ MonoBehaviour:
       level: 1
   behaviour: LightningRingWeapon
   baseStats:
-    name: Lightning Ring
+    name: "Y\u0131ld\u0131r\u0131m Y\xFCz\xFC\u011F\xFC"
     description: "Yak\u0131n\u0131ndaki d\xFC\u015Fmanlara y\u0131ld\u0131r\u0131m
       \xE7arpar."
     projectilePrefab: {fileID: 0}

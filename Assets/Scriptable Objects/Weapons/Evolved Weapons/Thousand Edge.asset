@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
   m_Name: Thousand Edge
   m_EditorClassIdentifier: 
-  icon: {fileID: 21300000, guid: 81ae8c4e1412cd54383efc257aea704b, type: 3}
+  icon: {fileID: 21300000, guid: f1885a90eb3d7ed4c8454b2bbc2782c2, type: 3}
   maxLevel: 1
   evolutionData: []
   behaviour: ProjectileWeapon
   baseStats:
     name: Binbir Kesik
-    description: "S\xFCrekli b\u0131\xE7ak f\u0131rlat\u0131r."
+    description: "B\u0131\xE7ak Evrimi, S\xFCrekli b\u0131\xE7ak f\u0131rlat\u0131r."
     projectilePrefab: {fileID: -8843651826359149271, guid: d0aa6a9c6f37dd349b802b0e1b731b72, type: 3}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}

@@ -1,4 +1,5 @@
 using JetBrains.Annotations;
+using NaughtyAttributes;
 using NUnit.Framework;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -19,12 +20,19 @@ public class DropManager : MonoBehaviour
     public List<Drops> drops;
     public List<GameObject> spawnedDrops;
 
+    [Header("Treasure Chest Settings")]
+    public bool dropTreasureChests = false;
+
+    [Tooltip("Chest drop chance in percentage (0–100)")]
+    [ShowIf("dropTreasureChests")] [UnityEngine.Range(0, 100)] public int chestDropRate;
+    [ShowIf("dropTreasureChests")] public GameObject chestPrefab;
+
+
 
     void OnDestroy()
     {
-        if (!active) return;
-        if (!gameObject.scene.isLoaded)
-            return ;
+        if (!active || !gameObject.scene.isLoaded)
+            return;
 
 
         float rand = Random.Range(0f, 100f);
@@ -32,6 +40,18 @@ public class DropManager : MonoBehaviour
         if (CompareTag("Enemy") || CompareTag("MiniBoss"))
         {
             GameObject spawnedGem;
+
+            if (CompareTag("MiniBoss"))
+            {
+                // Belirli bir ihtimalle sandýk düþür
+                if (rand <= chestDropRate)
+                {
+                    GameObject chest = Instantiate(chestPrefab, transform.position, Quaternion.identity);
+                    spawnedDrops.Add(chest);
+                }
+            }
+
+
             if (rand <= drops[2].dropRate)
             {
                 spawnedGem = Instantiate(drops[2].item, transform.position, Quaternion.identity);
