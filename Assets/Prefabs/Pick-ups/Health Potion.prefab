@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2129401799
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0fea08550b3ae874d9f11e038dc9314b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -175,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c7b59e7ba859346983609d76fdd14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sortingActive: 1
   lifespan: 0.5
   bobbingAnimation:
     frequency: 2
@@ -183,3 +184,4 @@ MonoBehaviour:
   health: 40
   moveSpeed: 0
   moveSpeedDuration: 0
+  isMagnet: 0

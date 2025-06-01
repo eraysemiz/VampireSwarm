@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     [Header("Screens")]
     public GameObject pauseScreen;
     public GameObject resultsScreen;
+    public GameObject victoryScreen;
     public GameObject levelUpScreen;
     public GameObject treasureChestScreen;
     int stackedLevelUps = 0; // If we try to StartLevelUp() multiple times.
@@ -47,6 +48,8 @@ public class GameManager : MonoBehaviour
 
     [Header("TreasureChest")]
     private UIChestRewardDisplay chestDisplay;
+
+    public bool hasFinalBossDefeated = false;
 
 
     public bool isGameOver { get { return currentState == GameState.GameOver; } }
@@ -205,6 +208,9 @@ public class GameManager : MonoBehaviour
     void DisplayResults()
     {
         resultsScreen.SetActive(true);
+
+        if (hasFinalBossDefeated) 
+            victoryScreen.SetActive(true);
     }
 
     public void AssingChosenCharacterUI(CharacterData chosenCharacterData)

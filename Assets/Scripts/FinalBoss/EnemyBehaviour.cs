@@ -18,6 +18,7 @@ public class EnemyBehaviour : MonoBehaviour
     private float lastHealth;
 
     public Image healthBar;
+    public GameObject deathEffect;
 
     public Vector2 LastMoveDirection { get; private set; } = Vector2.right;
 

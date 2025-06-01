@@ -80,10 +80,21 @@ public class EnemyStats : MonoBehaviour
     {
         // Enable drops if the enemy is killed,
         // since drops are disabled by default.
+
         DropManager drops = GetComponent<DropManager>();
         if (drops) drops.active = true;
 
         StartCoroutine(KillFade());
+
+        if (CompareTag("FinalBoss"))
+        {
+            Invoke(nameof(TriggerGameOver), 3f);
+        }
+    }
+    private void TriggerGameOver()
+    {
+        GameManager.instance.hasFinalBossDefeated = true;
+        GameManager.instance.ChangeState(GameManager.GameState.GameOver);
     }
 
     // This is a Coroutine function that fades the enemy away slowly.

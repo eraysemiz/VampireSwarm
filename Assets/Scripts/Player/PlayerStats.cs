@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -36,7 +36,7 @@ public class PlayerStats : MonoBehaviour
         get { return health; }
         set
         {
-            // currentHealth değişkeni her değiştirildiğinde set bloğu çalışır ve eğer atanmaya çalışılan "value", mevcut değerden farklı ise atama işlemi yapılır
+            // currentHealth deÄŸiÅŸkeni her deÄŸiÅŸtirildiÄŸinde set bloÄŸu Ã§alÄ±ÅŸÄ±r ve eÄŸer atanmaya Ã§alÄ±ÅŸÄ±lan "value", mevcut deÄŸerden farklÄ± ise atama iÅŸlemi yapÄ±lÄ±r
             if (health != value)
             {
                 health = value;
@@ -46,7 +46,7 @@ public class PlayerStats : MonoBehaviour
     }
 
 
-    // Oyuncunun seviyesi ve deneyim puanı
+    // Oyuncunun seviyesi ve deneyim puanÄ±
     public int experience = 0;
     public int level = 1;
     public int experienceCap = 0;
@@ -61,14 +61,14 @@ public class PlayerStats : MonoBehaviour
     }
 
 
-    // Oyuncu hasar alma kısıtlamaları
+    // Oyuncu hasar alma kÄ±sÄ±tlamalarÄ±
     public float invincibilityDuration;
     float invincibilityTimer;
     bool isInvincible = false;
 
     public List<LevelRange> levelRanges;
 
-    // Potion timerları
+    // Potion timerlarÄ±
     [HideInInspector] public float oldMoveSpeed;
     [HideInInspector] public bool isSpeedBoosted = false;
     [HideInInspector] public Coroutine activeSpeedBoostCoroutine;
@@ -131,6 +131,7 @@ public class PlayerStats : MonoBehaviour
             isInvincible = false;
         }
 
+        //PositionHealthBarBelowPlayer();
         Recover();
     }
 
@@ -241,6 +242,7 @@ public class PlayerStats : MonoBehaviour
 
     public void RestoreHealth(float amount)
     {
+        if (healEffect) Destroy(Instantiate(healEffect, transform.position, Quaternion.identity), 0.7f);
         if (CurrentHealth < actualStats.maxHealth)
         {
             Debug.Log("Restoring Health");
@@ -251,7 +253,6 @@ public class PlayerStats : MonoBehaviour
             {
                 CurrentHealth = actualStats.maxHealth;
             }
-            if (healEffect) Destroy(Instantiate(healEffect, transform.position, Quaternion.identity), 1.5f);
         }
 
     }

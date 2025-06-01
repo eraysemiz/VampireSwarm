@@ -102,7 +102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 161565ca62adb2f4b802a1c98c2a82b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
 --- !u!114 &-6012348628759433332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119,11 +119,17 @@ MonoBehaviour:
   drops:
   - name: HealthPotion
     item: {fileID: 5899539805644698991, guid: d29aeb630b348a94589e9c036f609326, type: 3}
-    dropRate: 50
+    dropRate: 100
   - name: SpeedPotion
     item: {fileID: 9041324099276475544, guid: 1a9b048eae9125c4ea2c72285c2a2e0e, type: 3}
-    dropRate: 100
+    dropRate: 50
+  - name: Magnet
+    item: {fileID: 4764089607250484290, guid: 9be48420fd948cc4a8b5e80351818513, type: 3}
+    dropRate: 25
   spawnedDrops: []
+  dropTreasureChests: 0
+  chestDropRate: 50
+  chestPrefab: {fileID: 0}
 --- !u!60 &1262758853735137748
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: 5. Wave
   m_EditorClassIdentifier: 
   possibleSpawnPrefabs:
-  - {fileID: 8226293262766027471, guid: 9f43e2251330038449d515563e8176e5, type: 3}
-  - {fileID: 8226293262766027471, guid: 9f43e2251330038449d515563e8176e5, type: 3}
-  - {fileID: 8226293262766027471, guid: 9f43e2251330038449d515563e8176e5, type: 3}
-  - {fileID: 8226293262766027471, guid: 9f43e2251330038449d515563e8176e5, type: 3}
+  - {fileID: 3085058183587209935, guid: 23cbd53b961a5344fb63feb0c67bd97c, type: 3}
+  - {fileID: 3085058183587209935, guid: 23cbd53b961a5344fb63feb0c67bd97c, type: 3}
+  - {fileID: 7892689132495854778, guid: 13f6beee089b9d64191f85e031b91816, type: 3}
+  - {fileID: 3085058183587209935, guid: 23cbd53b961a5344fb63feb0c67bd97c, type: 3}
   spawnInterval: {x: 1, y: 2}
   spawnsPerTick: {x: 4, y: 5}
   duration: 60

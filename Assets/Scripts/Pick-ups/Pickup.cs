@@ -26,6 +26,7 @@ public class Pickup : Sortable
     public int health;
     public float moveSpeed;
     public float moveSpeedDuration;
+    public bool isMagnet;
 
     protected override void Start()
     {
@@ -72,6 +73,20 @@ public class Pickup : Sortable
         if (!target) return;
         if (experience != 0) target.IncreaseExperience(experience);
         if (health != 0) target.RestoreHealth(health);
+        if (isMagnet)
+        {
+            // Tüm sahnedeki diðer pickup'larý bul ve çek
+            foreach (Pickup pickup in Object.FindObjectsByType<Pickup>(FindObjectsSortMode.None))
+            {
+                // Kendini hariç tut
+                if (pickup == this) continue;
+
+                // Zaten hedefe yönelmiþse geç
+                if (pickup.target != null) continue;
+
+                pickup.Collect(target, speed: 12f, lifespan: 2f); // hýz ve süreyi isteðe göre ayarla
+            }
+        }
         //if (moveSpeed != 0) target.ApplySpeedBoost(moveSpeed, moveSpeedDuration);
     }
 }

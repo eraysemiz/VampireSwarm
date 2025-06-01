@@ -286,7 +286,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4771608748767393867}
@@ -381,7 +381,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6889576982525076667}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bbfdfa3a53b5dd48acc88aff4b80322, type: 3}
   m_Name: 
@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMoveSpeed: 3
-  currentHealth: 100
+  currentHealth: 5000
   currentDamage: 200
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
@@ -548,5 +548,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4051fdc39f841d444b3495ae5f395999, type: 2}
   - {fileID: 11400000, guid: cc96e430c6929364f95dc09fb5859c14, type: 2}
   - {fileID: 11400000, guid: 97690a06fe159e442a234bed9c5631b4, type: 2}
-  detectionRange: 200
+  detectionRange: 100
   healthBar: {fileID: 9001367911205249713}
+  deathEffect: {fileID: 6816151664296711504, guid: cb6b9f14c7947f94aaa5a8f92936afae, type: 3}

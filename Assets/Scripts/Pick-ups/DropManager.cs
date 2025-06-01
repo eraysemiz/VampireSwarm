@@ -19,6 +19,7 @@ public class DropManager : MonoBehaviour
     public bool active = false;
     public List<Drops> drops;
     public List<GameObject> spawnedDrops;
+    private Transform gemParent;
 
     [Header("Treasure Chest Settings")]
     public bool dropTreasureChests = false;
@@ -35,19 +36,30 @@ public class DropManager : MonoBehaviour
             return;
 
 
+
+        if (gemParent == null)
+        {
+            GameObject holder = GameObject.Find("Gems");
+            if (holder == null)
+                holder = new GameObject("Gems");
+
+            gemParent = holder.transform;
+        }
+
         float rand = Random.Range(0f, 100f);
 
         if (CompareTag("Enemy") || CompareTag("MiniBoss"))
         {
             GameObject spawnedGem;
 
-            if (CompareTag("MiniBoss"))
+            if (dropTreasureChests)
             {
                 // Belirli bir ihtimalle sandýk düþür
                 if (rand <= chestDropRate)
                 {
                     GameObject chest = Instantiate(chestPrefab, transform.position, Quaternion.identity);
                     spawnedDrops.Add(chest);
+                    return;
                 }
             }
 
@@ -55,17 +67,19 @@ public class DropManager : MonoBehaviour
             if (rand <= drops[2].dropRate)
             {
                 spawnedGem = Instantiate(drops[2].item, transform.position, Quaternion.identity);
+                spawnedGem.transform.SetParent(gemParent);
             }
             else if (rand <= drops[1].dropRate)
             {
                 spawnedGem = Instantiate(drops[1].item, transform.position, Quaternion.identity);
+                spawnedGem.transform.SetParent(gemParent);
             }
             else
             {
                 spawnedGem = Instantiate(drops[0].item, transform.position, Quaternion.identity);
+                spawnedGem.transform.SetParent(gemParent);
             }
             spawnedDrops.Add(spawnedGem);
-            //Destroy(spawnedGem, 30f);
         }
         if (CompareTag("Prop"))
         {
@@ -73,9 +87,9 @@ public class DropManager : MonoBehaviour
             {
                 if (rand <= potion.dropRate)
                 {
+                    Debug.Log("Spawning Potion: " + potion.name);
                     GameObject spawnedPotion = Instantiate(potion.item, transform.position, Quaternion.identity);
                     spawnedDrops.Add(spawnedPotion);
-                    Destroy(spawnedPotion, 30f);
                     break;
                 }
             }
@@ -88,8 +102,8 @@ public class DropManager : MonoBehaviour
             {
                 Vector3 spawnPosition = transform.position + Random.insideUnitSphere * 2f; // Slightly randomize the spawn position
                 GameObject spawnedGem = Instantiate(drops[2].item, spawnPosition, Quaternion.identity);
+                spawnedGem.transform.SetParent(gemParent);
                 spawnedDrops.Add(spawnedGem);
-                Destroy(spawnedGem, 30f);
             }
         }
     }

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52e1e668e245504399121b5bd2ef24e, type: 3}
+  m_Name: Mushroom Boss Wave
+  m_EditorClassIdentifier: 
+  possibleSpawnPrefabs:
+  - {fileID: 3630393958958556205, guid: c386aff205c39c44793e42a1b8ec0e6d, type: 3}
+  spawnInterval: {x: 1, y: 2}
+  spawnsPerTick: {x: 1, y: 1}
+  duration: 1
+  startingCount: 0
+  totalSpawns: 1
+  exitConditions: 2
+  mustKillAll: 1
+  spawnCount: 0

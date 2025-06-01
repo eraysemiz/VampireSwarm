@@ -16,6 +16,10 @@ public class BreakableProps : MonoBehaviour
 
     void Kill()
     {
+        DropManager drops = GetComponent<DropManager>();
+        if (drops) drops.active = true;
+
+
         Destroy(gameObject);
     }
 }
