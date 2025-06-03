@@ -14,7 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 5c5669be34227cc48ae004493fd86af6, type: 3}
   maxLevel: 8
-  evolutionData: []
+  evolutionData:
+  - name: "\xD6l\xFCm Sarmal\u0131"
+    condition: 1
+    consumes: 2
+    evolutionLevel: 8
+    catalysts:
+    - itemType: {fileID: 11400000, guid: effb07e792d773c4096f211bb29bd696, type: 2}
+      level: 1
+    outcome:
+      itemType: {fileID: 11400000, guid: 19343c02a1bdfa64a99f88bc10f4d36c, type: 2}
+      level: 1
   behaviour: AxeWeapon
   baseStats:
     name: Balta

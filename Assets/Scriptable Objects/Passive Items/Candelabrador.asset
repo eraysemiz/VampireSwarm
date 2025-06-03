@@ -20,10 +20,10 @@ MonoBehaviour:
     consumes: 2
     evolutionLevel: 1
     catalysts:
-    - itemType: {fileID: 11400000, guid: 809cf3efdd26e054b9d5321c56000202, type: 2}
-      level: 4
+    - itemType: {fileID: 11400000, guid: 426a14a28fed1f04ea3ac9e8af04f587, type: 2}
+      level: 8
     outcome:
-      itemType: {fileID: 11400000, guid: 5f492299d2dc5574a9fb72b0e7b09477, type: 2}
+      itemType: {fileID: 11400000, guid: 19343c02a1bdfa64a99f88bc10f4d36c, type: 2}
       level: 1
   baseStats:
     name: "\u015Eamdanl\u0131k"

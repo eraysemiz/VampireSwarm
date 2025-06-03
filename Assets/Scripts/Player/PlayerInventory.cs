@@ -109,12 +109,12 @@ public class PlayerInventory : MonoBehaviour
         // Remove this passive from the upgrade pool.
         if (removeUpgradeAvailability) availablePassives.Remove(data);
 
-        for (int i = 0; i < weaponSlots.Count; i++)
+        for (int i = 0; i < passiveSlots.Count; i++)
         {
-            Passive p = weaponSlots[i].item as Passive;
+            Passive p = passiveSlots[i].item as Passive;
             if (p.data == data)
             {
-                weaponSlots[i].Clear();
+                passiveSlots[i].Clear();
                 p.OnUnequip();
                 Destroy(p.gameObject);
                 return true;

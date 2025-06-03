@@ -20,7 +20,7 @@ MonoBehaviour:
     consumes: 2
     evolutionLevel: 8
     catalysts:
-    - itemType: {fileID: 11400000, guid: effb07e792d773c4096f211bb29bd696, type: 2}
+    - itemType: {fileID: 11400000, guid: 143e44d978ccbe3459dd25b93264ebed, type: 2}
       level: 1
     outcome:
       itemType: {fileID: 11400000, guid: 5f492299d2dc5574a9fb72b0e7b09477, type: 2}

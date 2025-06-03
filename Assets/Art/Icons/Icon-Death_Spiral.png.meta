@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 71419535545b5684fb19492146d0ab19
+guid: ac00b5cf394f92d4495b970b86b851dc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2644002291191309311
-    second: Character_Card_0
+      213: -3027333942476569636
+    second: Icon-Death_Spiral_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_Card_0
+      name: Icon-Death_Spiral_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 1024
+        width: 192
+        height: 192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff3e6c7431261b420800000000000000
-      internalID: 2644002291191309311
+      spriteID: cd3833e91dfbcf5d0800000000000000
+      internalID: -3027333942476569636
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Character_Card_0: 2644002291191309311
+      Icon-Death_Spiral_0: -3027333942476569636
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
