@@ -15,6 +15,7 @@ MonoBehaviour:
   animationController: {fileID: 22100000, guid: 235b04a36e664f54c84311669ae1ed2d, type: 2}
   icon: {fileID: 4723107735738678597, guid: 8cf55af58633528498cbc8274a1f32c2, type: 3}
   name: "B\xFCy\xFCc\xFC"
+  description: "Kutsal kitap silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 809cf3efdd26e054b9d5321c56000202, type: 2}
   stats:
     maxHealth: 100

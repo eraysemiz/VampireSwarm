@@ -15,6 +15,7 @@ MonoBehaviour:
   animationController: {fileID: 22100000, guid: d021689fef240c84fa096dbf4ba6612b, type: 2}
   icon: {fileID: 1880399943, guid: d8a46fafe7200e34da925a7e50d91042, type: 3}
   name: "Ufakl\u0131k"
+  description: "K\u0131rba\xE7 silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: c31b9848271885648b08c00b61604e7f, type: 2}
   stats:
     maxHealth: 100

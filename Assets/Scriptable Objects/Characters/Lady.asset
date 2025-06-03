@@ -15,6 +15,7 @@ MonoBehaviour:
   animationController: {fileID: 22100000, guid: 235b04a36e664f54c84311669ae1ed2d, type: 2}
   icon: {fileID: 6084859605308855041, guid: edddc26d61999fc4c8f9903ff1e41b26, type: 3}
   name: "B\xFCy\xFCc\xFC"
+  description: "Y\u0131ld\u0131r\u0131m y\xFCz\xFC\u011F\xFC silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 298cbdb05ded19245b203e971de285eb, type: 2}
   stats:
     maxHealth: 100

@@ -14,6 +14,10 @@ public class CharacterData : ScriptableObject
     public string Name { get => name; private set => name = value; }
 
     [SerializeField]
+    string description;
+    public string Description { get => description; private set => description = value; }
+
+    [SerializeField]
     WeaponData startingWeapon;
     public WeaponData StartingWeapon { get => startingWeapon; private set => startingWeapon = value; }
 

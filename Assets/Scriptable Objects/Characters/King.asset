@@ -15,6 +15,7 @@ MonoBehaviour:
   animationController: {fileID: 22100000, guid: 5cfc00b501b761f43a8c88407ca3bc42, type: 2}
   icon: {fileID: 4723107735738678597, guid: 065d68c386083144588b12ec316f01b5, type: 3}
   name: Kral
+  description: "Balta silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 426a14a28fed1f04ea3ac9e8af04f587, type: 2}
   stats:
     maxHealth: 100
