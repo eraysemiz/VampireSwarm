@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
+  m_Name: Chain Lightning
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  maxLevel: 0
+  evolutionData: []
+  behaviour: ChainLightningWeapon
+  baseStats:
+    name: "Y\u0131ld\u0131r\u0131m Zinciri"
+    description: 
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 100002, guid: 6a25c52f7530c1645878066a4d55969a, type: 3}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 3
+    damage: 10
+    damageVariance: 0
+    area: 1
+    speed: 4
+    cooldown: 3
+    projectileInterval: 0.15
+    knockback: 1
+    critChance: 20
+    number: 2
+    piercing: 2
+    maxInstances: 99
+  linearGrowth: []
+  randomGrowth: []
