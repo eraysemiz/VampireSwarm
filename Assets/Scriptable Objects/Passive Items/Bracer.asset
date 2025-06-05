@@ -18,7 +18,7 @@ MonoBehaviour:
   - name: "\xD6l\xFCm Sarmal\u0131"
     condition: 1
     consumes: 2
-    evolutionLevel: 1
+    evolutionLevel: 5
     catalysts:
     - itemType: {fileID: 11400000, guid: 809cf3efdd26e054b9d5321c56000202, type: 2}
       level: 8
@@ -28,7 +28,7 @@ MonoBehaviour:
   baseStats:
     name: Eldiven
     description: "F\u0131rlatma silahlar\u0131n\u0131n h\u0131z\u0131n\u0131 %10
-      artt\u0131r\u0131r"
+      artt\u0131r\u0131r, Kutsal Kitap evrimi i\xE7in gerekli."
     boosts:
       maxHealth: 0
       recovery: 0

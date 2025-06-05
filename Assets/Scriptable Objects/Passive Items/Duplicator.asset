@@ -18,7 +18,7 @@ MonoBehaviour:
   - name: "Y\u0131ld\u0131r\u0131m Zinciri"
     condition: 1
     consumes: 2
-    evolutionLevel: 1
+    evolutionLevel: 2
     catalysts:
     - itemType: {fileID: 11400000, guid: 298cbdb05ded19245b203e971de285eb, type: 2}
       level: 8
@@ -27,7 +27,8 @@ MonoBehaviour:
       level: 1
   baseStats:
     name: "\xC7o\u011Falt\u0131c\u0131"
-    description: "F\u0131rtat\u0131lan silah say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r"
+    description: "F\u0131rtat\u0131lan silah say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r,
+      Y\u0131ld\u0131r\u0131m Y\xFCz\xFC\u011F\xFC evrimi i\xE7in gerekli."
     boosts:
       maxHealth: 0
       recovery: 0

@@ -187,8 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c857ce8c029d1445ab60c3b7f6c6258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentMoveSpeed: 2.5
-  currentHealth: 120
+  currentMoveSpeed: 4
+  currentHealth: 2000
   currentDamage: 6
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}

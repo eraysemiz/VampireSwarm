@@ -18,7 +18,7 @@ MonoBehaviour:
   - name: "Hay\u0131rs\u0131z Dualar"
     condition: 1
     consumes: 2
-    evolutionLevel: 1
+    evolutionLevel: 5
     catalysts:
     - itemType: {fileID: 11400000, guid: 426a14a28fed1f04ea3ac9e8af04f587, type: 2}
       level: 8
@@ -27,7 +27,8 @@ MonoBehaviour:
       level: 1
   baseStats:
     name: "\u015Eamdanl\u0131k"
-    description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r"
+    description: "Sald\u0131r\u0131lar\u0131n alan\u0131n\u0131 %10 artt\u0131r\u0131r,
+      Balta evrimi i\xE7in gerekli."
     boosts:
       maxHealth: 0
       recovery: 0

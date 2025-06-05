@@ -19,6 +19,16 @@ public class UIChestRewardDisplay : MonoBehaviour
     public float revealDelay = 0.5f;
 
     public AudioSource rewardSound;
+    public Button continueButton;
+
+    private void Start()
+    {
+        // “Devam Et” butonunu devre dýþý býrak
+        if (continueButton != null)
+        {
+            continueButton.gameObject.SetActive(false);
+        }
+    }
 
     public void ShowRewards(List<RewardInfo> rewards)
     {
@@ -63,6 +73,12 @@ public class UIChestRewardDisplay : MonoBehaviour
 
             // Unscaled bekle
             yield return new WaitForSecondsRealtime(revealDelay);
+        }
+
+        // Tüm ödüller eklendiðinde butonu aktifleþtir.
+        if (continueButton != null)
+        {
+            continueButton.gameObject.SetActive(true);
         }
     }
 

@@ -48,6 +48,22 @@ public class UICharacterSelectionMenu : MonoBehaviour
                 .Find("Character Option")
                 .GetComponent<Image>();
 
+            var healthText = card.transform
+                .Find("Character Option/Stats/Health/Health Value")
+                .GetComponent<TextMeshProUGUI>();
+
+            var armorText = card.transform
+                .Find("Character Option/Stats/Armor/Armor Value")
+                .GetComponent<TextMeshProUGUI>();
+
+            var movespeedText = card.transform
+                .Find("Character Option/Stats/Movespeed/Movespeed Value")
+                .GetComponent<TextMeshProUGUI>();
+
+            var mightText = card.transform
+                .Find("Character Option/Stats/Might/Might Value")
+                .GetComponent<TextMeshProUGUI>();
+
             CharacterData data = characterList[i];
 
             iconImage.sprite = data.Icon;
@@ -55,18 +71,11 @@ public class UICharacterSelectionMenu : MonoBehaviour
             descText.text = data.Description;
             bgImage.color = Color.white;
 
-            button.onClick.AddListener(() =>
-            {
-                for (int j = 0; j < count; j++)
-                {
-                    var otherBg = gridContainer.GetChild(j)
-                        .Find("Character Option")
-                        .GetComponent<Image>();
-                    otherBg.color = Color.white;
-                }
+            healthText.text = data.stats.maxHealth.ToString("0");
+            armorText.text = data.stats.armor.ToString("0.0");
+            movespeedText.text = data.stats.moveSpeed.ToString("0.0");
+            mightText.text = data.stats.might.ToString("0.0");
 
-                bgImage.color = new Color(1f, 1f, 0.7f);
-            });
         }
     }
 

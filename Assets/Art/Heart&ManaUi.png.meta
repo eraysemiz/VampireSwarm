@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heart&ManaUi_0: 523888095791003304
+      Heart&ManaUi_1: 7078957633047559561
+      Heart&ManaUi_2: 7584909091477175504
+      Heart&ManaUi_3: -7066647530778836694
+      Heart&ManaUi_4: 2400690780651743819
+      Heart&ManaUi_5: 9016578204417659432
+      Heart&ManaUi_6: 4557878713002554156
+      Heart&ManaUi_7: -8357500693734853782
+      Heart&ManaUi_8: 8635801019558425389
+      Heart&ManaUi_9: -4622905862925712265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

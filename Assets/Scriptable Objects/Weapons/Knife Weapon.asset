@@ -21,7 +21,7 @@ MonoBehaviour:
     evolutionLevel: 8
     catalysts:
     - itemType: {fileID: 11400000, guid: e97e23b73fde9194bb0587b585075898, type: 2}
-      level: 1
+      level: 5
     outcome:
       itemType: {fileID: 11400000, guid: 4f59bd448e524f14c87228749cd03099, type: 2}
       level: 1

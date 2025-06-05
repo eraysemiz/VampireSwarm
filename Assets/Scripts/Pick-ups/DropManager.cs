@@ -63,8 +63,12 @@ public class DropManager : MonoBehaviour
                 }
             }
 
-
-            if (rand <= drops[2].dropRate)
+            if (rand <= drops[3].dropRate)
+            {
+                spawnedGem = Instantiate(drops[3].item, transform.position, Quaternion.identity);
+                spawnedGem.transform.SetParent(gemParent);
+            }
+            else if (rand <= drops[2].dropRate)
             {
                 spawnedGem = Instantiate(drops[2].item, transform.position, Quaternion.identity);
                 spawnedGem.transform.SetParent(gemParent);

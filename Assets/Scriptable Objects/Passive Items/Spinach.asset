@@ -18,7 +18,7 @@ MonoBehaviour:
   - name: Binbir Kesik
     condition: 1
     consumes: 2
-    evolutionLevel: 1
+    evolutionLevel: 5
     catalysts:
     - itemType: {fileID: 11400000, guid: 8ea84df9d07d2ca4ba4800879566e48c, type: 2}
       level: 8
@@ -27,7 +27,8 @@ MonoBehaviour:
       level: 1
   baseStats:
     name: Spinach
-    description: "Temel hasar\u0131 %10 artt\u0131r\u0131r"
+    description: "Temel hasar\u0131 %10 artt\u0131r\u0131r. B\u0131\xE7ak evrimi
+      i\xE7in gerekli."
     boosts:
       maxHealth: 0
       recovery: 0

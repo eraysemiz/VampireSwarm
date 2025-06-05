@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMoveSpeed: 2
-  currentHealth: 10
+  currentHealth: 30
   currentDamage: 2
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
@@ -217,9 +217,6 @@ MonoBehaviour:
   - name: Diamond
     item: {fileID: 4764089607250484290, guid: 22d09687937cb0448ae3e70d2d80fb22, type: 3}
     dropRate: 10
-  - name: Magnet
-    item: {fileID: 4764089607250484290, guid: 9be48420fd948cc4a8b5e80351818513, type: 3}
-    dropRate: 5
   spawnedDrops: []
   dropTreasureChests: 0
   chestDropRate: 5

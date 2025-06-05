@@ -60,7 +60,7 @@ namespace DigitalRuby.LightningBolt
 
         [Range(0.01f, 1.0f)]
         [Tooltip("How long each bolt should last before creating a new bolt. In ManualMode, the bolt will simply disappear after this amount of seconds.")]
-        public float Duration = 0.05f;
+        public float Duration = 0.2f;
         private float timer;
 
         [Range(0.0f, 1.0f)]

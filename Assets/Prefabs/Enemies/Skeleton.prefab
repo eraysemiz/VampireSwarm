@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentMoveSpeed: 2
-  currentHealth: 200
+  currentHealth: 800
   currentDamage: 3
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
@@ -167,13 +167,10 @@ MonoBehaviour:
     dropRate: 100
   - name: Red Gem
     item: {fileID: 4037843937551974042, guid: d616876a0eefe154da8b873aaad72765, type: 3}
-    dropRate: 50
+    dropRate: 20
   - name: Diamond
     item: {fileID: 4764089607250484290, guid: 22d09687937cb0448ae3e70d2d80fb22, type: 3}
-    dropRate: 30
-  - name: Magnet
-    item: {fileID: 4764089607250484290, guid: 9be48420fd948cc4a8b5e80351818513, type: 3}
-    dropRate: 5
+    dropRate: 10
   spawnedDrops: []
   dropTreasureChests: 1
   chestDropRate: 1

@@ -50,11 +50,15 @@ public class TreasureChest : MonoBehaviour
             }
         }
 
+        // Build a pool of items that can still be upgraded. Exclude
+        // already maxed out items so we don't award useless upgrades.
         List<ItemData> pool = new List<ItemData>();
         foreach (var s in inventory.weaponSlots)
-            if (s.item) pool.Add(s.item.data);
+            if (s.item && s.item.currentLevel < s.item.data.maxLevel)
+                pool.Add(s.item.data);
         foreach (var s in inventory.passiveSlots)
-            if (s.item) pool.Add(s.item.data);
+            if (s.item && s.item.currentLevel < s.item.data.maxLevel)
+                pool.Add(s.item.data);
 
         if (pool.Count == 0) return;
 

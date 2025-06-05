@@ -213,6 +213,11 @@ public class GameManager : MonoBehaviour
             victoryScreen.SetActive(true);
     }
 
+    public void closeVictoryScreen()
+    {
+        victoryScreen.SetActive(false);
+    }
+
     public void AssingChosenCharacterUI(CharacterData chosenCharacterData)
     {
         chosenCharacterImage.sprite = chosenCharacterData.Icon;

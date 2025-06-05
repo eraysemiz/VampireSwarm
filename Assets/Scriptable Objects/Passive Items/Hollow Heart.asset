@@ -27,7 +27,7 @@ MonoBehaviour:
       level: 1
   baseStats:
     name: Ekstra Kalp
-    description: Maksimum can %20 artar.
+    description: "Maksimum can %20 artar. K\u0131rba\xE7 evrimi i\xE7in gerekli."
     boosts:
       maxHealth: 1.2
       recovery: 0

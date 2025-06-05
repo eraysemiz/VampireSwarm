@@ -18,16 +18,17 @@ MonoBehaviour:
   - name: Soul Eater
     condition: 1
     consumes: 2
-    evolutionLevel: 2
+    evolutionLevel: 5
     catalysts:
     - itemType: {fileID: 11400000, guid: 3d520e0bf6c7cea47b56745bd5a29c60, type: 2}
-      level: 2
+      level: 8
     outcome:
       itemType: {fileID: 11400000, guid: ef8d30dd1b5754b48ab7b63d54583547, type: 2}
       level: 1
   baseStats:
     name: "Vi\u015Fne Suyu"
-    description: "Can yenilenmesini %20 artt\u0131r\u0131r"
+    description: "Can yenilenmesini %20 artt\u0131r\u0131r. Sar\u0131msak evrimi
+      i\xE7in gerekli."
     boosts:
       maxHealth: 0
       recovery: 0.2
