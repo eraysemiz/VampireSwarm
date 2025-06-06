@@ -84,6 +84,9 @@ public class Pickup : Sortable
                 // Zaten hedefe yönelmiþse geç
                 if (pickup.target != null) continue;
 
+                // Sadece ExpGems etiketine sahip olanlarý çek
+                if (!pickup.CompareTag("ExpGems")) continue;
+
                 pickup.Collect(target, speed: 12f, lifespan: 2f); // hýz ve süreyi isteðe göre ayarla
             }
         }

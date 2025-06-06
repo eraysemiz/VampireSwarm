@@ -141,9 +141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c857ce8c029d1445ab60c3b7f6c6258, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentMoveSpeed: 1.5
+  currentMoveSpeed: 2
   currentHealth: 10000
-  currentDamage: 2
+  currentDamage: 20
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2

@@ -406,7 +406,7 @@ MonoBehaviour:
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2
-  deathFadeTime: 1.6
+  deathFadeTime: 3
 --- !u!95 &3988083184596776997
 Animator:
   serializedVersion: 7

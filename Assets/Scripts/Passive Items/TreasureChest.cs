@@ -5,6 +5,9 @@ public class TreasureChest : MonoBehaviour
 {
     List<RewardInfo> rewardInfos;
 
+    [Header("XP Rewards")]
+    public int experienceAmount = 500;
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         PlayerInventory p = col.GetComponent<PlayerInventory>();
@@ -60,7 +63,17 @@ public class TreasureChest : MonoBehaviour
             if (s.item && s.item.currentLevel < s.item.data.maxLevel)
                 pool.Add(s.item.data);
 
-        if (pool.Count == 0) return;
+        if (pool.Count == 0)
+        {
+            PlayerStats stats = inventory.GetComponent<PlayerStats>();
+            if (stats)
+            {
+                stats.IncreaseExperience(experienceAmount);
+                GameManager.GenerateFloatingText($"+{experienceAmount} XP", stats.transform);
+            }
+            Destroy(gameObject);
+            return;
+        }
 
         // 2) Rastgele 1–3 item seç (her item bir kez)
         int giftCount = Random.Range(1, Mathf.Min(pool.Count, 3) + 1);

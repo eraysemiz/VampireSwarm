@@ -86,7 +86,7 @@ public class EnemyStats : MonoBehaviour
 
         if (CompareTag("FinalBoss"))
         {
-            TriggerGameOver();
+            Invoke(nameof(TriggerGameOver), 3f);
         }
 
         StartCoroutine(KillFade());

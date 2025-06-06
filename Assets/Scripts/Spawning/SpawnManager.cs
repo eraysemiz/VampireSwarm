@@ -9,6 +9,7 @@ public class SpawnManager : MonoBehaviour
     List<GameObject> existingSpawns = new List<GameObject>();
 
     public WaveData[] data;
+    public static Transform enemyParent;
     public Camera referenceCamera;
 
     [Tooltip("If there are more than this number of enemies, stop spawning any more. For performance.")]
@@ -22,7 +23,17 @@ public class SpawnManager : MonoBehaviour
     {
         if (instance) Debug.LogWarning("There is more than 1 Spawn Manager in the Scene! Please remove the extras.");
         instance = this;
+
+        // Create or fetch the holder that will keep all spawned enemies
+        if (!enemyParent)
+        {
+            GameObject holder = GameObject.Find("Enemies");
+            if (!holder)
+                holder = new GameObject("Enemies");
+            enemyParent = holder.transform;
+        }
     }
+
 
     void Update()
     {
@@ -64,8 +75,10 @@ public class SpawnManager : MonoBehaviour
                 // Stop spawning enemies if we exceed the limit.
                 if (!CanSpawn()) continue;
 
-                // Spawn the enemy.
-                existingSpawns.Add(Instantiate(prefab, GeneratePosition(), Quaternion.identity));
+                // Spawn the enemy and parent it under the enemy holder.
+                GameObject enemy = Instantiate(prefab, GeneratePosition(), Quaternion.identity);
+                if (enemyParent) enemy.transform.SetParent(enemyParent);
+                existingSpawns.Add(enemy);
                 currentWaveSpawnCount++;
             }
 
