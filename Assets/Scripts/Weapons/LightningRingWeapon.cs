@@ -84,10 +84,23 @@ public class LightningRingWeapon : ProjectileWeapon
     void DamageArea(Vector2 position, float radius, float damage)
     {
         Collider2D[] targets = Physics2D.OverlapCircleAll(position, radius);
+        bool barrierHit = false;
         foreach (Collider2D t in targets)
         {
-            EnemyStats es = t.GetComponent<EnemyStats>();
-            if (es) es.TakeDamage(damage, transform.position);
+            if (t.TryGetComponent(out Barrier b))
+            {
+                b.TakeDamage(damage);
+                barrierHit = true;
+            }
+        }
+
+        foreach (Collider2D t in targets)
+        {
+            if (t.TryGetComponent(out EnemyStats es))
+            {
+                if (es.CompareTag("FinalBoss") && barrierHit) continue;
+                es.TakeDamage(damage, transform.position);
+            }
         }
     }
 }

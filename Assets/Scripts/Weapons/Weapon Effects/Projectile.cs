@@ -92,8 +92,21 @@ public class Projectile : WeaponEffect
         BreakableProps p = other.GetComponent<BreakableProps>();
         Barrier b = other.GetComponent<Barrier>();
 
-        // Only collide with enemies or breakable stuff.
-        if (es)
+
+
+        // Prioritise hitting barriers so that protected enemies are not damaged.
+        if (b)
+        {
+            b.TakeDamage(GetDamage());
+            piercing = 0;
+
+            Weapon.Stats stats = weapon.GetStats();
+            if (stats.hitEffect)
+            {
+                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
+            }
+        }
+        else if (es)        // Only collide with enemies or breakable stuff.
         {
             // If there is an owner, and the damage source is set to owner,
             // we will calculate knockback using the owner instead of the projectile.
@@ -116,17 +129,6 @@ public class Projectile : WeaponEffect
         {
             p.TakeDamage(GetDamage());
             piercing--;
-
-            Weapon.Stats stats = weapon.GetStats();
-            if (stats.hitEffect)
-            {
-                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
-            }
-        }
-        else if (b)
-        {
-            b.TakeDamage(GetDamage());
-            piercing = 0;
 
             Weapon.Stats stats = weapon.GetStats();
             if (stats.hitEffect)

@@ -162,7 +162,18 @@ public class KingBibleProjectile : Projectile
 
     protected override void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent(out EnemyStats es))
+        if (other.TryGetComponent(out Barrier b))
+        {
+            b.TakeDamage(GetDamage());
+            piercing = 0;
+
+            Weapon.Stats stats = weapon.GetStats();
+            if (stats.hitEffect)
+            {
+                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
+            }
+        }
+        else if (other.TryGetComponent(out EnemyStats es))
         {
             // If the target is not yet affected by this bible, add it
             // to our list of affected targets.
@@ -184,17 +195,7 @@ public class KingBibleProjectile : Projectile
                 Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity).gameObject, 5f);
             }
         }
-        else if (other.TryGetComponent(out Barrier b))
-        {
-            b.TakeDamage(GetDamage());
-            piercing = 0;
 
-            Weapon.Stats stats = weapon.GetStats();
-            if (stats.hitEffect)
-            {
-                Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
-            }
-        }
         // Destroy this object if it has run out of health from hitting other stuff.
         if (piercing <= 0) Destroy(gameObject);
     }

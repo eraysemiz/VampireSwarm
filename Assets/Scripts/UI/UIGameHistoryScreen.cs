@@ -5,21 +5,17 @@ using System.Collections.Generic;
 
 public class UIGameHistoryScreen : MonoBehaviour
 {
-    public GameObject historySlotPrefab;
-    public Transform contentHolder;
-    public Button deleteButton;
-    public bool developerMode = false;
+    [Header("UI Ayarlarý")]
+    public GameObject historySlotPrefab;   // Slot prefab’ý
+    public Transform contentHolder;        // Slot’larýn ekleneceði ScrollView içi
+    public Button deleteButton;            // Sil butonu
+    public bool developerMode = false;     // Sil butonunu görünür kýlmak için
 
-    int selectedRunId = -1;
+    int selectedRunId = -1;                // Þu an seçili kayýt ID’si
 
     void OnEnable()
     {
         Refresh();
-        if (deleteButton != null)
-        {
-            deleteButton.onClick.RemoveAllListeners();
-            deleteButton.onClick.AddListener(DeleteSelected);
-        }
         UpdateDeleteButton();
     }
 
@@ -31,7 +27,7 @@ public class UIGameHistoryScreen : MonoBehaviour
 
     void UpdateDeleteButton()
     {
-        if (deleteButton)
+        if (deleteButton != null)
             deleteButton.gameObject.SetActive(developerMode);
     }
 
@@ -39,47 +35,57 @@ public class UIGameHistoryScreen : MonoBehaviour
     {
         selectedRunId = -1;
 
-        DatabaseManager db = FindObjectOfType<DatabaseManager>();
+        DatabaseManager db = Object.FindFirstObjectByType<DatabaseManager>();
         if (db == null) return;
 
         List<DatabaseManager.GameHistoryEntry> entries = db.LoadGameHistory();
-        for (int i = contentHolder.childCount - 1; i >= 0; i--)
-        {
-            Destroy(contentHolder.GetChild(i).gameObject);
-        }
 
+        // Mevcut slotlarý kaldýr
+        foreach (Transform child in contentHolder)
+            Destroy(child.gameObject);
+
+        // Yeni slotlarý ekle
         foreach (var e in entries)
         {
             GameObject slotObj = Instantiate(historySlotPrefab, contentHolder);
+
+            // Slot üzerindeki TMP_Text’i bul ve metni ayarla
             TMP_Text text = slotObj.GetComponentInChildren<TMP_Text>();
             if (text != null)
-                text.text = $"{e.playedAt}: {e.character} LV{e.level} - {e.minutes:F1}m - {(e.victory ? "Victory" : "Defeat")}";
+                text.text = $"{e.playedAt}: {e.character} Level {e.level} - {e.minutes:F1}m - {(e.victory ? "Victory" : "Defeat")}";
 
-            Button btn = slotObj.GetComponent<Button>();
+            // Slot’a týklama olayý ekle
+            Button btn = slotObj.GetComponentInChildren<Button>();
             if (btn != null)
             {
-                int id = e.runId;
+                int id = e.runId;  // closure sorununu önlemek için yerel deðiþken
                 btn.onClick.AddListener(() => OnSlotSelected(id));
             }
+
+            // Force layout rebuild so the list updates immediately
+            var rect = contentHolder as RectTransform;
+            if (rect)
+                LayoutRebuilder.ForceRebuildLayoutImmediate(rect);
         }
     }
 
-    void OnSlotSelected(int runId)
+    public void OnSlotSelected(int runId)
     {
         selectedRunId = runId;
     }
 
+    /// <summary>
+    /// Seçili kaydý veritabanýndan siler ve paneli yeniler
+    /// </summary>
     public void DeleteSelected()
     {
         if (selectedRunId < 0)
             return;
 
-        DatabaseManager db = FindObjectOfType<DatabaseManager>();
+        DatabaseManager db = Object.FindFirstObjectByType<DatabaseManager>();
         if (db != null)
-        {
             db.DeleteGameHistoryEntry(selectedRunId);
-        }
-        selectedRunId = -1;
+
         Refresh();
     }
 }
