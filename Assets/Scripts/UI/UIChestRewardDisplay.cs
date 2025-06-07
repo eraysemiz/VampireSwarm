@@ -82,10 +82,12 @@ public class UIChestRewardDisplay : MonoBehaviour
         }
     }
 
-    public void CloseScreen()
+    private void OnDisable()
     {
-        gameObject.SetActive(false);
-        GameManager.instance.ChangeState(GameManager.GameState.Gameplay);
-        Time.timeScale = 1f;
+        Debug.Log("Devam Butonu Deaktive edildi");
+        if (continueButton != null)
+        {
+            continueButton.gameObject.SetActive(false);
+        }
     }
 }

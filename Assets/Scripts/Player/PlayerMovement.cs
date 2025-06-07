@@ -36,6 +36,7 @@ public class PlayerMovement : Sortable
     void FixedUpdate()
     {
         Move();    
+        StayInsideOfBorders();
     }
     void InputManagement()
     {
@@ -88,5 +89,13 @@ public class PlayerMovement : Sortable
                 enemy.Knockback(dir * pushForce, 0.1f);
             }
         }
+    }
+
+    void StayInsideOfBorders()
+    {
+        Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, MapController.minX, MapController.maxX);
+        pos.y = Mathf.Clamp(pos.y, MapController.minY, MapController.maxY);
+        transform.position = pos;
     }
 }

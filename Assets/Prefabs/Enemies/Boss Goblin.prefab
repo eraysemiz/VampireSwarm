@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentMoveSpeed: 5
   currentHealth: 4000
-  currentDamage: 3.6
+  currentDamage: 10
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2

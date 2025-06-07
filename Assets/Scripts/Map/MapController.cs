@@ -1,8 +1,11 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 using UnityEngine;
 
 public class MapController : MonoBehaviour
 {
+    public static float minX, maxX, minY, maxY;
+    public static bool initialized = false;
+
     public List<GameObject> terrainChunks; // List of chunk prefabs
     [HideInInspector] public GameObject currentChunk;
     public List<GameObject> chunkLocations; // List to hold the chunk positions
@@ -10,7 +13,7 @@ public class MapController : MonoBehaviour
     public int gridSize = 9;      // Grid size (9x9)
     public float spacing = 40f;    // Distance between the chunks
 
-    public GameObject borderPrefab; // Inspector'dan atayacaðýn prefab
+    public GameObject borderPrefab; // Inspector'dan atayacaÄŸÄ±n prefab
     [HideInInspector]public GameObject chunksParent;      // Parent object for chunks
     [HideInInspector] public GameObject locationsParent;   // Parent object for location markers (optional)
 
@@ -22,13 +25,21 @@ public class MapController : MonoBehaviour
         // First, create the grid with the center at (0,0)
         CreateGrid();
 
+        // Set the playable area boundaries based on the grid
+        float offset = (gridSize) * spacing / 2f;
+        minX = -offset;
+        maxX = offset;
+        minY = -offset;
+        maxY = offset;
+        initialized = true;
+
         // If chunkLocations list is not empty, generate the chunks
         if (chunkLocations.Count > 0)
         {
             GenerateChunks();
         }
 
-        CreateBorders(); // Sýnýrlarý oluþtur
+        CreateBorders(); // SÄ±nÄ±rlarÄ± oluÅŸtur
     }
 
     // Function to create the grid with the center at (0,0)
@@ -89,7 +100,7 @@ public class MapController : MonoBehaviour
             float x = (i * spacing) - offset;
             float y = (i * -spacing) + offset;
 
-            // ÜST KENAR
+            // ÃœST KENAR
             Vector3 topPos = new Vector3(x, offset + spacing, 0);
             InstantiateBorder(topPos, bordersParent.transform);
 
@@ -101,7 +112,7 @@ public class MapController : MonoBehaviour
             Vector3 leftPos = new Vector3(-offset - spacing, y, 0);
             InstantiateBorder(leftPos, bordersParent.transform);
 
-            // SAÐ KENAR
+            // SAÄž KENAR
             Vector3 rightPos = new Vector3(offset + spacing, y, 0);
             InstantiateBorder(rightPos, bordersParent.transform);
         }

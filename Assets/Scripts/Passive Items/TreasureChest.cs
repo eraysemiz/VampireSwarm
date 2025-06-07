@@ -48,6 +48,7 @@ public class TreasureChest : MonoBehaviour
                     });
 
                     GameManager.instance.StartTreasureChestScreen(rewardInfos);
+                    Destroy(gameObject);
                     return;
                 }
             }

@@ -9,27 +9,38 @@ public class UIGameHistoryScreen : MonoBehaviour
     public GameObject historySlotPrefab;   // Slot prefab’ý
     public Transform contentHolder;        // Slot’larýn ekleneceði ScrollView içi
     public Button deleteButton;            // Sil butonu
-    public bool developerMode = false;     // Sil butonunu görünür kýlmak için
+
+
+    // public bool developerMode = false;     // Sil butonunu görünür kýlmak için
+    public Toggle developerModeToggle;
 
     int selectedRunId = -1;                // Þu an seçili kayýt ID’si
 
     void OnEnable()
     {
         Refresh();
-        UpdateDeleteButton();
+        if (developerModeToggle != null)
+            UpdateDeleteButtonVisibility(developerModeToggle.isOn);
     }
 
-    public void SetDeveloperMode(bool value)
+    private void Awake()
     {
-        developerMode = value;
-        UpdateDeleteButton();
+        if (developerModeToggle != null)
+            developerModeToggle.onValueChanged.AddListener(OnDeveloperModeChanged);
+
     }
 
-    void UpdateDeleteButton()
+    private void OnDeveloperModeChanged(bool isOn)
+    {
+        UpdateDeleteButtonVisibility(isOn);
+    }
+
+    private void UpdateDeleteButtonVisibility(bool visible)
     {
         if (deleteButton != null)
-            deleteButton.gameObject.SetActive(developerMode);
+            deleteButton.gameObject.SetActive(visible);
     }
+
 
     public void Refresh()
     {
@@ -88,4 +99,12 @@ public class UIGameHistoryScreen : MonoBehaviour
 
         Refresh();
     }
+
+    void OnDestroy()
+    {
+        // Dinleyiciyi temizleyelim
+        if (developerModeToggle != null)
+            developerModeToggle.onValueChanged.RemoveListener(OnDeveloperModeChanged);
+    }
+
 }

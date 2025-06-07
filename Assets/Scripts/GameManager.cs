@@ -71,7 +71,8 @@ public class GameManager : MonoBehaviour
         }
             
 
-        DisableScreens();    
+        DisableScreens();
+        AudioListener.pause = false;
     }
     void Update()
     {
@@ -152,6 +153,8 @@ public class GameManager : MonoBehaviour
     {
         previousState = currentState;
         currentState = newState;
+
+        AudioListener.pause = (currentState != GameState.Gameplay);
     }
 
     public void PauseGame()

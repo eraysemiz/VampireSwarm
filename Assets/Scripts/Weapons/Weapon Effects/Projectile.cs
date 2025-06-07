@@ -45,6 +45,22 @@ public class Projectile : WeaponEffect
 
         // If the projectile is auto-aiming, automatically find a suitable enemy.
         if (hasAutoAim) AcquireAutoAimFacing();
+
+        // Handle collisions with any objects we might have spawned inside of.
+        // When spawned already overlapping a collider, OnTriggerEnter2D will not
+        // be called, so we manually check for overlaps here and process them.
+        Collider2D col = GetComponent<Collider2D>();
+        if (col)
+        {
+            ContactFilter2D filter = new ContactFilter2D();
+            filter.useTriggers = true;
+            Collider2D[] results = new Collider2D[8];
+            int hitCount = col.Overlap(filter, results);
+            for (int i = 0; i < hitCount; i++)
+            {
+                OnTriggerEnter2D(results[i]);
+            }
+        }
     }
 
     // If the projectile is homing, it will automatically find a suitable target

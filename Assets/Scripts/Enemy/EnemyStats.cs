@@ -56,6 +56,11 @@ public class EnemyStats : MonoBehaviour
         // Apply knockback if it is not zero.
         if (knockbackForce > 0)
         {
+            if (CompareTag("FinalBoss"))
+            {
+                knockbackForce *= 0.5f;
+            }
+
             // Gets the direction of knockback.
             Vector2 dir = (Vector2)transform.position - sourcePosition;
             movement.Knockback(dir.normalized * knockbackForce, knockbackDuration);

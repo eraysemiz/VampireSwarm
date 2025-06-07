@@ -22,7 +22,7 @@ MonoBehaviour:
     recovery: 1
     armor: 1
     moveSpeed: 1
-    might: 1
+    might: 1.2
     area: 1
     speed: 1
     duration: 1

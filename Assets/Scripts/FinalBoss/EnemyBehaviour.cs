@@ -20,6 +20,13 @@ public class EnemyBehaviour : MonoBehaviour
     public Image healthBar;
     public GameObject deathEffect;
 
+    private void OnEnable()
+    {
+        foreach (GameObject gem in GameObject.FindGameObjectsWithTag("ExpGems"))
+        {
+            Destroy(gem);
+        }
+    }
     public Vector2 LastMoveDirection { get; private set; } = Vector2.right;
 
     private class WeaponState

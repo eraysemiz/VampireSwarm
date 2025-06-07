@@ -150,14 +150,27 @@ public class SpawnManager : MonoBehaviour
         float x = Random.Range(0f, 1f), y = Random.Range(0f, 1f);
 
         // Then, randomly choose whether we want to round the x or the y value.
+        Vector3 pos;
         switch (Random.Range(0, 2))
         {
             case 0:
             default:
-                return instance.referenceCamera.ViewportToWorldPoint(new Vector3(Mathf.Round(x), y));
+                pos = instance.referenceCamera.ViewportToWorldPoint(new Vector3(Mathf.Round(x), y));
+                break;
             case 1:
-                return instance.referenceCamera.ViewportToWorldPoint(new Vector3(x, Mathf.Round(y)));
+                pos = instance.referenceCamera.ViewportToWorldPoint(new Vector3(x, Mathf.Round(y)));
+                break;
         }
+
+        pos.z = 0;
+
+        if (MapController.initialized)
+        {
+            pos.x = Mathf.Clamp(pos.x, MapController.minX, MapController.maxX);
+            pos.y = Mathf.Clamp(pos.y, MapController.minY, MapController.maxY);
+        }
+
+        return pos;
     }
 
     // Checking if the enemy is within the camera's boundaries.
