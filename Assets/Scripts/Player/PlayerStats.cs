@@ -262,41 +262,6 @@ public class PlayerStats : MonoBehaviour
         healthBar.fillAmount = CurrentHealth / actualStats.maxHealth;
     }
 
-    /*public void ApplySpeedBoost(float speedMultiplier = 2f, float duration = 5f)
-    {
-        if (!isSpeedBoosted)
-        {
-            oldMoveSpeed = MoveSpeed;
-            MoveSpeed *= speedMultiplier;
-            isSpeedBoosted = true;
-        }
-
-        // Reset timer if one is already running
-        if (activeSpeedBoostCoroutine != null)
-        {
-            StopCoroutine(activeSpeedBoostCoroutine);
-        }
-
-        activeSpeedBoostCoroutine = StartCoroutine(RemoveSpeedBoostAfterDelay(duration));
-
-        if (GameManager.instance != null)
-        {
-            Debug.LogWarning("SpeedBoost");
-            GameManager.GenerateFloatingText("Speed Boost!", transform);
-        }
-           
-    }
-
-    private IEnumerator RemoveSpeedBoostAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-
-        MoveSpeed = oldMoveSpeed;
-        isSpeedBoosted = false;
-        activeSpeedBoostCoroutine = null;
-    }*/
-
-
     void Recover()
     {
         if (CurrentHealth < actualStats.maxHealth)

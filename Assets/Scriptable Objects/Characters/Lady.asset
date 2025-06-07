@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e343caec12273604586bc54b92762ba4, type: 3}
   m_Name: Lady
   m_EditorClassIdentifier: 
-  animationController: {fileID: 22100000, guid: 235b04a36e664f54c84311669ae1ed2d, type: 2}
+  animationController: {fileID: 22100000, guid: 43de4880af167b1488a3ee9be228a8d2, type: 2}
   icon: {fileID: 6084859605308855041, guid: edddc26d61999fc4c8f9903ff1e41b26, type: 3}
   name: "Cad\u0131"
   description: "Y\u0131ld\u0131r\u0131m y\xFCz\xFC\u011F\xFC silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 298cbdb05ded19245b203e971de285eb, type: 2}
   stats:
-    maxHealth: 110
+    maxHealth: 5
     recovery: 1
     armor: 0
     moveSpeed: 1.1

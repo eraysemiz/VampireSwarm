@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseScreen;
     public GameObject resultsScreen;
     public GameObject victoryScreen;
+    public GameObject historyScreen;
     public GameObject levelUpScreen;
     public GameObject treasureChestScreen;
     int stackedLevelUps = 0; // If we try to StartLevelUp() multiple times.
@@ -192,12 +193,21 @@ public class GameManager : MonoBehaviour
         resultsScreen.SetActive(false);
         levelUpScreen.SetActive(false);
         treasureChestScreen.SetActive(false);
+        historyScreen.SetActive(false);
     }
 
     public void GameOver()
     {
         timeSurvivedDisplay.text = stopwatchDisplay.text;
         ChangeState(GameState.GameOver);
+
+        DatabaseManager db = Object.FindFirstObjectByType<DatabaseManager>();
+        if (db != null && playerObject)
+        {
+            PlayerStats stats = playerObject.GetComponent<PlayerStats>();
+            string charName = CharacterSelector.GetData()?.Name ?? "Unknown";
+            db.SaveGameResult(charName, stats.level, stopwatchTime / 60f, hasFinalBossDefeated);
+        }
 
         DisplayResults();
 
@@ -211,6 +221,17 @@ public class GameManager : MonoBehaviour
 
         if (hasFinalBossDefeated) 
             victoryScreen.SetActive(true);
+    }
+
+    public void DisplayHistory()
+    {
+        if (resultsScreen.activeSelf && !historyScreen.activeSelf)
+        {
+            if (historyScreen != null)
+                historyScreen.SetActive(true);
+        }
+        else if (historyScreen.activeSelf)
+            historyScreen.SetActive(false);
     }
 
     public void closeVictoryScreen()

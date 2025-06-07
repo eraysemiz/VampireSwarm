@@ -13,6 +13,8 @@ public class PlayerMovement : Sortable
     [HideInInspector]
     public Vector2 lastMovedVector;
 
+    [Header("Push Settings")]
+    public float pushForce = 1f;
 
     private Rigidbody2D rb;  
     public PlayerStats player;
@@ -73,5 +75,18 @@ public class PlayerMovement : Sortable
         }
 
         rb.linearVelocity = moveDir * DEFAULT_MOVESPEED * player.Stats.moveSpeed;
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            EnemyMovement enemy = collision.gameObject.GetComponent<EnemyMovement>();
+            if (enemy != null)
+            {
+                Vector2 dir = (collision.transform.position - transform.position).normalized;
+                enemy.Knockback(dir * pushForce, 0.1f);
+            }
+        }
     }
 }

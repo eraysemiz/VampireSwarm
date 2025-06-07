@@ -387,7 +387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sortingActive: 1
-  outOfFrameAction: 1
+  outOfFrameAction: 0
 --- !u!114 &4799936890518749725
 MonoBehaviour:
   m_ObjectHideFlags: 0
