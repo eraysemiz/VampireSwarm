@@ -1,0 +1,2756 @@
+fileFormatVersion: 2
+guid: 82c0caef025027c45a3845abb50e7ed8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -502792026422446171
+    second: DS DSi - Sonic Rush Adventure - Explosions_0
+  - first:
+      213: -4819368267615109086
+    second: DS DSi - Sonic Rush Adventure - Explosions_1
+  - first:
+      213: 2304418285889521598
+    second: DS DSi - Sonic Rush Adventure - Explosions_2
+  - first:
+      213: 1134656535762577361
+    second: DS DSi - Sonic Rush Adventure - Explosions_3
+  - first:
+      213: -7508082198562990275
+    second: DS DSi - Sonic Rush Adventure - Explosions_4
+  - first:
+      213: -1106766376029396339
+    second: DS DSi - Sonic Rush Adventure - Explosions_5
+  - first:
+      213: 7687645163145463650
+    second: DS DSi - Sonic Rush Adventure - Explosions_6
+  - first:
+      213: 307045506252084596
+    second: DS DSi - Sonic Rush Adventure - Explosions_7
+  - first:
+      213: -1104360478148293006
+    second: DS DSi - Sonic Rush Adventure - Explosions_8
+  - first:
+      213: 8405501915171061599
+    second: DS DSi - Sonic Rush Adventure - Explosions_9
+  - first:
+      213: -8695127382065600147
+    second: DS DSi - Sonic Rush Adventure - Explosions_10
+  - first:
+      213: 6372611260715256369
+    second: DS DSi - Sonic Rush Adventure - Explosions_11
+  - first:
+      213: -2882905959886764981
+    second: DS DSi - Sonic Rush Adventure - Explosions_12
+  - first:
+      213: 9137889039141739019
+    second: DS DSi - Sonic Rush Adventure - Explosions_13
+  - first:
+      213: 2624514856123146608
+    second: DS DSi - Sonic Rush Adventure - Explosions_14
+  - first:
+      213: -5538460723841167358
+    second: DS DSi - Sonic Rush Adventure - Explosions_15
+  - first:
+      213: 4213690349229322443
+    second: DS DSi - Sonic Rush Adventure - Explosions_16
+  - first:
+      213: -5010871258721025221
+    second: DS DSi - Sonic Rush Adventure - Explosions_17
+  - first:
+      213: -7679580429654373340
+    second: DS DSi - Sonic Rush Adventure - Explosions_18
+  - first:
+      213: -5323791736057414493
+    second: DS DSi - Sonic Rush Adventure - Explosions_19
+  - first:
+      213: -1046621736449954341
+    second: DS DSi - Sonic Rush Adventure - Explosions_20
+  - first:
+      213: -8602835329808586834
+    second: DS DSi - Sonic Rush Adventure - Explosions_21
+  - first:
+      213: -7734083861225321936
+    second: DS DSi - Sonic Rush Adventure - Explosions_22
+  - first:
+      213: -6583003464434373074
+    second: DS DSi - Sonic Rush Adventure - Explosions_23
+  - first:
+      213: -4227945033830449993
+    second: DS DSi - Sonic Rush Adventure - Explosions_24
+  - first:
+      213: -8980918122253452203
+    second: DS DSi - Sonic Rush Adventure - Explosions_25
+  - first:
+      213: -324890758359187022
+    second: DS DSi - Sonic Rush Adventure - Explosions_26
+  - first:
+      213: -8068346123417972371
+    second: DS DSi - Sonic Rush Adventure - Explosions_27
+  - first:
+      213: 2086048156492115634
+    second: DS DSi - Sonic Rush Adventure - Explosions_28
+  - first:
+      213: -6035250791770151572
+    second: DS DSi - Sonic Rush Adventure - Explosions_29
+  - first:
+      213: -936173896546595747
+    second: DS DSi - Sonic Rush Adventure - Explosions_30
+  - first:
+      213: 7464562536098812034
+    second: DS DSi - Sonic Rush Adventure - Explosions_31
+  - first:
+      213: -2426909421847288788
+    second: DS DSi - Sonic Rush Adventure - Explosions_32
+  - first:
+      213: 7820709971774354790
+    second: DS DSi - Sonic Rush Adventure - Explosions_33
+  - first:
+      213: 7877689297644496367
+    second: DS DSi - Sonic Rush Adventure - Explosions_34
+  - first:
+      213: 3481589558601882273
+    second: DS DSi - Sonic Rush Adventure - Explosions_35
+  - first:
+      213: -8017552757648806845
+    second: DS DSi - Sonic Rush Adventure - Explosions_36
+  - first:
+      213: 2384074702330236354
+    second: DS DSi - Sonic Rush Adventure - Explosions_37
+  - first:
+      213: -8706086321463531192
+    second: DS DSi - Sonic Rush Adventure - Explosions_38
+  - first:
+      213: 6318359254601170694
+    second: DS DSi - Sonic Rush Adventure - Explosions_39
+  - first:
+      213: 7799967609770193826
+    second: DS DSi - Sonic Rush Adventure - Explosions_40
+  - first:
+      213: 6071759975965277520
+    second: DS DSi - Sonic Rush Adventure - Explosions_41
+  - first:
+      213: 8750552474224667442
+    second: DS DSi - Sonic Rush Adventure - Explosions_42
+  - first:
+      213: 212950514309298325
+    second: DS DSi - Sonic Rush Adventure - Explosions_43
+  - first:
+      213: -7675312093382125485
+    second: DS DSi - Sonic Rush Adventure - Explosions_44
+  - first:
+      213: -4953761994111678170
+    second: DS DSi - Sonic Rush Adventure - Explosions_45
+  - first:
+      213: -2742910359258315198
+    second: DS DSi - Sonic Rush Adventure - Explosions_46
+  - first:
+      213: -3593649641996605124
+    second: DS DSi - Sonic Rush Adventure - Explosions_47
+  - first:
+      213: -2487425740218065105
+    second: DS DSi - Sonic Rush Adventure - Explosions_48
+  - first:
+      213: 1260055541017302643
+    second: DS DSi - Sonic Rush Adventure - Explosions_49
+  - first:
+      213: -2753762518440937052
+    second: DS DSi - Sonic Rush Adventure - Explosions_50
+  - first:
+      213: -7434831174556356822
+    second: DS DSi - Sonic Rush Adventure - Explosions_51
+  - first:
+      213: 6490505661715788677
+    second: DS DSi - Sonic Rush Adventure - Explosions_52
+  - first:
+      213: 8878433465251533220
+    second: DS DSi - Sonic Rush Adventure - Explosions_53
+  - first:
+      213: -5261172311002029107
+    second: DS DSi - Sonic Rush Adventure - Explosions_54
+  - first:
+      213: -5376499665861737623
+    second: DS DSi - Sonic Rush Adventure - Explosions_55
+  - first:
+      213: -8325541743034216500
+    second: DS DSi - Sonic Rush Adventure - Explosions_56
+  - first:
+      213: 9140635051014321666
+    second: DS DSi - Sonic Rush Adventure - Explosions_57
+  - first:
+      213: 7877623085075252208
+    second: DS DSi - Sonic Rush Adventure - Explosions_58
+  - first:
+      213: -2773342469452999984
+    second: DS DSi - Sonic Rush Adventure - Explosions_59
+  - first:
+      213: 4548199626624636863
+    second: DS DSi - Sonic Rush Adventure - Explosions_60
+  - first:
+      213: -7955483913896660325
+    second: DS DSi - Sonic Rush Adventure - Explosions_61
+  - first:
+      213: 6162232823918420222
+    second: DS DSi - Sonic Rush Adventure - Explosions_62
+  - first:
+      213: -206221938894578962
+    second: DS DSi - Sonic Rush Adventure - Explosions_63
+  - first:
+      213: -6582806529786047998
+    second: DS DSi - Sonic Rush Adventure - Explosions_64
+  - first:
+      213: 6416813575781268911
+    second: DS DSi - Sonic Rush Adventure - Explosions_65
+  - first:
+      213: 7243991753594366028
+    second: DS DSi - Sonic Rush Adventure - Explosions_66
+  - first:
+      213: 5276598235571625003
+    second: DS DSi - Sonic Rush Adventure - Explosions_67
+  - first:
+      213: -3043718700564953290
+    second: DS DSi - Sonic Rush Adventure - Explosions_68
+  - first:
+      213: -7884203846262961182
+    second: DS DSi - Sonic Rush Adventure - Explosions_69
+  - first:
+      213: 2661352204120584556
+    second: DS DSi - Sonic Rush Adventure - Explosions_70
+  - first:
+      213: 7736529708251536120
+    second: DS DSi - Sonic Rush Adventure - Explosions_71
+  - first:
+      213: -2918841324347690655
+    second: DS DSi - Sonic Rush Adventure - Explosions_72
+  - first:
+      213: -6561633259337683307
+    second: DS DSi - Sonic Rush Adventure - Explosions_73
+  - first:
+      213: 612167164063849119
+    second: DS DSi - Sonic Rush Adventure - Explosions_74
+  - first:
+      213: -2229764831210969362
+    second: DS DSi - Sonic Rush Adventure - Explosions_75
+  - first:
+      213: -1629852569979416126
+    second: DS DSi - Sonic Rush Adventure - Explosions_76
+  - first:
+      213: -7589884642748077988
+    second: DS DSi - Sonic Rush Adventure - Explosions_77
+  - first:
+      213: 2709634182445973457
+    second: DS DSi - Sonic Rush Adventure - Explosions_78
+  - first:
+      213: -7763406938043280552
+    second: DS DSi - Sonic Rush Adventure - Explosions_79
+  - first:
+      213: 5987368277395395720
+    second: DS DSi - Sonic Rush Adventure - Explosions_80
+  - first:
+      213: 5680930004627531345
+    second: DS DSi - Sonic Rush Adventure - Explosions_81
+  - first:
+      213: -3898216137915455544
+    second: DS DSi - Sonic Rush Adventure - Explosions_82
+  - first:
+      213: -6514553679207123954
+    second: DS DSi - Sonic Rush Adventure - Explosions_83
+  - first:
+      213: 7196059195120450036
+    second: DS DSi - Sonic Rush Adventure - Explosions_84
+  - first:
+      213: -4479621637975552948
+    second: DS DSi - Sonic Rush Adventure - Explosions_85
+  - first:
+      213: 8779059654412975733
+    second: DS DSi - Sonic Rush Adventure - Explosions_86
+  - first:
+      213: 9220626639780882094
+    second: DS DSi - Sonic Rush Adventure - Explosions_87
+  - first:
+      213: 2540834255548901121
+    second: DS DSi - Sonic Rush Adventure - Explosions_88
+  - first:
+      213: -3562990913257013917
+    second: DS DSi - Sonic Rush Adventure - Explosions_89
+  - first:
+      213: 2829466822177640448
+    second: DS DSi - Sonic Rush Adventure - Explosions_90
+  - first:
+      213: 3730972747440334681
+    second: DS DSi - Sonic Rush Adventure - Explosions_91
+  - first:
+      213: 1072088304032987969
+    second: DS DSi - Sonic Rush Adventure - Explosions_92
+  - first:
+      213: -134114381463343220
+    second: DS DSi - Sonic Rush Adventure - Explosions_93
+  - first:
+      213: 2107682682102754982
+    second: DS DSi - Sonic Rush Adventure - Explosions_94
+  - first:
+      213: 7735485992104024872
+    second: DS DSi - Sonic Rush Adventure - Explosions_95
+  - first:
+      213: -5587789091702681458
+    second: DS DSi - Sonic Rush Adventure - Explosions_96
+  - first:
+      213: -8440296922388126777
+    second: DS DSi - Sonic Rush Adventure - Explosions_97
+  - first:
+      213: 7338859800254860418
+    second: DS DSi - Sonic Rush Adventure - Explosions_98
+  - first:
+      213: -2429442260816137764
+    second: DS DSi - Sonic Rush Adventure - Explosions_99
+  - first:
+      213: 5956769901723552615
+    second: DS DSi - Sonic Rush Adventure - Explosions_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 346
+        width: 735
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7f03dd059b509f0800000000000000
+      internalID: -502792026422446171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 346
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220030f381a2e1db0800000000000000
+      internalID: -4819368267615109086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb70c50c830faff10800000000000000
+      internalID: 2304418285889521598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 344
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7243c8b1c1fbf00800000000000000
+      internalID: 1134656535762577361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37183a150fedc790800000000000000
+      internalID: -7508082198562990275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82eb6b48d9f3a0f0800000000000000
+      internalID: -1106766376029396339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26709848b8000ba60800000000000000
+      internalID: 7687645163145463650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 344
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475190ad248d24400800000000000000
+      internalID: 307045506252084596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e8dfb0ff58ca0f0800000000000000
+      internalID: -1104360478148293006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ff2a4257756a470800000000000000
+      internalID: 8405501915171061599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69253bf6b3b45780800000000000000
+      internalID: -8695127382065600147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 346
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a46969d20107850800000000000000
+      internalID: 6372611260715256369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 277
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44c714cd4cddf7d0800000000000000
+      internalID: -2882905959886764981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_13
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 277
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a9afe9aad40de70800000000000000
+      internalID: 9137889039141739019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 277
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071a4fa3b562c6420800000000000000
+      internalID: 2624514856123146608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_15
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 277
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2009ef0d05f6323b0800000000000000
+      internalID: -5538460723841167358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_16
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 277
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc03e4b2c090a7a30800000000000000
+      internalID: 4213690349229322443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_17
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 277
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3308b0932fc57ab0800000000000000
+      internalID: -5010871258721025221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_18
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 331
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cc8629946ac6590800000000000000
+      internalID: -7679580429654373340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_19
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 279
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac332a6f971e16b0800000000000000
+      internalID: -5323791736057414493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_20
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 332
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdda2b07317a971f0800000000000000
+      internalID: -1046621736449954341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_21
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 281
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea72499e8d69c9880800000000000000
+      internalID: -8602835329808586834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_22
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 327
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a459484b30ba490800000000000000
+      internalID: -7734083861225321936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_23
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 323
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e29333a3974a4a0800000000000000
+      internalID: -6583003464434373074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_24
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 314
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcb8a074625355c0800000000000000
+      internalID: -4227945033830449993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_25
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 312
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cf63efc8e5d5380800000000000000
+      internalID: -8980918122253452203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 277
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1813d9391cd7bf0800000000000000
+      internalID: -324890758359187022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_27
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 307
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6195ccd2f9770090800000000000000
+      internalID: -8068346123417972371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_28
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 282
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be2218feb123fc10800000000000000
+      internalID: 2086048156492115634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_29
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 290
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65252a816b7e3ca0800000000000000
+      internalID: -6035250791770151572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_30
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 278
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cc8581dca0203f0800000000000000
+      internalID: -936173896546595747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_31
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 289
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280dbdfd314779760800000000000000
+      internalID: 7464562536098812034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_32
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 277
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c246eb83db2e15ed0800000000000000
+      internalID: -2426909421847288788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_33
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 280
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66537fe884eb88c60800000000000000
+      internalID: 7820709971774354790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_34
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 278
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe52ffcadac235d60800000000000000
+      internalID: 7877689297644496367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 735
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa9c2ed147115030800000000000000
+      internalID: 3481589558601882273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ca368ee3eebb090800000000000000
+      internalID: -8017552757648806845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 10
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd83667f4fe51120800000000000000
+      internalID: 2384074702330236354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_38
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84967411e94cd2780800000000000000
+      internalID: -8706086321463531192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 75
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ffdc514425fa750800000000000000
+      internalID: 6318359254601170694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3b7ef073d0f3c60800000000000000
+      internalID: 7799967609770193826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 75
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d38d05789334450800000000000000
+      internalID: 6071759975965277520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_42
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba396ec15307970800000000000000
+      internalID: 8750552474224667442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 75
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59874205d5d84f200800000000000000
+      internalID: 212950514309298325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_44
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358d2bd0150db7590800000000000000
+      internalID: -7675312093382125485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_45
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629842766b3b04bb0800000000000000
+      internalID: -4953761994111678170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 8
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2464ba19f893fe9d0800000000000000
+      internalID: -2742910359258315198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c392599c0bac02ec0800000000000000
+      internalID: -3593649641996605124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 73
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f932dd773ea7dd0800000000000000
+      internalID: -2487425740218065105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3765997a6dd9c7110800000000000000
+      internalID: 1260055541017302643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_50
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9fa8c549ba8c9d0800000000000000
+      internalID: -2753762518440937052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f619b207c22d890800000000000000
+      internalID: -7434831174556356822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_52
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 75
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5833b3bd288e21a50800000000000000
+      internalID: 6490505661715788677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1124a5238863b70800000000000000
+      internalID: 8878433465251533220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_54
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 7
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc36a9478af8cf6b0800000000000000
+      internalID: -5261172311002029107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_55
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 6
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9630e413a06d265b0800000000000000
+      internalID: -5376499665861737623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 7
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf42c335ebb57c80800000000000000
+      internalID: -8325541743034216500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_57
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 8
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2067135562f0ade70800000000000000
+      internalID: 9140635051014321666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_58
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 32
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3c35c5570f25d60800000000000000
+      internalID: 7877623085075252208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_59
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2dfb3c7bb1389d0800000000000000
+      internalID: -2773342469452999984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_60
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 40
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7968886737e1f30800000000000000
+      internalID: 4548199626624636863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_61
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92fadfb781789190800000000000000
+      internalID: -7955483913896660325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_62
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 28
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0e8ecba16a48550800000000000000
+      internalID: 6162232823918420222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_63
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 17
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeadb4b3d3a532df0800000000000000
+      internalID: -206221938894578962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_64
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 38
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2021bfe965c25a4a0800000000000000
+      internalID: -6582806529786047998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_65
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 47
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadb85e03f91d0950800000000000000
+      internalID: 6416813575781268911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_66
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 12
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48e9dc9e14d78460800000000000000
+      internalID: 7243991753594366028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 10
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c13bd732e3a3940800000000000000
+      internalID: 5276598235571625003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_68
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637cc98d7f982c5d0800000000000000
+      internalID: -3043718700564953290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_69
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb4ab6cf5ea59290800000000000000
+      internalID: -7884203846262961182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_70
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c617fccaab50fe420800000000000000
+      internalID: 2661352204120584556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 41
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fad69e97ccad5b60800000000000000
+      internalID: 7736529708251536120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_72
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 12
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161768ab7413e77d0800000000000000
+      internalID: -2918841324347690655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_73
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 34
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ee9cec05560f4a0800000000000000
+      internalID: -6561633259337683307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_74
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a1f25dacade7800800000000000000
+      internalID: 612167164063849119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_75
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6e20723b84e01e0800000000000000
+      internalID: -2229764831210969362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_76
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 11
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c19e1219b99169e0800000000000000
+      internalID: -1629852569979416126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_77
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58eece51205ba690800000000000000
+      internalID: -7589884642748077988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_78
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 25
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfb2f3ceed8a9520800000000000000
+      internalID: 2709634182445973457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_79
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 50
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853902ba586d24490800000000000000
+      internalID: -7763406938043280552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 14
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8845891d9b7671350800000000000000
+      internalID: 5987368277395395720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_81
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 31
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156aea78db7b6de40800000000000000
+      internalID: 5680930004627531345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_82
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 42
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7aad18311c6e9c0800000000000000
+      internalID: -3898216137915455544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_83
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 53
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0435a0c1f7a795a0800000000000000
+      internalID: -6514553679207123954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_84
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 30
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f976db26b98dd360800000000000000
+      internalID: 7196059195120450036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_85
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 21
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c4054badf25d1c0800000000000000
+      internalID: -4479621637975552948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_86
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 27
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ebf330e3c75d970800000000000000
+      internalID: 8779059654412975733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_87
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 40
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6a4ae631f36ff70800000000000000
+      internalID: 9220626639780882094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_88
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 42
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107e2232b4bd24320800000000000000
+      internalID: 2540834255548901121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_89
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dfe5554a6bd8ec0800000000000000
+      internalID: -3562990913257013917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_90
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000d6a76519444720800000000000000
+      internalID: 2829466822177640448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_91
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95728dd32f317c330800000000000000
+      internalID: 3730972747440334681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_92
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bbcb1e1a2d0ee00800000000000000
+      internalID: 1072088304032987969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_93
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 36
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f2b9d3ea7832ef0800000000000000
+      internalID: -134114381463343220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_94
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 44
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae2afd7b3eff3d10800000000000000
+      internalID: 2107682682102754982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_95
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 36
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bde548687f95b60800000000000000
+      internalID: 7735485992104024872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_96
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80524d2d6f2472b0800000000000000
+      internalID: -5587789091702681458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_97
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3ab3eeaaa0eda80800000000000000
+      internalID: -8440296922388126777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_98
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 33
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cc59afa1ed8d560800000000000000
+      internalID: 7338859800254860418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_99
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd17bb1b223e84ed0800000000000000
+      internalID: -2429442260816137764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Explosions_100
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 35
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b88f05aa2baa250800000000000000
+      internalID: 5956769901723552615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DS DSi - Sonic Rush Adventure - Explosions_0: -502792026422446171
+      DS DSi - Sonic Rush Adventure - Explosions_1: -4819368267615109086
+      DS DSi - Sonic Rush Adventure - Explosions_10: -8695127382065600147
+      DS DSi - Sonic Rush Adventure - Explosions_100: 5956769901723552615
+      DS DSi - Sonic Rush Adventure - Explosions_11: 6372611260715256369
+      DS DSi - Sonic Rush Adventure - Explosions_12: -2882905959886764981
+      DS DSi - Sonic Rush Adventure - Explosions_13: 9137889039141739019
+      DS DSi - Sonic Rush Adventure - Explosions_14: 2624514856123146608
+      DS DSi - Sonic Rush Adventure - Explosions_15: -5538460723841167358
+      DS DSi - Sonic Rush Adventure - Explosions_16: 4213690349229322443
+      DS DSi - Sonic Rush Adventure - Explosions_17: -5010871258721025221
+      DS DSi - Sonic Rush Adventure - Explosions_18: -7679580429654373340
+      DS DSi - Sonic Rush Adventure - Explosions_19: -5323791736057414493
+      DS DSi - Sonic Rush Adventure - Explosions_2: 2304418285889521598
+      DS DSi - Sonic Rush Adventure - Explosions_20: -1046621736449954341
+      DS DSi - Sonic Rush Adventure - Explosions_21: -8602835329808586834
+      DS DSi - Sonic Rush Adventure - Explosions_22: -7734083861225321936
+      DS DSi - Sonic Rush Adventure - Explosions_23: -6583003464434373074
+      DS DSi - Sonic Rush Adventure - Explosions_24: -4227945033830449993
+      DS DSi - Sonic Rush Adventure - Explosions_25: -8980918122253452203
+      DS DSi - Sonic Rush Adventure - Explosions_26: -324890758359187022
+      DS DSi - Sonic Rush Adventure - Explosions_27: -8068346123417972371
+      DS DSi - Sonic Rush Adventure - Explosions_28: 2086048156492115634
+      DS DSi - Sonic Rush Adventure - Explosions_29: -6035250791770151572
+      DS DSi - Sonic Rush Adventure - Explosions_3: 1134656535762577361
+      DS DSi - Sonic Rush Adventure - Explosions_30: -936173896546595747
+      DS DSi - Sonic Rush Adventure - Explosions_31: 7464562536098812034
+      DS DSi - Sonic Rush Adventure - Explosions_32: -2426909421847288788
+      DS DSi - Sonic Rush Adventure - Explosions_33: 7820709971774354790
+      DS DSi - Sonic Rush Adventure - Explosions_34: 7877689297644496367
+      DS DSi - Sonic Rush Adventure - Explosions_35: 3481589558601882273
+      DS DSi - Sonic Rush Adventure - Explosions_36: -8017552757648806845
+      DS DSi - Sonic Rush Adventure - Explosions_37: 2384074702330236354
+      DS DSi - Sonic Rush Adventure - Explosions_38: -8706086321463531192
+      DS DSi - Sonic Rush Adventure - Explosions_39: 6318359254601170694
+      DS DSi - Sonic Rush Adventure - Explosions_4: -7508082198562990275
+      DS DSi - Sonic Rush Adventure - Explosions_40: 7799967609770193826
+      DS DSi - Sonic Rush Adventure - Explosions_41: 6071759975965277520
+      DS DSi - Sonic Rush Adventure - Explosions_42: 8750552474224667442
+      DS DSi - Sonic Rush Adventure - Explosions_43: 212950514309298325
+      DS DSi - Sonic Rush Adventure - Explosions_44: -7675312093382125485
+      DS DSi - Sonic Rush Adventure - Explosions_45: -4953761994111678170
+      DS DSi - Sonic Rush Adventure - Explosions_46: -2742910359258315198
+      DS DSi - Sonic Rush Adventure - Explosions_47: -3593649641996605124
+      DS DSi - Sonic Rush Adventure - Explosions_48: -2487425740218065105
+      DS DSi - Sonic Rush Adventure - Explosions_49: 1260055541017302643
+      DS DSi - Sonic Rush Adventure - Explosions_5: -1106766376029396339
+      DS DSi - Sonic Rush Adventure - Explosions_50: -2753762518440937052
+      DS DSi - Sonic Rush Adventure - Explosions_51: -7434831174556356822
+      DS DSi - Sonic Rush Adventure - Explosions_52: 6490505661715788677
+      DS DSi - Sonic Rush Adventure - Explosions_53: 8878433465251533220
+      DS DSi - Sonic Rush Adventure - Explosions_54: -5261172311002029107
+      DS DSi - Sonic Rush Adventure - Explosions_55: -5376499665861737623
+      DS DSi - Sonic Rush Adventure - Explosions_56: -8325541743034216500
+      DS DSi - Sonic Rush Adventure - Explosions_57: 9140635051014321666
+      DS DSi - Sonic Rush Adventure - Explosions_58: 7877623085075252208
+      DS DSi - Sonic Rush Adventure - Explosions_59: -2773342469452999984
+      DS DSi - Sonic Rush Adventure - Explosions_6: 7687645163145463650
+      DS DSi - Sonic Rush Adventure - Explosions_60: 4548199626624636863
+      DS DSi - Sonic Rush Adventure - Explosions_61: -7955483913896660325
+      DS DSi - Sonic Rush Adventure - Explosions_62: 6162232823918420222
+      DS DSi - Sonic Rush Adventure - Explosions_63: -206221938894578962
+      DS DSi - Sonic Rush Adventure - Explosions_64: -6582806529786047998
+      DS DSi - Sonic Rush Adventure - Explosions_65: 6416813575781268911
+      DS DSi - Sonic Rush Adventure - Explosions_66: 7243991753594366028
+      DS DSi - Sonic Rush Adventure - Explosions_67: 5276598235571625003
+      DS DSi - Sonic Rush Adventure - Explosions_68: -3043718700564953290
+      DS DSi - Sonic Rush Adventure - Explosions_69: -7884203846262961182
+      DS DSi - Sonic Rush Adventure - Explosions_7: 307045506252084596
+      DS DSi - Sonic Rush Adventure - Explosions_70: 2661352204120584556
+      DS DSi - Sonic Rush Adventure - Explosions_71: 7736529708251536120
+      DS DSi - Sonic Rush Adventure - Explosions_72: -2918841324347690655
+      DS DSi - Sonic Rush Adventure - Explosions_73: -6561633259337683307
+      DS DSi - Sonic Rush Adventure - Explosions_74: 612167164063849119
+      DS DSi - Sonic Rush Adventure - Explosions_75: -2229764831210969362
+      DS DSi - Sonic Rush Adventure - Explosions_76: -1629852569979416126
+      DS DSi - Sonic Rush Adventure - Explosions_77: -7589884642748077988
+      DS DSi - Sonic Rush Adventure - Explosions_78: 2709634182445973457
+      DS DSi - Sonic Rush Adventure - Explosions_79: -7763406938043280552
+      DS DSi - Sonic Rush Adventure - Explosions_8: -1104360478148293006
+      DS DSi - Sonic Rush Adventure - Explosions_80: 5987368277395395720
+      DS DSi - Sonic Rush Adventure - Explosions_81: 5680930004627531345
+      DS DSi - Sonic Rush Adventure - Explosions_82: -3898216137915455544
+      DS DSi - Sonic Rush Adventure - Explosions_83: -6514553679207123954
+      DS DSi - Sonic Rush Adventure - Explosions_84: 7196059195120450036
+      DS DSi - Sonic Rush Adventure - Explosions_85: -4479621637975552948
+      DS DSi - Sonic Rush Adventure - Explosions_86: 8779059654412975733
+      DS DSi - Sonic Rush Adventure - Explosions_87: 9220626639780882094
+      DS DSi - Sonic Rush Adventure - Explosions_88: 2540834255548901121
+      DS DSi - Sonic Rush Adventure - Explosions_89: -3562990913257013917
+      DS DSi - Sonic Rush Adventure - Explosions_9: 8405501915171061599
+      DS DSi - Sonic Rush Adventure - Explosions_90: 2829466822177640448
+      DS DSi - Sonic Rush Adventure - Explosions_91: 3730972747440334681
+      DS DSi - Sonic Rush Adventure - Explosions_92: 1072088304032987969
+      DS DSi - Sonic Rush Adventure - Explosions_93: -134114381463343220
+      DS DSi - Sonic Rush Adventure - Explosions_94: 2107682682102754982
+      DS DSi - Sonic Rush Adventure - Explosions_95: 7735485992104024872
+      DS DSi - Sonic Rush Adventure - Explosions_96: -5587789091702681458
+      DS DSi - Sonic Rush Adventure - Explosions_97: -8440296922388126777
+      DS DSi - Sonic Rush Adventure - Explosions_98: 7338859800254860418
+      DS DSi - Sonic Rush Adventure - Explosions_99: -2429442260816137764
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

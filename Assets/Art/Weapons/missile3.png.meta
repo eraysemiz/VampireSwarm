@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: f1123dcb879b999478b118b891ef7096
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4306334292908882463
+    second: missile3_0
+  - first:
+      213: -2350915681872875923
+    second: missile3_1
+  - first:
+      213: 3331733431723408235
+    second: missile3_2
+  - first:
+      213: 5736884962991297337
+    second: missile3_3
+  - first:
+      213: 1290606861380070178
+    second: missile3_4
+  - first:
+      213: 8234511443760820594
+    second: missile3_5
+  - first:
+      213: -4571718788818922151
+    second: missile3_6
+  - first:
+      213: -8979508078577618169
+    second: missile3_7
+  - first:
+      213: 4284858068627931010
+    second: missile3_8
+  - first:
+      213: 2033084801637005556
+    second: missile3_9
+  - first:
+      213: -8441802815028445609
+    second: missile3_10
+  - first:
+      213: -2688804952682245739
+    second: missile3_11
+  - first:
+      213: 3439258589449097301
+    second: missile3_12
+  - first:
+      213: 4638530321326290369
+    second: missile3_13
+  - first:
+      213: 7765186215911709856
+    second: missile3_14
+  - first:
+      213: 2400002766758172951
+    second: missile3_15
+  - first:
+      213: 579272914830931709
+    second: missile3_16
+  - first:
+      213: -6153756475180932372
+    second: missile3_17
+  - first:
+      213: 6955268686698388072
+    second: missile3_18
+  - first:
+      213: 5418584502993260275
+    second: missile3_19
+  - first:
+      213: 2399804430021767610
+    second: missile3_20
+  - first:
+      213: -4985051326012299981
+    second: missile3_21
+  - first:
+      213: -3302580641966569524
+    second: missile3_22
+  - first:
+      213: 238917363373285947
+    second: missile3_23
+  - first:
+      213: -4375878685808372849
+    second: missile3_24
+  - first:
+      213: -5641173281952656721
+    second: missile3_25
+  - first:
+      213: -8553925411863881550
+    second: missile3_26
+  - first:
+      213: -4357140055884693691
+    second: missile3_27
+  - first:
+      213: -7840628668552609439
+    second: missile3_28
+  - first:
+      213: -8290071605669964363
+    second: missile3_29
+  - first:
+      213: -2363797417132353117
+    second: missile3_30
+  - first:
+      213: -8335140258191159014
+    second: missile3_31
+  - first:
+      213: 8551560993272806999
+    second: missile3_32
+  - first:
+      213: -7083515700984830949
+    second: missile3_33
+  - first:
+      213: -3991218434911282983
+    second: missile3_34
+  - first:
+      213: -2731383983067272870
+    second: missile3_35
+  - first:
+      213: 767300409412220907
+    second: missile3_36
+  - first:
+      213: -3921922290768309700
+    second: missile3_37
+  - first:
+      213: 5704462198416363485
+    second: missile3_38
+  - first:
+      213: -1575531237640442889
+    second: missile3_39
+  - first:
+      213: -5583237480722210639
+    second: missile3_40
+  - first:
+      213: -7922658315217444357
+    second: missile3_41
+  - first:
+      213: -7134164486038379512
+    second: missile3_42
+  - first:
+      213: 4384431059614747367
+    second: missile3_43
+  - first:
+      213: -3642206088318520578
+    second: missile3_44
+  - first:
+      213: 6703744817351308157
+    second: missile3_45
+  - first:
+      213: 8961134155025386032
+    second: missile3_46
+  - first:
+      213: -244440532122078419
+    second: missile3_47
+  - first:
+      213: -6469422183340105705
+    second: missile3_48
+  - first:
+      213: 2662755571175546893
+    second: missile3_49
+  - first:
+      213: 1051903990122112412
+    second: missile3_50
+  - first:
+      213: 6757488941765144239
+    second: missile3_51
+  - first:
+      213: -4631099619860002116
+    second: missile3_52
+  - first:
+      213: -2617898045969196641
+    second: missile3_53
+  - first:
+      213: -1380466735642822868
+    second: missile3_54
+  - first:
+      213: -582427222898265170
+    second: missile3_55
+  - first:
+      213: 6863224797280802854
+    second: missile3_56
+  - first:
+      213: -1517313738149970731
+    second: missile3_57
+  - first:
+      213: 7103856936585554003
+    second: missile3_58
+  - first:
+      213: 2574445646221541872
+    second: missile3_59
+  - first:
+      213: 3865711755209271255
+    second: missile3_60
+  - first:
+      213: 3599475872501856077
+    second: missile3_61
+  - first:
+      213: 8322528838963756338
+    second: missile3_62
+  - first:
+      213: 1283536578862392414
+    second: missile3_63
+  - first:
+      213: 3662538995824632382
+    second: missile3_64
+  - first:
+      213: -3458836394909061484
+    second: missile3_65
+  - first:
+      213: 2668818437990392389
+    second: missile3_66
+  - first:
+      213: -1686822435645376774
+    second: missile3_67
+  - first:
+      213: 203616211407525020
+    second: missile3_68
+  - first:
+      213: 8702695286942353074
+    second: missile3_69
+  - first:
+      213: 2471866421612517458
+    second: missile3_70
+  - first:
+      213: 7070317501195360553
+    second: missile3_71
+  - first:
+      213: 8805216115324987420
+    second: missile3_72
+  - first:
+      213: -4770175331095878128
+    second: missile3_73
+  - first:
+      213: 4771011650614043870
+    second: missile3_74
+  - first:
+      213: 446949186282335025
+    second: missile3_75
+  - first:
+      213: -5539334059046666735
+    second: missile3_76
+  - first:
+      213: 4969944043682476509
+    second: missile3_77
+  - first:
+      213: -6243021107220681114
+    second: missile3_78
+  - first:
+      213: -2514426514682581844
+    second: missile3_79
+  - first:
+      213: 6605330465003120132
+    second: missile3_80
+  - first:
+      213: -6146519400301044275
+    second: missile3_81
+  - first:
+      213: 8786064507127845750
+    second: missile3_82
+  - first:
+      213: -3796479126104182727
+    second: missile3_83
+  - first:
+      213: 3101138364022545801
+    second: missile3_84
+  - first:
+      213: -7833824610946566097
+    second: missile3_85
+  - first:
+      213: 5705811582208293426
+    second: missile3_86
+  - first:
+      213: -7605133368295852213
+    second: missile3_87
+  - first:
+      213: 6033218256427585281
+    second: missile3_88
+  - first:
+      213: -4960797624509331506
+    second: missile3_89
+  - first:
+      213: 1766757576490950498
+    second: missile3_90
+  - first:
+      213: 4131472421940499799
+    second: missile3_91
+  - first:
+      213: 3674952111523643997
+    second: missile3_92
+  - first:
+      213: 5707625964747829408
+    second: missile3_93
+  - first:
+      213: -2492527661896248632
+    second: missile3_94
+  - first:
+      213: -7483566731181808914
+    second: missile3_95
+  - first:
+      213: 1225199258917754933
+    second: missile3_96
+  - first:
+      213: 3264860998318129070
+    second: missile3_97
+  - first:
+      213: 4482711206815178696
+    second: missile3_98
+  - first:
+      213: 2158877693943074642
+    second: missile3_99
+  - first:
+      213: -2597852306720362241
+    second: missile3_100
+  - first:
+      213: 8101304720005814264
+    second: missile3_101
+  - first:
+      213: 5874160864309296150
+    second: missile3_102
+  - first:
+      213: 9167894514945121757
+    second: missile3_103
+  - first:
+      213: 2846048528983236158
+    second: missile3_104
+  - first:
+      213: 7169171952577517397
+    second: missile3_105
+  - first:
+      213: -3820743080163323295
+    second: missile3_106
+  - first:
+      213: 216478409976547105
+    second: missile3_107
+  - first:
+      213: 3942159262476412871
+    second: missile3_108
+  - first:
+      213: 641402546872404444
+    second: missile3_109
+  - first:
+      213: -1388777346718940619
+    second: missile3_110
+  - first:
+      213: 2514347163083060530
+    second: missile3_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: missile3_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 248
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1abae4393c23cb30800000000000000
+      internalID: 4306334292908882463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 248
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e621d94aedf5fd0800000000000000
+      internalID: -2350915681872875923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 248
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bba2467e1bc3e20800000000000000
+      internalID: 3331733431723408235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 248
+        width: 27
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93350608a728d9f40800000000000000
+      internalID: 5736884962991297337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 248
+        width: 26
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bad3d3a1829e110800000000000000
+      internalID: 1290606861380070178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_5
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 248
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271b040a78cd64270800000000000000
+      internalID: 8234511443760820594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 248
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955187bcbfdfd80c0800000000000000
+      internalID: -4571718788818922151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_7
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 248
+        width: 30
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70371ae5af0626380800000000000000
+      internalID: -8979508078577618169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 248
+        width: 32
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fb88516bfd67b30800000000000000
+      internalID: 4284858068627931010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 247
+        width: 34
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8b1d7fad7f63c10800000000000000
+      internalID: 2033084801637005556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_10
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 247
+        width: 34
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e365af011b8da80800000000000000
+      internalID: -8441802815028445609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_11
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 247
+        width: 34
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591501534227faad0800000000000000
+      internalID: -2688804952682245739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 117
+        width: 32
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55013d21773babf20800000000000000
+      internalID: 3439258589449097301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 117
+        width: 30
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5388250ce5f5040800000000000000
+      internalID: 4638530321326290369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 117
+        width: 27
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac5d2eb8bb73cb60800000000000000
+      internalID: 7765186215911709856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 117
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7195394fcc58e4120800000000000000
+      internalID: 2400002766758172951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_16
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 117
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6b08c95adf90800800000000000000
+      internalID: 579272914830931709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 117
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a49ef617799aa0800000000000000
+      internalID: -6153756475180932372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 117
+        width: 27
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a1e0c1504168060800000000000000
+      internalID: 6955268686698388072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 117
+        width: 26
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe895685eda23b40800000000000000
+      internalID: 5418584502993260275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 117
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab13bd51a61dd4120800000000000000
+      internalID: 2399804430021767610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_21
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 117
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33562fd1b3a81dab0800000000000000
+      internalID: -4985051326012299981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_22
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 117
+        width: 28
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc740896760ea22d0800000000000000
+      internalID: -3302580641966569524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_23
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 117
+        width: 27
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32a98e731ec05300800000000000000
+      internalID: 238917363373285947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_24
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 117
+        width: 26
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8350380581c543c0800000000000000
+      internalID: -4375878685808372849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_25
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 47
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa299ccc9c686b1b0800000000000000
+      internalID: -5641173281952656721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 47
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b89aa6982a5a4980800000000000000
+      internalID: -8553925411863881550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 47
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ffd5c44345883c0800000000000000
+      internalID: -4357140055884693691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_28
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 47
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1618d2374cd703390800000000000000
+      internalID: -7840628668552609439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 47
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b55d7d1ccfb3fc80800000000000000
+      internalID: -8290071605669964363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a917d6e5ca123fd0800000000000000
+      internalID: -2363797417132353117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_31
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 47
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11557db812a35c80800000000000000
+      internalID: -8335140258191159014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_32
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 47
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ebc1f4a6f3da670800000000000000
+      internalID: 8551560993272806999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 47
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14a5e1000c42bd90800000000000000
+      internalID: -7083515700984830949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 47
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d85f16daf75c98c0800000000000000
+      internalID: -3991218434911282983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_35
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 47
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5965182dbc281ad0800000000000000
+      internalID: -2731383983067272870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_36
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 47
+        width: 28
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7f60338aff5aa00800000000000000
+      internalID: 767300409412220907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_37
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 47
+        width: 27
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32911ea4788299c0800000000000000
+      internalID: -3921922290768309700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_38
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf404b55225a2f40800000000000000
+      internalID: 5704462198416363485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 7
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbe8e7dfa6922ae0800000000000000
+      internalID: -1575531237640442889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 7
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0e7e0b71b5482b0800000000000000
+      internalID: -5583237480722210639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_41
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 7
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf16ba40d301d0290800000000000000
+      internalID: -7922658315217444357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_42
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 30
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804a978c23b5efc90800000000000000
+      internalID: -7134164486038379512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eac68aa1d0a8dc30800000000000000
+      internalID: 4384431059614747367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_44
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 30
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef272032cd8447dc0800000000000000
+      internalID: -3642206088318520578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_45
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d733717b46c780d50800000000000000
+      internalID: 6703744817351308157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_46
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a88ee29085c5c70800000000000000
+      internalID: 8961134155025386032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 30
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23f72291a29b9cf0800000000000000
+      internalID: -244440532122078419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_48
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7102bfbfccef736a0800000000000000
+      internalID: -6469422183340105705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d006c97851204f420800000000000000
+      internalID: 2662755571175546893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_50
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c956b051b1d199e00800000000000000
+      internalID: 1051903990122112412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_51
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faeaa8bc36c67cd50800000000000000
+      internalID: 6757488941765144239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_52
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 30
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba4cceae670bbfb0800000000000000
+      internalID: -4631099619860002116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_53
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 30
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9911dfe89b5babd0800000000000000
+      internalID: -2617898045969196641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_54
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 30
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2734c561d897dce0800000000000000
+      internalID: -1380466735642822868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_55
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3b1afc68dcae7f0800000000000000
+      internalID: -582427222898265170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_56
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628139717921f3f50800000000000000
+      internalID: 6863224797280802854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_57
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc30c8b13b61fae0800000000000000
+      internalID: -1517313738149970731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_58
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 29
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3586068fe38f59260800000000000000
+      internalID: 7103856936585554003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_59
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 30
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1069cdca44ab320800000000000000
+      internalID: 2574445646221541872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_60
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 30
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7ec452c54c5a530800000000000000
+      internalID: 3865711755209271255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_61
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47ff063c38e3f130800000000000000
+      internalID: 3599475872501856077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_62
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23df06762ef8f7370800000000000000
+      internalID: 8322528838963756338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_63
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54205fc7b900d110800000000000000
+      internalID: 1283536578862392414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 30
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32a42ecfc3f3d230800000000000000
+      internalID: 3662538995824632382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_65
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 30
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ea041ef9ebfffc0800000000000000
+      internalID: -3458836394909061484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_66
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5422e66ba3c890520800000000000000
+      internalID: 2668818437990392389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_67
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6b2349ee33798e0800000000000000
+      internalID: -1686822435645376774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 29
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94d47f8dd363d200800000000000000
+      internalID: 203616211407525020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_69
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b64aae214f26c870800000000000000
+      internalID: 8702695286942353074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_70
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2581e68f965dd4220800000000000000
+      internalID: 2471866421612517458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_71
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9291af3ae40de1260800000000000000
+      internalID: 7070317501195360553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_72
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ad74a769623a70800000000000000
+      internalID: 8805216115324987420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_73
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016e2b15fceeccdb0800000000000000
+      internalID: -4770175331095878128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_74
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 30
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4a91e71d9063240800000000000000
+      internalID: 4771011650614043870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_75
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 30
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b2209bae1e33600800000000000000
+      internalID: 446949186282335025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_76
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 28
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11efc4e95055023b0800000000000000
+      internalID: -5539334059046666735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_77
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1334d96c9c8f440800000000000000
+      internalID: 4969944043682476509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_78
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e68d241655c59a0800000000000000
+      internalID: -6243021107220681114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_79
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac658a2866fa1dd0800000000000000
+      internalID: -2514426514682581844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_80
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406a396bf09daab50800000000000000
+      internalID: 6605330465003120132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_81
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd520ccb2d23baa0800000000000000
+      internalID: -6146519400301044275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_82
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 16
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 673d5016e1f5ee970800000000000000
+      internalID: 8786064507127845750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_83
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 16
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930ff537952305bc0800000000000000
+      internalID: -3796479126104182727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d56ea59e4790b20800000000000000
+      internalID: 3101138364022545801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_85
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 18
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2831df850aa84390800000000000000
+      internalID: -7833824610946566097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_86
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 18
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ab5d0476d1f2f40800000000000000
+      internalID: 5705811582208293426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_87
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b477149ce73257690800000000000000
+      internalID: -7605133368295852213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_88
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f84c2f90c4ab350800000000000000
+      internalID: 6033218256427585281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_89
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 18
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7058c08d4b72bb0800000000000000
+      internalID: -4960797624509331506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_90
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f19f6b7a8c48810800000000000000
+      internalID: 1766757576490950498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_91
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755161d3740f55930800000000000000
+      internalID: 4131472421940499799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_92
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 16
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5240f5897d000330800000000000000
+      internalID: 3674952111523643997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_93
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 18
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0379b139f853f40800000000000000
+      internalID: 5707625964747829408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_94
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2d6d72c43c86dd0800000000000000
+      internalID: -2492527661896248632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_95
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 18
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee22af625b7052890800000000000000
+      internalID: -7483566731181808914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_96
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5385dde0c38c00110800000000000000
+      internalID: 1225199258917754933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_97
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 18
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf77cda7cd1f4d20800000000000000
+      internalID: 3264860998318129070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_98
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 18
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf91e8971ac53e30800000000000000
+      internalID: 4482711206815178696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_99
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 18
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25fcdfc03dfd5fd10800000000000000
+      internalID: 2158877693943074642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_100
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0f00f471392fbd0800000000000000
+      internalID: -2597852306720362241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_101
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7542568bd9d6070800000000000000
+      internalID: 8101304720005814264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_102
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c38a6fe26358150800000000000000
+      internalID: 5874160864309296150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 18
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd5e8ddc77ea3f70800000000000000
+      internalID: 9167894514945121757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_104
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e919fde023f7720800000000000000
+      internalID: 2846048528983236158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_105
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557931f28e30e7360800000000000000
+      internalID: 7169171952577517397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_106
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16255d8696ef9fac0800000000000000
+      internalID: -3820743080163323295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_107
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127813887f5110300800000000000000
+      internalID: 216478409976547105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_108
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c72ce776fc55b630800000000000000
+      internalID: 3942159262476412871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_109
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd94c54d738b6e800800000000000000
+      internalID: 641402546872404444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_110
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53245b87c521abce0800000000000000
+      internalID: -1388777346718940619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: missile3_111
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 16
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235b3995c61c4e220800000000000000
+      internalID: 2514347163083060530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8656bb390acd9ac478e1620af61654df
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      missile3_0: 4306334292908882463
+      missile3_1: -2350915681872875923
+      missile3_10: -8441802815028445609
+      missile3_100: -2597852306720362241
+      missile3_101: 8101304720005814264
+      missile3_102: 5874160864309296150
+      missile3_103: 9167894514945121757
+      missile3_104: 2846048528983236158
+      missile3_105: 7169171952577517397
+      missile3_106: -3820743080163323295
+      missile3_107: 216478409976547105
+      missile3_108: 3942159262476412871
+      missile3_109: 641402546872404444
+      missile3_11: -2688804952682245739
+      missile3_110: -1388777346718940619
+      missile3_111: 2514347163083060530
+      missile3_12: 3439258589449097301
+      missile3_13: 4638530321326290369
+      missile3_14: 7765186215911709856
+      missile3_15: 2400002766758172951
+      missile3_16: 579272914830931709
+      missile3_17: -6153756475180932372
+      missile3_18: 6955268686698388072
+      missile3_19: 5418584502993260275
+      missile3_2: 3331733431723408235
+      missile3_20: 2399804430021767610
+      missile3_21: -4985051326012299981
+      missile3_22: -3302580641966569524
+      missile3_23: 238917363373285947
+      missile3_24: -4375878685808372849
+      missile3_25: -5641173281952656721
+      missile3_26: -8553925411863881550
+      missile3_27: -4357140055884693691
+      missile3_28: -7840628668552609439
+      missile3_29: -8290071605669964363
+      missile3_3: 5736884962991297337
+      missile3_30: -2363797417132353117
+      missile3_31: -8335140258191159014
+      missile3_32: 8551560993272806999
+      missile3_33: -7083515700984830949
+      missile3_34: -3991218434911282983
+      missile3_35: -2731383983067272870
+      missile3_36: 767300409412220907
+      missile3_37: -3921922290768309700
+      missile3_38: 5704462198416363485
+      missile3_39: -1575531237640442889
+      missile3_4: 1290606861380070178
+      missile3_40: -5583237480722210639
+      missile3_41: -7922658315217444357
+      missile3_42: -7134164486038379512
+      missile3_43: 4384431059614747367
+      missile3_44: -3642206088318520578
+      missile3_45: 6703744817351308157
+      missile3_46: 8961134155025386032
+      missile3_47: -244440532122078419
+      missile3_48: -6469422183340105705
+      missile3_49: 2662755571175546893
+      missile3_5: 8234511443760820594
+      missile3_50: 1051903990122112412
+      missile3_51: 6757488941765144239
+      missile3_52: -4631099619860002116
+      missile3_53: -2617898045969196641
+      missile3_54: -1380466735642822868
+      missile3_55: -582427222898265170
+      missile3_56: 6863224797280802854
+      missile3_57: -1517313738149970731
+      missile3_58: 7103856936585554003
+      missile3_59: 2574445646221541872
+      missile3_6: -4571718788818922151
+      missile3_60: 3865711755209271255
+      missile3_61: 3599475872501856077
+      missile3_62: 8322528838963756338
+      missile3_63: 1283536578862392414
+      missile3_64: 3662538995824632382
+      missile3_65: -3458836394909061484
+      missile3_66: 2668818437990392389
+      missile3_67: -1686822435645376774
+      missile3_68: 203616211407525020
+      missile3_69: 8702695286942353074
+      missile3_7: -8979508078577618169
+      missile3_70: 2471866421612517458
+      missile3_71: 7070317501195360553
+      missile3_72: 8805216115324987420
+      missile3_73: -4770175331095878128
+      missile3_74: 4771011650614043870
+      missile3_75: 446949186282335025
+      missile3_76: -5539334059046666735
+      missile3_77: 4969944043682476509
+      missile3_78: -6243021107220681114
+      missile3_79: -2514426514682581844
+      missile3_8: 4284858068627931010
+      missile3_80: 6605330465003120132
+      missile3_81: -6146519400301044275
+      missile3_82: 8786064507127845750
+      missile3_83: -3796479126104182727
+      missile3_84: 3101138364022545801
+      missile3_85: -7833824610946566097
+      missile3_86: 5705811582208293426
+      missile3_87: -7605133368295852213
+      missile3_88: 6033218256427585281
+      missile3_89: -4960797624509331506
+      missile3_9: 2033084801637005556
+      missile3_90: 1766757576490950498
+      missile3_91: 4131472421940499799
+      missile3_92: 3674952111523643997
+      missile3_93: 5707625964747829408
+      missile3_94: -2492527661896248632
+      missile3_95: -7483566731181808914
+      missile3_96: 1225199258917754933
+      missile3_97: 3264860998318129070
+      missile3_98: 4482711206815178696
+      missile3_99: 2158877693943074642
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

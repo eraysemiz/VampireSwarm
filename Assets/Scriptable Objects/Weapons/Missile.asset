@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
+  m_Name: Missile
+  m_EditorClassIdentifier: 
+  icon: {fileID: 4306334292908882463, guid: f1123dcb879b999478b118b891ef7096, type: 3}
+  maxLevel: 8
+  evolutionData: []
+  behaviour: MissileWeapon
+  baseStats:
+    name: "F\xFCze"
+    description: "Ekranda rastgele konumlara f\xFCze f\u0131rlat\u0131r. F\xFCze
+      d\xFC\u015Ft\xFC\u011F\xFC konumda patlar ve belirli bir s\xFCre boyunca yakar."
+    projectilePrefab: {fileID: -4574244056871064630, guid: 7cce5f92f6f871544aad1e9e7d72412e, type: 3}
+    auraPrefab: {fileID: 1662352532801508793, guid: 812211a477168ad4dbbdd60cdeacc73c, type: 3}
+    hitEffect: {fileID: 1568698459177907595, guid: b72a74e973061a941a327892d58e51e5, type: 3}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 4
+    damage: 50
+    damageVariance: 0
+    area: 1
+    speed: 4
+    cooldown: 3
+    projectileInterval: 0.5
+    knockback: 1
+    critChance: 30
+    number: 1
+    piercing: 10
+    maxInstances: 10
+  linearGrowth: []
+  randomGrowth: []
