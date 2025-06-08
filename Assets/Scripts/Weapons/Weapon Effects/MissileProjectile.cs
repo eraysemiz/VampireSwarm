@@ -11,12 +11,18 @@ public class MissileProjectile : Projectile
     private float speed;
     private Vector2 lastVelocity = Vector2.right;
 
+    public ParticleSystem fireEffect;
+    public static float weaponDamage;
+
+    // Prevent double damage by not applying direct contact damage.
+    // Instead, collisions simply trigger the explosion.
+
     protected override void Start()
     {
         base.Start();
-
         // Hedef yönünü ve hýzý hesapla
         speed = weapon.GetSpeed();
+        weaponDamage = weapon.GetDamage();
         direction = (targetPosition - (Vector2)transform.position).normalized;
 
         // Dynamic Rigidbody için doðrudan velocity ata
@@ -63,6 +69,11 @@ public class MissileProjectile : Projectile
         }
     }
 
+    protected override void OnTriggerEnter2D(Collider2D other)
+    {
+        Explode();
+    }
+
     void Explode()
     {
         if (exploded) return;
@@ -86,16 +97,13 @@ public class MissileProjectile : Projectile
         if (stats.hitEffect)
             Destroy(Instantiate(stats.hitEffect, transform.position, Quaternion.identity), 5f);
 
-        // Aura efekti
-        if (stats.auraPrefab)
-        {
-            FlameAura aura = Instantiate(stats.auraPrefab, transform.position, Quaternion.identity) as FlameAura;
-            aura.weapon = weapon;
-            aura.owner = owner;
-            float area = weapon.GetArea();
-            aura.transform.localScale = new Vector3(area, area, area);
-        }
-
+        Burn();
         Destroy(gameObject);
+    }
+
+    void Burn()
+    {
+        if (fireEffect) 
+            Instantiate(fireEffect, transform.position, Quaternion.identity);
     }
 }

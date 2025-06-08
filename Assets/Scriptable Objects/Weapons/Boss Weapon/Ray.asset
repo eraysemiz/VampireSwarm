@@ -15,7 +15,7 @@ MonoBehaviour:
   weaponType: 1
   damage: 30
   health: 20
-  speed: 10
+  speed: 20
   cooldown: 2
   lifespan: 0.5
   knockback: 1

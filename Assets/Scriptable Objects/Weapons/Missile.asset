@@ -14,14 +14,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   icon: {fileID: 4306334292908882463, guid: f1123dcb879b999478b118b891ef7096, type: 3}
   maxLevel: 8
-  evolutionData: []
+  evolutionData:
+  - name: "Hedefli F\xFCze"
+    condition: 1
+    consumes: 2
+    evolutionLevel: 8
+    catalysts:
+    - itemType: {fileID: 11400000, guid: 143e44d978ccbe3459dd25b93264ebed, type: 2}
+      level: 5
+    outcome:
+      itemType: {fileID: 11400000, guid: 85849b6936f078f4e814d0bb5356118d, type: 2}
+      level: 1
   behaviour: MissileWeapon
   baseStats:
     name: "F\xFCze"
     description: "Ekranda rastgele konumlara f\xFCze f\u0131rlat\u0131r. F\xFCze
       d\xFC\u015Ft\xFC\u011F\xFC konumda patlar ve belirli bir s\xFCre boyunca yakar."
     projectilePrefab: {fileID: -4574244056871064630, guid: 7cce5f92f6f871544aad1e9e7d72412e, type: 3}
-    auraPrefab: {fileID: 1662352532801508793, guid: 812211a477168ad4dbbdd60cdeacc73c, type: 3}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 1568698459177907595, guid: b72a74e973061a941a327892d58e51e5, type: 3}
     procEffect: {fileID: 0}
     spawnVariance:
@@ -31,16 +41,189 @@ MonoBehaviour:
       width: 0
       height: 0
     lifespan: 4
-    damage: 50
+    damage: 40
     damageVariance: 0
-    area: 1
+    area: 0.5
     speed: 4
     cooldown: 3
-    projectileInterval: 0.5
+    projectileInterval: 0.2
     knockback: 1
-    critChance: 30
+    critChance: 10
     number: 1
     piercing: 10
     maxInstances: 10
-  linearGrowth: []
+  linearGrowth:
+  - name: Level 2
+    description: "F\xFCze say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 3
+    description: "Verilen hasar\u0131 20 artt\u0131r\u0131r, bekleme s\xFCresi 0.2
+      sn azal\u0131r."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 20
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.2
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 4
+    description: "F\xFCze say\u0131s\u0131 1 artar"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 5
+    description: "Verilen hasar\u0131 20 artt\u0131r\u0131r, bekleme s\xFCresi 0.2
+      sn azal\u0131r."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 20
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.2
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 6
+    description: "F\xFCze say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r. F\xFCzeler
+      h\u0131zlan\u0131r"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 1
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
+  - name: Level 7
+    description: "Verilen hasar\u0131 20 artt\u0131r\u0131r, bekleme s\xFCresi 0.2
+      sn azal\u0131r."
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 20
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: -0.2
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 0
+    piercing: 0
+    maxInstances: 0
+  - name: Level 8
+    description: "F\xFCze say\u0131s\u0131n\u0131 1 artt\u0131r\u0131r. F\xFCzeler
+      h\u0131zlan\u0131r"
+    projectilePrefab: {fileID: 0}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 0}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 1
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    critChance: 0
+    number: 1
+    piercing: 0
+    maxInstances: 0
   randomGrowth: []

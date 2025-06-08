@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "Sar\u0131msak silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 7639f8a0ab6f32e41bc46aea8a459d63, type: 2}
   stats:
-    maxHealth: 8000
+    maxHealth: 80
     recovery: 1
     armor: 1
     moveSpeed: 1.4

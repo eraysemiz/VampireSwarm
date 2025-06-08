@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
+  m_Name: Targeted Missile
+  m_EditorClassIdentifier: 
+  icon: {fileID: 5584864170198475267, guid: 2b034e7c2ed545147af8c95b1b1fff11, type: 3}
+  maxLevel: 1
+  evolutionData: []
+  behaviour: TargetedMissileWeapon
+  baseStats:
+    name: "Hedefli F\xFCze"
+    description: "F\xFCze Evrimi, Ekrandaki rastgele bir d\xFC\u015Fmana ate\u015Flenir."
+    projectilePrefab: {fileID: -4574244056871064630, guid: 7cce5f92f6f871544aad1e9e7d72412e, type: 3}
+    auraPrefab: {fileID: 0}
+    hitEffect: {fileID: 1568698459177907595, guid: b72a74e973061a941a327892d58e51e5, type: 3}
+    procEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 4
+    damage: 100
+    damageVariance: 0
+    area: 0.7
+    speed: 6
+    cooldown: 2.4
+    projectileInterval: 0.5
+    knockback: 1
+    critChance: 10
+    number: 4
+    piercing: 10
+    maxInstances: 10
+  linearGrowth: []
+  randomGrowth: []
