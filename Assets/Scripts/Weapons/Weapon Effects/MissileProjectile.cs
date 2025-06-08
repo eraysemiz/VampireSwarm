@@ -3,45 +3,63 @@ using UnityEngine;
 
 public class MissileProjectile : Projectile
 {
-    [HideInInspector] public Vector2 targetPosition;
-    bool exploded = false;
+    [HideInInspector]
+    public Vector2 targetPosition;
 
+    private bool exploded = false;
+    private Vector2 direction;
+    private float speed;
     private Vector2 lastVelocity = Vector2.right;
-
-    // Bu iki deðiþkeni hareket ve yön için saklýyoruz
-    private Vector2 _direction;
-    private float _speed;
 
     protected override void Start()
     {
-        // Base sýnýfýn Start'ý da çalýþsýn
         base.Start();
-        Weapon.Stats weaponStats = weapon.GetStats();
 
-        // Hedefe giden yön ve hýz
-        _direction = (targetPosition - (Vector2)transform.position).normalized;
-        _speed = weapon.GetSpeed();
+        // Hedef yönünü ve hýzý hesapla
+        speed = weapon.GetSpeed();
+        direction = (targetPosition - (Vector2)transform.position).normalized;
 
-        // Sprite'ýn "up" (yukarý) vektörünü bu yöne çevir
-        transform.right = _direction;
+        // Dynamic Rigidbody için doðrudan velocity ata
+        if (rb.bodyType == RigidbodyType2D.Dynamic)
+        {
+            rb.linearVelocity = direction * speed;
+        }
     }
+
 
     protected override void FixedUpdate()
     {
         base.FixedUpdate();
 
-        if (rb)
+        // Kinematic Rigidbody ise kendimiz taþýyalým
+        if (rb.bodyType == RigidbodyType2D.Kinematic)
         {
-            Vector2 vel = rb.bodyType == RigidbodyType2D.Dynamic ? rb.linearVelocity : (Vector2)transform.right * weapon.GetSpeed();
-            if (vel.sqrMagnitude > 0.01f)
-                lastVelocity = vel;
-            float angle = Mathf.Atan2(lastVelocity.y, lastVelocity.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0f, 0f, angle);
+            Vector2 newPos = (Vector2)transform.position + direction * speed * Time.fixedDeltaTime;
+            rb.MovePosition(newPos);
         }
 
-        if (!exploded && Vector2.Distance(transform.position, targetPosition) <= 0.1f)
+        // Þu anki hýz vektörünü al; dinamikse rb.velocity, deðilse sabit direction*speed
+        Vector2 currentVelocity = rb.bodyType == RigidbodyType2D.Dynamic
+                                  ? rb.linearVelocity
+                                  : direction * speed;
+
+        // Yeterince büyükse dönmeyi hesapla
+        if (currentVelocity.sqrMagnitude > 0.001f)
         {
-            Explode();
+            lastVelocity = currentVelocity;
+            float angle = Mathf.Atan2(lastVelocity.y, lastVelocity.x) * Mathf.Rad2Deg;
+            // Eðer sprite'ýn burnu yukarý bakýyorsa +90, saða bakýyorsa +0
+            transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+        }
+
+        // Hedefe ulaþýldý mý kontrol et
+        if (!exploded)
+        {
+            float threshold = speed * Time.fixedDeltaTime;
+            if (Vector2.Distance(transform.position, targetPosition) <= threshold)
+            {
+                Explode();
+            }
         }
     }
 
