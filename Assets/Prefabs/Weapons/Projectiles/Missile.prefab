@@ -191,7 +191,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2129401799
   m_SortingLayer: 3
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 4306334292908882463, guid: f1123dcb879b999478b118b891ef7096, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -308,6 +308,7 @@ MonoBehaviour:
   rotationSpeed: {x: 0, y: 0, z: 0}
   targetPosition: {x: 0, y: 0}
   fireEffect: {fileID: 7454782122129207700, guid: 4bc81c044815bcc4e97e8ec553b80884, type: 3}
+  weaponDamage: 0
 --- !u!82 &2968330352357614504
 AudioSource:
   m_ObjectHideFlags: 0
@@ -321,13 +322,13 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 717abdcd65eeb8a4d98b4c030ac2d3d4, type: 3}
   m_Resource: {fileID: 8300000, guid: 717abdcd65eeb8a4d98b4c030ac2d3d4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 200
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

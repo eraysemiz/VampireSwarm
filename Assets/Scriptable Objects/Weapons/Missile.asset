@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
   m_Name: Missile
   m_EditorClassIdentifier: 
-  icon: {fileID: 4306334292908882463, guid: f1123dcb879b999478b118b891ef7096, type: 3}
+  icon: {fileID: 21300000, guid: 2b034e7c2ed545147af8c95b1b1fff11, type: 3}
   maxLevel: 8
   evolutionData:
   - name: "Hedefli F\xFCze"

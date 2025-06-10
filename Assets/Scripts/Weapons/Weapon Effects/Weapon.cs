@@ -127,7 +127,7 @@ public abstract class Weapon : Item
     {
         if (currentStats.critChance > 0)
         {
-            currentCritChance = currentStats.critChance * owner.Stats.luck;
+            currentCritChance = currentStats.critChance;
 
             if (currentCritChance >= Random.Range(1f, 100f))
             {

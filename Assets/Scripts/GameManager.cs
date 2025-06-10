@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -51,7 +52,6 @@ public class GameManager : MonoBehaviour
     private UIChestRewardDisplay chestDisplay;
 
     public bool hasFinalBossDefeated = false;
-
 
     public bool isGameOver { get { return currentState == GameState.GameOver; } }
     public bool choosingUpgrade { get { return currentState == GameState.LevelUp; } }
@@ -145,6 +145,10 @@ public class GameManager : MonoBehaviour
         if (!instance.referenceCamera)
             instance.referenceCamera = Camera.main;
 
+        bool isDamage = int.TryParse(text, out int damage);
+        if (isDamage && damage <= 0)
+            return;
+
         instance.StartCoroutine(instance.GenerateFloatingTextCoroutine(text, target, duration, speed));
 
     }
@@ -154,7 +158,9 @@ public class GameManager : MonoBehaviour
         previousState = currentState;
         currentState = newState;
 
-        AudioListener.pause = (currentState != GameState.Gameplay);
+        AudioListener.pause =
+                    currentState != GameState.Gameplay
+                 && currentState != GameState.GameOver; // ?? ses bug olabilir
     }
 
     public void PauseGame()
@@ -204,7 +210,7 @@ public class GameManager : MonoBehaviour
         timeSurvivedDisplay.text = stopwatchDisplay.text;
         ChangeState(GameState.GameOver);
 
-        DatabaseManager db = Object.FindFirstObjectByType<DatabaseManager>();
+        DatabaseManager db = UnityEngine.Object.FindFirstObjectByType<DatabaseManager>();
         if (db != null && playerObject)
         {
             PlayerStats stats = playerObject.GetComponent<PlayerStats>();

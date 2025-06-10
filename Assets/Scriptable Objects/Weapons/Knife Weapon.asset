@@ -47,7 +47,7 @@ MonoBehaviour:
     cooldown: 1
     projectileInterval: 0.1
     knockback: 0.5
-    critChance: 0
+    critChance: 30
     number: 1
     piercing: 1
     maxInstances: 70

@@ -1,4 +1,5 @@
 // MissileProjectile.cs
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MissileProjectile : Projectile
@@ -12,7 +13,8 @@ public class MissileProjectile : Projectile
     private Vector2 lastVelocity = Vector2.right;
 
     public ParticleSystem fireEffect;
-    public static float weaponDamage;
+    // Damage value calculated when the missile is spawned.
+    public float weaponDamage;
 
     // Prevent double damage by not applying direct contact damage.
     // Instead, collisions simply trigger the explosion.
@@ -69,11 +71,6 @@ public class MissileProjectile : Projectile
         }
     }
 
-    protected override void OnTriggerEnter2D(Collider2D other)
-    {
-        Explode();
-    }
-
     void Explode()
     {
         if (exploded) return;
@@ -82,15 +79,23 @@ public class MissileProjectile : Projectile
         Weapon.Stats stats = weapon.GetStats();
 
         // Alan hasarý
-        Collider2D[] targets = Physics2D.OverlapCircleAll(transform.position, weapon.GetArea());
-        foreach (var t in targets)
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, weapon.GetArea());
+        var damagedEnemies = new HashSet<EnemyStats>();
+        foreach (var col in hits)
         {
-            if (t.TryGetComponent<EnemyStats>(out var es))
-                es.TakeDamage(GetDamage(), transform.position);
-            else if (t.TryGetComponent<BreakableProps>(out var p))
-                p.TakeDamage(GetDamage());
-            else if (t.TryGetComponent<Barrier>(out var b))
-                b.TakeDamage(GetDamage());
+            if (col.TryGetComponent<EnemyStats>(out var es) && damagedEnemies.Add(es))
+            {
+                es.TakeDamage(weaponDamage, transform.position);
+            }
+            else if (col.TryGetComponent<BreakableProps>(out var bp))
+            {
+                // Gerekirse BreakableProps/Barrier için de ayrý bir HashSet kullanýn
+                bp.TakeDamage(weaponDamage);
+            }
+            else if (col.TryGetComponent<Barrier>(out var b))
+            {
+                b.TakeDamage(weaponDamage);
+            }
         }
 
         // Vurulma efekti
@@ -103,7 +108,11 @@ public class MissileProjectile : Projectile
 
     void Burn()
     {
-        if (fireEffect) 
-            Instantiate(fireEffect, transform.position, Quaternion.identity);
+        if (fireEffect)
+        {
+            var ps = Instantiate(fireEffect, transform.position, Quaternion.identity);
+            var flame = ps.GetComponent<Flame>();
+            if (flame) flame.AddDamage(weaponDamage / 10f);
+        }
     }
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
     name: "ATE\u015E"
     description: 
     projectilePrefab: {fileID: 0}
-    auraPrefab: {fileID: 1662352532801508793, guid: 812211a477168ad4dbbdd60cdeacc73c, type: 3}
+    auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
     procEffect: {fileID: 0}
     spawnVariance:

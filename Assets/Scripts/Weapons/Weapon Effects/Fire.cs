@@ -11,8 +11,13 @@ public class Flame : MonoBehaviour
         // Collider'ın trigger olduğundan emin ol
         var col = GetComponent<Collider2D>();
         col.isTrigger = true;
-        damage += MissileProjectile.weaponDamage / 10;
     }
+
+    public void AddDamage(float amount)
+    {
+        damage += amount;
+    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549172882c61a814fa6a23940370c8c4, type: 3}
   m_Name: Targeted Missile
   m_EditorClassIdentifier: 
-  icon: {fileID: 5584864170198475267, guid: 2b034e7c2ed545147af8c95b1b1fff11, type: 3}
+  icon: {fileID: 21300000, guid: 17c6b3531ec24ce4da4713b4d573aa38, type: 3}
   maxLevel: 1
   evolutionData: []
   behaviour: TargetedMissileWeapon
@@ -33,9 +33,9 @@ MonoBehaviour:
     damage: 100
     damageVariance: 0
     area: 0.7
-    speed: 6
+    speed: 8
     cooldown: 2.4
-    projectileInterval: 0.5
+    projectileInterval: 0.3
     knockback: 1
     critChance: 10
     number: 4

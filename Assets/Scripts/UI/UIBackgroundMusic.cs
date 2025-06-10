@@ -37,9 +37,15 @@ public class MusicPlayer : MonoBehaviour
         {
             if (audioSource.isPlaying)
             {
-                audioSource.Stop();
+                audioSource.Pause();
             }
-            Destroy(gameObject);
+        }
+        else if (scene.name == "Title Screen" || scene.name == "Menu")
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.UnPause();
+            }
         }
     }
 }

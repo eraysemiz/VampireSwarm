@@ -42,6 +42,7 @@ public class UIUpgradeWindow : MonoBehaviour
     // To detect screen size changes, so we know when we have to recalculate the size.
     Vector2 lastScreen;
 
+    public GameObject buttonClick;
     // This is the main function that we will be calling on this script.
     // You need to specify which <inventory> to add the item to, and a list of all
     // <possibleUpgrades> to show. It will select <pick> number of upgrades and show
