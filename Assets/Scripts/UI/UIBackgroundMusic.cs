@@ -7,6 +7,7 @@ public class MusicPlayer : MonoBehaviour
     private static MusicPlayer instance;
     private AudioSource audioSource;
 
+
     void Awake()
     {
         if (instance == null)
@@ -26,6 +27,7 @@ public class MusicPlayer : MonoBehaviour
         }
     }
 
+
     void OnDestroy()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
@@ -35,7 +37,7 @@ public class MusicPlayer : MonoBehaviour
     {
         if (scene.name == "Game")
         {
-            if (audioSource.isPlaying)
+            if (audioSource.isPlaying )
             {
                 audioSource.Pause();
             }

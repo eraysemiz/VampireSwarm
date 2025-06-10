@@ -73,6 +73,7 @@ public class GameManager : MonoBehaviour
 
         DisableScreens();
         AudioListener.pause = false;
+        MusicManager.PauseBackgroundMusic();
     }
     void Update()
     {
@@ -158,9 +159,7 @@ public class GameManager : MonoBehaviour
         previousState = currentState;
         currentState = newState;
 
-        AudioListener.pause =
-                    currentState != GameState.Gameplay
-                 && currentState != GameState.GameOver; // ?? ses bug olabilir
+        //AudioListener.pause = currentState != GameState.Gameplay && currentState != GameState.GameOver; // ?? ses bug olabilir
     }
 
     public void PauseGame()
@@ -227,6 +226,7 @@ public class GameManager : MonoBehaviour
     void DisplayResults()
     {
         resultsScreen.SetActive(true);
+        MusicManager.PlayBackgroundMusic(true);
 
         if (hasFinalBossDefeated) 
             victoryScreen.SetActive(true);
