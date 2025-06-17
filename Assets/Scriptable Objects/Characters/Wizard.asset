@@ -18,11 +18,11 @@ MonoBehaviour:
   description: "Kutsal kitap silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 809cf3efdd26e054b9d5321c56000202, type: 2}
   stats:
-    maxHealth: 100
+    maxHealth: 200
     recovery: 1
     armor: 0.5
     moveSpeed: 1
-    might: 1.05
+    might: 1.1
     area: 1
     speed: 1
     duration: 1

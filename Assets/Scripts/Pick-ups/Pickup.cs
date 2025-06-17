@@ -24,8 +24,6 @@ public class Pickup : Sortable
     [Header("Bonuses")]
     public int experience;
     public int health;
-    public float moveSpeed;
-    public float moveSpeedDuration;
     public bool isMagnet;
 
     protected override void Start()
@@ -90,6 +88,5 @@ public class Pickup : Sortable
                 pickup.Collect(target, speed: 12f, lifespan: 2f); // hýz ve süreyi isteðe göre ayarla
             }
         }
-        //if (moveSpeed != 0) target.ApplySpeedBoost(moveSpeed, moveSpeedDuration);
     }
 }

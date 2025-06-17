@@ -58,7 +58,7 @@ public class EnemyStats : MonoBehaviour
         {
             if (CompareTag("FinalBoss"))
             {
-                knockbackForce *= 0.1f;
+                knockbackForce *= 0.05f;
             }
 
             // Gets the direction of knockback.

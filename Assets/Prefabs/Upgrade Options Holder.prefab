@@ -914,7 +914,7 @@ MonoBehaviour:
   upgradeOptionTemplate: {fileID: 8740188795236688707}
   tooltipTemplate: {fileID: 264419179832077044}
   maxOptions: 4
-  newText: New!
+  newText: Yeni!
   newTextColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   levelTextColor: {r: 1, g: 1, b: 1, a: 1}
   iconPath: Icon/Item Icon

@@ -21,6 +21,11 @@ public class PlayerStats : MonoBehaviour
 
     [SerializeField] CharacterData.Stats actualStats;
 
+    public CharacterData CharacterData
+    {
+        get { return characterData; }
+        set { characterData = value; }
+    }
     public CharacterData.Stats Stats
     {
         get { return actualStats; }
@@ -273,12 +278,4 @@ public class PlayerStats : MonoBehaviour
         }
         UpdateHealthBar();
     }
-
-    public static class PlayerData
-    {
-        public static string Username;
-        public static int score;
-    }
-
-
 }

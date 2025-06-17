@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "Balta silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 426a14a28fed1f04ea3ac9e8af04f587, type: 2}
   stats:
-    maxHealth: 100
+    maxHealth: 200
     recovery: 1
     armor: 1
     moveSpeed: 1

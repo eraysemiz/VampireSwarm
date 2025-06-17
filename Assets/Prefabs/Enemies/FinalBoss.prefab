@@ -403,7 +403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentMoveSpeed: 3
   currentHealth: 40000
-  currentDamage: 200
+  currentDamage: 300
   MaxHealth: 0
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   damageFlashDuration: 0.2

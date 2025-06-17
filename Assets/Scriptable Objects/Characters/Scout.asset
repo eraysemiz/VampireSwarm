@@ -18,7 +18,7 @@ MonoBehaviour:
   description: "B\u0131\xE7ak silah\u0131 ile ba\u015Flar."
   startingWeapon: {fileID: 11400000, guid: 8ea84df9d07d2ca4ba4800879566e48c, type: 2}
   stats:
-    maxHealth: 100
+    maxHealth: 200
     recovery: 1
     armor: 0
     moveSpeed: 1.2

@@ -115,6 +115,18 @@ public class MapController : MonoBehaviour
             // SAĞ KENAR
             Vector3 rightPos = new Vector3(offset + spacing, y, 0);
             InstantiateBorder(rightPos, bordersParent.transform);
+
+            Vector3 topLeft = new Vector3(-offset - spacing, offset + spacing, 0);
+            InstantiateBorder(topLeft, bordersParent.transform);
+
+            Vector3 topRight = new Vector3(offset + spacing, offset + spacing, 0);
+            InstantiateBorder(topRight, bordersParent.transform);
+
+            Vector3 bottomLeft = new Vector3(-offset - spacing, -offset - spacing, 0);
+            InstantiateBorder(bottomLeft, bordersParent.transform);
+
+            Vector3 bottomRight = new Vector3(offset + spacing, -offset - spacing, 0);
+            InstantiateBorder(bottomRight, bordersParent.transform);
         }
     }
 

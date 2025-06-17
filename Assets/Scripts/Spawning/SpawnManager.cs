@@ -52,7 +52,7 @@ public class SpawnManager : MonoBehaviour
                 // If we have gone through all the waves, disable this component.
                 if (currentWaveIndex >= data.Length)
                 {
-                    Debug.Log("All waves have been spawned! Shutting down.", this);
+                    Debug.Log("Tüm düþman dalgalarý doðdu.", this);
                     enabled = false;
                 }
 

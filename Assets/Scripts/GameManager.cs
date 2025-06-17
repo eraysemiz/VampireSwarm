@@ -156,10 +156,14 @@ public class GameManager : MonoBehaviour
 
     public void ChangeState(GameState newState)
     {
+        if (newState == GameState.LevelUp || newState == GameState.TreasureChest)
+            AudioListener.pause = true;
+        else if (newState == GameState.Gameplay)
+            AudioListener.pause = false;
+
         previousState = currentState;
         currentState = newState;
-
-        //AudioListener.pause = currentState != GameState.Gameplay && currentState != GameState.GameOver; // ?? ses bug olabilir
+        
     }
 
     public void PauseGame()
@@ -206,6 +210,9 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        if (currentState == GameState.GameOver)
+            return;
+
         timeSurvivedDisplay.text = stopwatchDisplay.text;
         ChangeState(GameState.GameOver);
 
@@ -213,7 +220,7 @@ public class GameManager : MonoBehaviour
         if (db != null && playerObject)
         {
             PlayerStats stats = playerObject.GetComponent<PlayerStats>();
-            string charName = CharacterSelector.GetData()?.Name ?? "Unknown";
+            string charName = stats.CharacterData != null ? stats.CharacterData.Name : "Unknown";
             db.SaveGameResult(charName, stats.level, stopwatchTime / 60f, hasFinalBossDefeated);
         }
 
@@ -226,7 +233,7 @@ public class GameManager : MonoBehaviour
     void DisplayResults()
     {
         resultsScreen.SetActive(true);
-        MusicManager.PlayBackgroundMusic(true);
+        MusicManager.PlayBackgroundMusic(false);
 
         if (hasFinalBossDefeated) 
             victoryScreen.SetActive(true);
